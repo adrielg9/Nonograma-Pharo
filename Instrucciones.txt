@@ -1,0 +1,29 @@
+Este archivo comprimido contiene una carpeta llamada Nonograma,
+dicha carpeta es una imagen de pharo la cual contiene un paquete con el juego 
+y varios otros archivos necesarios para correrlo de forma correcta.
+
+Al descomprimir el archivo hay que instalar la imagen en pharo moviendo la carpeta nonograma
+a la ruta donde estan guardadas las imagenes en pharo. Esta ruta se puede acceder mediante el launcher.
+
+Una vez copiada la carpeta en dicha ruta se debera cerrar el launcher y volver a abrir para que reconozca la imagen.
+
+La imagen llamada Nonograma deberia aparecer en la lista de imagenes disponibles.
+
+Una vez abierta la nueva imagen debería estar abierto un playground con 
+instrucciones sobre como iniciar el juego, aún asi aqui estan las instrucciones
+sobre como abrir el juego por si el playground no aparece:
+
+El juego se inicia ejecutando el siguiente comando:
+
+Juego iniciar.
+
+
+Si se desea tener una forma facil para superar los niveles rapidamente se puede 
+ejecutar el siguiente comando en el playground durante la pantalla de selección de niveles:
+
+Truco resolver: true.
+
+Esto hace que al entrar en los niveles aparezca un botón extra en la interfaz que permite resolver
+los niveles automáticamente, funciona con cualquier nivel incluso los niveles creados en el editor, 
+para usar esta función es conveniente que el tablero esté vacío por lo que se puede usar el boton 
+Limpiar para poner en blanco el tablero.
