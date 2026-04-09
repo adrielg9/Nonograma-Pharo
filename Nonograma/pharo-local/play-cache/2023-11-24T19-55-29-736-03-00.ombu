@@ -1,0 +1,499 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T19:56:10.528-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 20 ancho: 16 alto: 16 puzzle: 0. '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T19:58:46.931-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 30 ancho: 16 alto: 16 puzzle: 0. '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T19:59:03.114-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 16 alto: 16 puzzle: 0. '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T20:00:46.835-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 16 alto: 16 puzzle: 0. \r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T20:08:05.932-03:00' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 8 alto: 8 puzzle: 0. \r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T20:08:25.112-03:00' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 4 alto: 4 puzzle: 0. \r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T20:08:38.794-03:00' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 4 alto: 10 puzzle: 0. \r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T20:09:07.293-03:00' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 6 alto: 9 puzzle: 0. \r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T20:12:24.047-03:00' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 60 ancho: 4 alto: 4 puzzle: 0. \r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T20:12:43.749-03:00' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 10 ancho: 4 alto: 4 puzzle: 0. \r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T20:12:52.518-03:00' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 4 alto: 4 puzzle: 0. \r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T20:27:07.208-03:00' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 4 alto: 4 puzzle: 0. \rUIManager chooseDire'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T20:27:08.474-03:00' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 4 alto: 4 puzzle: 0. \rUIManager chooseDirectory '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T20:27:26.789-03:00' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 4 alto: 4 puzzle: 0. \rUIManager default chooseDirectory '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T20:44:16.905-03:00' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 4 alto: 4 puzzle: 0. \rUIManager default chooseDirectory \rprueba:= Array2D new:.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T20:44:59.075-03:00' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 4 alto: 4 puzzle: 0. \rUIManager default chooseDirectory \rprueba:= Array2D new: 10.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T20:45:42.008-03:00' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 4 alto: 4 puzzle: 0. \rUIManager default chooseDirectory \rprueba:= Array2D rows: 5 columns:  10.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T20:46:11.719-03:00' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 6 alto: 4 puzzle: 0. \rUIManager default chooseDirectory'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T20:47:30.354-03:00' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 4 alto: 4 puzzle: 0. \rUIManager default chooseDirectory \rprueba:= Array2D new: 10.\rprueba at: 5 at: 5 put: 8.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T20:47:41.771-03:00' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 4 alto: 4 puzzle: 0. \rUIManager default chooseDirectory \rprueba:= Array2D new: 10.\rprueba at: 5 at: 5 put: 8.\r^prueba\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T20:48:07.571-03:00' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 4 alto: 4 puzzle: 0. \rUIManager default chooseDirectory \rprueba:= Array2D new: 10.\rprueba at: 5 at: 5 put: 8.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T20:49:24.6-03:00' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 4 alto: 4 puzzle: 0. \rUIManager default chooseDirectory \rprueba:= Array2D new: 10.\rprueba at: 5 at: 5 put: 8.\rruta:= UIManager default selectDirectory.\r^ruta\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T20:49:58.327-03:00' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 4 alto: 4 puzzle: 0. \rUIManager default chooseDirectory \rprueba:= Array2D new: 10.\rprueba at: 5 at: 5 put: 8.\rruta:= UIManager default chooseDirectory.\r^ruta\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T20:52:45.197-03:00' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 4 alto: 4 puzzle: 0. \rUIManager default chooseDirectory \rprueba:= Array2D new: 10.\rprueba at: 5 at: 5 put: 8.\rruta:= /puzles/matriz.dat.\r^ruta\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T20:53:10.335-03:00' ],
+		#self : OmReference [ '25' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 4 alto: 4 puzzle: 0. \rUIManager default chooseDirectory \rprueba:= Array2D new: 10.\rprueba at: 5 at: 5 put: 8.\rruta:= \'/puzles/matriz.dat\'.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T20:53:32.867-03:00' ],
+		#self : OmReference [ '26' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 4 alto: 4 puzzle: 0. \rUIManager default chooseDirectory \rprueba:= Array2D new: 10.\rprueba at: 5 at: 5 put: 8.\rarchivoSalida:= \'/puzles/matriz.dat\'.\r[archivoSalida := FileStream newFileNamed: archivoSalida.\r archivoSalida binary.\r objetoArchivo storeOn: archivoSalida.\r] ensure: [archivoSalida close].\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T20:53:50.167-03:00' ],
+		#self : OmReference [ '27' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 4 alto: 4 puzzle: 0. \rUIManager default chooseDirectory \rprueba:= Array2D new: 10.\rprueba at: 5 at: 5 put: 8.\rarchivoSalida:= \'/puzles/matriz.dat\'.\r[archivoSalida := FileStream newFileNamed: archivoSalida.\r archivoSalida binary.\r prueba storeOn: archivoSalida.\r] ensure: [archivoSalida close].\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T21:15:26.676-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 4 alto: 4 puzzle: 0. \rUIManager default chooseDirectory \r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T21:15:34.364-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 8 alto: 8 puzzle: 0. \rUIManager default chooseDirectory \r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T21:16:40.778-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 9 alto: 9 puzzle: 0. \rUIManager default chooseDirectory \r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T21:17:12.986-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 10 alto: 10 puzzle: 0. \rUIManager default chooseDirectory \r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T22:14:16.247-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 10 alto: 10 puzzle: 0. \r\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T22:15:03.302-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 8 alto: 8 puzzle: 0. \r\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T22:22:37.31-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 8 alto: 8 puzzle: 0. \r\rPuzzle numero: 1.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T22:30:00.018-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: 25 ancho: 8 alto: 8.\r\rPuzzle numero: 1.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T22:32:45.219-03:00' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: (Puzzle numero: 1).\r\rPuzzle numero: 1.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T22:34:12.885-03:00' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: (Puzzle numero: 1).\r\rPuzzle numero: 1.\rnivel:= Nivel new.\rprueba:= Array2D rows: 8 columns: 10.\rnivel crearNivel: (Puzzle numero: 1). '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T22:35:11.262-03:00' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: (Puzzle numero: 1).\r\rPuzzle numero: 1.\rnivel:= Nivel new.\rprueba:= Array2D rows: 8 columns: 10.\rnivel crearNivel: (prueba). '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T22:36:02.819-03:00' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: (Puzzle numero: 1).\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T00:16:07.925-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: (Puzzle numero: 1).\rprueba:= Refer_sup new.\rprueba crearTablero: 25 ancho: 8 altura: 4. \r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T00:16:22.589-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: (Puzzle numero: 1).\rprueba:= Refer_sup new.\rprueba crearTablero: 25 ancho: 8 altura: 4. \rprueba openInWorld.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T00:17:14.21-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: (Puzzle numero: 1).\rprueba:= Refer_sup new.\rprueba crearTablero: 25 ancho: 8 altura: 4. \rprueba openInWorld.\r((prueba cells) at:1 at:1) label: \'1\'.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T00:18:16.549-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: (Puzzle numero: 1).\rprueba:= Refer_sup new.\rprueba crearTablero: 25 ancho: 8 altura: 4. \rprueba openInWorld.\r((prueba cells) at:(prueba cells numberOfRows ) at:(prueba cells numberOfColumns)) label: \'1\'.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T00:22:08.669-03:00' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: (Puzzle numero: 1).\r\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T10:03:36.826-03:00' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: (Puzzle numero: 1).\rprueba:= Array2D rows: 5 columns: 4.\rprueba at: 1 at: 3\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T10:04:03.949-03:00' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: (Puzzle numero: 1).\rprueba:= Array2D rows: 5 columns: 4.\rprueba at: 1 at: 3 put: 1.\r^prueba\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T10:04:17.714-03:00' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: (Puzzle numero: 1).\r\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T11:05:08.439-03:00' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: (Puzzle numero: 1).\r\rprueba:= Refer_sup new.\rprueba crearTablero: 25 ancho: 8 altura: 8. \r\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T11:05:32.856-03:00' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: (Puzzle numero: 1).\r\rprueba:= Refer_sup new.\rprueba crearTablero: 25 ancho: 8 altura: 8. \rprueba openInWorld.\r\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T11:06:19.246-03:00' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: (Puzzle numero: 1).\r\rprueba:= Refer_sup new.\rprueba crearTablero: 25 ancho: 8 altura: 8. \rprueba openInWorld.\r(prueba cells at: 1 at: 5)label: \'6\'.\r\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T11:08:08.645-03:00' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: (Puzzle numero: 1).\r\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T11:20:51.329-03:00' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: (Puzzle numero: 1).\r\rprueba:= Refer_iz new.\rprueba crearTablero: 25 ancho: 4  altura: 8.\rprueba openInWorld. \r\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T11:21:11.562-03:00' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: (Puzzle numero: 1).\r\rprueba:= Refer_iz new.\rprueba crearTablero: 25 ancho: 4  altura: 8.\rprueba openInWorld. \rprueba numberOfColumns.\r\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T11:21:26.969-03:00' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: (Puzzle numero: 1).\r\rprueba:= Refer_iz new.\rprueba crearTablero: 25 ancho: 4  altura: 8.\rprueba openInWorld. \rprueba cells numberOfColumns.\r\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T22:33:26.476-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: (Puzzle numero: 1).\r\r\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T22:51:31.969-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: (Puzzle numero: 1).\r\rUIManager default proceed: \'hola\'\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T22:52:05.793-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: (Puzzle numero: 1).\r\rUIManager default question: \'hola\'\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T22:52:45.054-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: (Puzzle numero: 1).\r\rUIManager default textEntry: \'hola\'\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T22:53:31.97-03:00' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: (Puzzle numero: 1).\r\rUIManager default alert: \'hola\'\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T22:54:48.123-03:00' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: (Puzzle numero: 1).\r\rUIManager default alert: \'Usted ha ganado\'\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T23:35:40.574-03:00' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel crearNivel: (Puzzle numero: 1).\r\rUIManager default alert: \'Usted ha ganado\'\r\rseleccion:= SelecNiv new.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T00:01:36.908-03:00' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : 'SelecNiv new.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T10:53:16.764-03:00' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : 'SelecNiv new.\rUIManager default '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T11:01:45.056-03:00' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : 'SelecNiv new.\rUIManager default request: \'pon algo\''
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T11:02:53.283-03:00' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : 'SelecNiv new.\rUIManager default request: \'pon algo\' initialAnswer: \'\' title:\'Nombre para el nivel\''
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T11:03:33.005-03:00' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : 'SelecNiv new.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T11:27:59.246-03:00' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : 'prueba:= SelecNiv new.\rprueba numero: 1.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T11:28:35.987-03:00' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : 'prueba:= SelecNiv new.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T11:31:09.046-03:00' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : 'SelecNiv new.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T11:36:21.491-03:00' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : 'SelecNiv new.\rUIManager default request: \'Ingrese un nombre para el archivo\' initialAnswer: \'\'  title:\'Nombre del archivo\' .'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T11:46:50.377-03:00' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : 'SelecNiv new.\rnivel:= Nivel new.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T11:47:55.099-03:00' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : 'SelecNiv new.\rnivel:= Nivel new.\rnivel editor:25 ancho: 16 alto:16.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T11:54:34.235-03:00' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : 'prueba:= SelecNiv new.\rprueba nombre: 7.\rnivel:= Nivel new.\rnivel editor:25 ancho: 16 alto:16.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T11:54:45.904-03:00' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : 'prueba:= SelecNiv new.\rprueba numero: 7.\rnivel:= Nivel new.\rnivel editor:25 ancho: 16 alto:16.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T11:54:57.866-03:00' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : 'prueba:= SelecNiv new.\r\rnivel:= Nivel new.\rnivel editor:25 ancho: 16 alto:16.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T12:11:17.724-03:00' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : 'prueba:= SelecNiv new.\r\rnivel:= Nivel new.\rnivel editor:25 ancho: 16 alto:16.\rnivel delete.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T12:11:31.474-03:00' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : 'prueba:= SelecNiv new.\r\rnivel:= Nivel new.\rnivel editor:25 ancho: 16 alto:16.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T12:19:03.546-03:00' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : 'prueba:= SelecNiv new.\r\rnuevo:= Nivel new.\rnuevo crearNivel: (Puzzle)\r\rnivel:= Nivel new.\rnivel editor:25 ancho: 16 alto:16.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T12:19:27.202-03:00' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : 'prueba:= SelecNiv new.\r\rnuevo:= Nivel new.\rnuevo crearNivel: (Puzzle numero: 1).\r\rnivel:= Nivel new.\rnivel editor:25 ancho: 16 alto:16.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T12:19:46.546-03:00' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : 'prueba:= SelecNiv new.\r\rnuevo:= Nivel new.\rnuevo crearNivel: (Puzzle numero: 1).\rnuevo tablero completar\r\rnivel:= Nivel new.\rnivel editor:25 ancho: 16 alto:16.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T12:43:08.589-03:00' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : 'prueba:= SelecNiv new.\r\rnuevo:= Nivel new.\rnuevo crearNivel: (Puzzle numero: 1).\rnuevo tablero completar\r\rnivel:= Nivel new.\rnivel editor:25 ancho: 16 alto:16.\r\rNonograma completar.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T12:44:19.859-03:00' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : 'prueba:= SelecNiv new.\r\rnuevo:= Nivel new.\rnuevo crearNivel: (Puzzle numero: 1).\rnuevo tablero completar\r\rnivel:= Nivel new.\rnivel editor:25 ancho: 16 alto:16.\r\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T12:46:03.381-03:00' ],
+		#self : OmReference [ '25' ]
+	},
+	#content : 'prueba:= SelecNiv new.\r\rnuevo:= Nivel new.\rnuevo crearNivel: (Puzzle numero: 1).\rnuevo tablero completar\r\rnivel:= Nivel new.\rnivel editor:25 ancho: 16 alto:16.\r\rNonograma completar\r'
+}

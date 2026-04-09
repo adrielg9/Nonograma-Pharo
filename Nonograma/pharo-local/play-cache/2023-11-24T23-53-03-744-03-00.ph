@@ -1,0 +1,1 @@
+coso:= Array2D new: 5.coso at: 2 at: 5 put: 1.^coso

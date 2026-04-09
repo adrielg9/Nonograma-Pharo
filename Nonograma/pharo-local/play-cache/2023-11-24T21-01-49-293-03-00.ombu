@@ -1,0 +1,7 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T21:02:00.601-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '"Creas un objeto para guardar"\robjeto := \'Hola, esto es un objeto de ejemplo\'.\r\r"Abres un archivo para escribir el objeto serializado"\rarchivo := FileStream newFileNamed: \'ruta/del/archivo.txt\'.\rarchivo binary. "Asegura que se escriba en modo binario"\r\r"Serializas el objeto y lo guardas en el archivo"\robjetoSerializado := ObjectTracer serialize: objeto.\rarchivo nextPutAll: objetoSerializado.\rarchivo close.'
+}

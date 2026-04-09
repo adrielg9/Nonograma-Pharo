@@ -1,0 +1,3345 @@
+OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-24T17:25:46.856-03:00' ],
+		#prior : OmReference [ 'Pharo11-SNAPSHOT-64bit-f3b81e5.2D12D2112440', '24' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpCompositeRefactoring {
+		#childrenRefactorings : [ ]
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#prior : OmReference [ '1' ],
+		#self : OmReference [ '2' ],
+		#time : DateAndTime [ '2023-11-24T17:25:46.866-03:00' ],
+		#trigger : @3
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #'numero:font:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'numero: aString font: aFont\r\r\tnumero ifNotNil: [numero delete].\r\tnumero := TextMorph new.\r\tnumero contents: aString.\r\tnumero extent: self extent.\r\tnumero position: self center.\r\tnumero centered.\r\t"numero setContainer: self."\r\t"self extent: (numero width + 6) @ (numero height + 6).\r\tnumero position: self center - (numero extent // 2)."\r\tself addMorph: numero.\r\tnumero lock',
+			#stamp : 'ThiagoEscalante 11/24/2023 00:05',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#prior : OmReference [ '2' ],
+		#self : OmReference [ '3' ],
+		#time : DateAndTime [ '2023-11-24T17:25:46.866-03:00' ],
+		#trigger : OmReference [ '1' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r\tsuper initialize.\r\tself numero:\'0\'.\r\tself borderWidth: 2.\r\tself extent: 50@50.\r\t"bounds:= 200 @ 200 corner: 250 @ 250."\r\tself useSquareCorners.',
+			#stamp : 'ThiagoEscalante 11/23/2023 23:52',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#prior : OmReference [ '3' ],
+		#self : OmReference [ '4' ],
+		#time : DateAndTime [ '2023-11-24T17:25:46.867-03:00' ],
+		#trigger : OmReference [ '1' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #'numero:',
+			#protocol : #accessing,
+			#sourceCode : 'numero: aString\r\tself numero: aString font: StandardFonts buttonFont',
+			#stamp : 'ThiagoEscalante 11/23/2023 23:38',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#prior : OmReference [ '4' ],
+		#self : OmReference [ '5' ],
+		#time : DateAndTime [ '2023-11-24T17:25:46.867-03:00' ],
+		#trigger : OmReference [ '1' ]
+	},
+	#content : EpClassRemoval {
+		#classRemoved : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'BorderedMorph subclass: \'RefCell\'\r\tinstanceVariableNames: \'numero\'\r\tclassVariableNames: \'\'\r\tpackage: #Nonograma',
+				#superclassName : 'BorderedMorph',
+				#traitCompositionSource : '{}'
+			},
+			#name : #RefCell,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #AnObsoleteRefCell,
+						#isMetaSide : false
+					},
+					#name : #numero,
+					#parent : @8
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'RefCell class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'AnObsoleteRefCell class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @8
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #AnObsoleteRefCell,
+					#isMetaSide : false
+				},
+				#parent : @8,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-24T17:25:54.001-03:00' ],
+		#prior : OmReference [ '5' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : EpBehaviorNameChange {
+		#oldName : #RefCellprueba,
+		#newName : #RefCell,
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'SimpleButtonMorph subclass: #RefCell\r\tinstanceVariableNames: \'\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'SimpleButtonMorph',
+				#traitCompositionSource : '{}'
+			},
+			#name : #RefCell,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'RefCell class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'RefCell class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #RefCell,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-24T17:31:46.829-03:00' ],
+		#prior : OmReference [ '6' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #'label:font:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'label: unTexto font: fuente\r\tlabel ifNotNil: [label delete].\r\tlabel := StringMorph contents: unTexto font: (fuente ifNil: [StandardFonts buttonFont]).\r\tself extent: (label width + 6) @ (label height + 6).\r\tlabel position: self center - (label extent // 2).\r\tself addMorph: label.\r\tlabel lock',
+			#stamp : 'Anonymous 11/24/2023 17:31',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-24T17:31:46.835-03:00' ],
+		#prior : OmReference [ '7' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #'label:font:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'label: unTexto font: fuente\r\tlabel ifNotNil: [label delete].\r\tlabel := StringMorph contents: unTexto font: (fuente ifNil: [StandardFonts buttonFont]).\r\tself extent: (label width + 6) @ (label height + 6).\r\tlabel position: self center - (label extent // 2).\r\tself addMorph: label.\r\tlabel lock',
+			#stamp : 'Anonymous 11/24/2023 17:31',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #'label:font:',
+			#protocol : #accessing,
+			#sourceCode : 'label: unTexto font: fuente\r\tlabel ifNotNil: [label delete].\r\tlabel := StringMorph contents: unTexto font: (fuente ifNil: [StandardFonts buttonFont]).\r\tself extent: (label width + 6) @ (label height + 6).\r\tlabel position: self center - (label extent // 2).\r\tself addMorph: label.\r\tlabel lock',
+			#stamp : 'Anonymous 11/24/2023 17:31',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T17:36:21.665-03:00' ],
+		#prior : OmReference [ '8' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|fuente|\r\tsuper initialize.\r\tfuente := StandardFonts menuFont.\r\tself label: \'16\' font: fuente.\r\tself label fontName: \'Bitmap DejaVu Sans\'  size: 40. \r\tself borderWidth: 2.\r\tself extent: 50@50.\r\t"bounds:= 200 @ 200 corner: 250 @ 250."\r\tself enabled: false.\r\tself useSquareCorners.',
+			#stamp : 'ThiagoEscalante 11/24/2023 13:36',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|fuente|\r\tsuper initialize.\r\tfuente := StandardFonts menuFont.\r\tself label: \'16\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 40).\r\t"self label fontName: \'Bitmap DejaVu Sans\'  size: 40. "\r\tself borderWidth: 2.\r\tself extent: 50@50.\r\t"bounds:= 200 @ 200 corner: 250 @ 250."\r\tself enabled: false.\r\tself useSquareCorners.',
+			#stamp : 'EscalanteThiago 11/24/2023 17:36',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T17:36:57.147-03:00' ],
+		#prior : OmReference [ '9' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|fuente|\r\tsuper initialize.\r\tfuente := StandardFonts menuFont.\r\tself label: \'16\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 40).\r\t"self label fontName: \'Bitmap DejaVu Sans\'  size: 40. "\r\tself borderWidth: 2.\r\tself extent: 50@50.\r\t"bounds:= 200 @ 200 corner: 250 @ 250."\r\tself enabled: false.\r\tself useSquareCorners.',
+			#stamp : 'EscalanteThiago 11/24/2023 17:36',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|fuente|\r\tsuper initialize.\r\tfuente := StandardFonts menuFont.\r\tself label: \'16\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 40).\r\tself borderWidth: 2.\r\tself extent: 50@50.\r\t"bounds:= 200 @ 200 corner: 250 @ 250."\r\tself enabled: false.\r\tself useSquareCorners.',
+			#stamp : 'EscalanteThiago 11/24/2023 17:36',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T17:39:23.042-03:00' ],
+		#prior : OmReference [ '10' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #'label:font:',
+			#protocol : #accessing,
+			#sourceCode : 'label: unTexto font: fuente\r\tlabel ifNotNil: [label delete].\r\tlabel := StringMorph contents: unTexto font: (fuente ifNil: [StandardFonts buttonFont]).\r\tself extent: (label width + 6) @ (label height + 6).\r\tlabel position: self center - (label extent // 2).\r\tself addMorph: label.\r\tlabel lock',
+			#stamp : 'Anonymous 11/24/2023 17:31',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #'label:font:',
+			#protocol : #accessing,
+			#sourceCode : 'label: unTexto font: fuente\r\tlabel ifNotNil: [label delete].\r\tlabel := StringMorph contents: unTexto font: (fuente ifNil: [StandardFonts buttonFont]).\r\tlabel position: self center - (label extent // 2).\r\tself addMorph: label.\r\tlabel lock',
+			#stamp : 'EscalanteThiago 11/24/2023 17:39',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T17:40:12.699-03:00' ],
+		#prior : OmReference [ '11' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #label,
+			#protocol : #accessing,
+			#sourceCode : 'label\r^label',
+			#stamp : 'ThiagoEscalante 11/24/2023 13:17',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #label,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'label\r^label',
+			#stamp : 'ThiagoEscalante 11/24/2023 13:17',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T17:40:12.748-03:00' ],
+		#prior : OmReference [ '12' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #label,
+			#protocol : #accessing,
+			#sourceCode : 'label\r^label',
+			#stamp : 'ThiagoEscalante 11/24/2023 13:17',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T17:42:35.112-03:00' ],
+		#prior : OmReference [ '13' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #label,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'label \r^label',
+			#stamp : 'EscalanteThiago 11/24/2023 17:42',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T17:42:35.12-03:00' ],
+		#prior : OmReference [ '14' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #label,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'label \r^label',
+			#stamp : 'EscalanteThiago 11/24/2023 17:42',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #label,
+			#protocol : #accessing,
+			#sourceCode : 'label \r^label',
+			#stamp : 'EscalanteThiago 11/24/2023 17:42',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T17:45:13.272-03:00' ],
+		#prior : OmReference [ '15' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #labelObj,
+			#protocol : #accessing,
+			#sourceCode : 'labelObj\r^label',
+			#stamp : 'EscalanteThiago 11/24/2023 17:45',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T17:45:23.874-03:00' ],
+		#prior : OmReference [ '16' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #label,
+			#protocol : #accessing,
+			#sourceCode : 'label \r^label',
+			#stamp : 'EscalanteThiago 11/24/2023 17:42',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #label,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'label \r^label',
+			#stamp : 'EscalanteThiago 11/24/2023 17:42',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T17:45:23.878-03:00' ],
+		#prior : OmReference [ '17' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #label,
+			#protocol : #accessing,
+			#sourceCode : 'label \r^label',
+			#stamp : 'EscalanteThiago 11/24/2023 17:42',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T17:47:45.702-03:00' ],
+		#prior : OmReference [ '18' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #'label:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'label: unTexto\rself label: unTexto font: (self labelObj font).',
+			#stamp : 'EscalanteThiago 11/24/2023 17:47',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T17:47:45.712-03:00' ],
+		#prior : OmReference [ '19' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #'label:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'label: unTexto\rself label: unTexto font: (self labelObj font).',
+			#stamp : 'EscalanteThiago 11/24/2023 17:47',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #'label:',
+			#protocol : #accessing,
+			#sourceCode : 'label: unTexto\rself label: unTexto font: (self labelObj font).',
+			#stamp : 'EscalanteThiago 11/24/2023 17:47',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T17:51:59.599-03:00' ],
+		#prior : OmReference [ '20' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : EpClassModification {
+		#oldClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'SimpleButtonMorph subclass: #RefCell\r\tinstanceVariableNames: \'\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'SimpleButtonMorph',
+				#traitCompositionSource : '{}'
+			},
+			#name : #RefCell,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'RefCell class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'RefCell class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #RefCell,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#newClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'SimpleButtonMorph subclass: #RefCell\r\tinstanceVariableNames: \'fuenteActual\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'SimpleButtonMorph',
+				#traitCompositionSource : '{}'
+			},
+			#name : #RefCell,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #RefCell,
+						#isMetaSide : false
+					},
+					#name : #fuenteActual,
+					#parent : @21
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'RefCell class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'RefCell class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @21
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #RefCell,
+					#isMetaSide : false
+				},
+				#parent : @21,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T17:52:07.752-03:00' ],
+		#prior : OmReference [ '21' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #'label:',
+			#protocol : #accessing,
+			#sourceCode : 'label: unTexto\rself label: unTexto font: (self labelObj font).',
+			#stamp : 'EscalanteThiago 11/24/2023 17:47',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #'label:',
+			#protocol : #accessing,
+			#sourceCode : 'label: unTexto\rself label: unTexto font: (fuenteActual).',
+			#stamp : 'EscalanteThiago 11/24/2023 17:52',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T17:53:11.258-03:00' ],
+		#prior : OmReference [ '22' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|fuente|\r\tsuper initialize.\r\tfuente := StandardFonts menuFont.\r\tself label: \'16\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 40).\r\tself borderWidth: 2.\r\tself extent: 50@50.\r\t"bounds:= 200 @ 200 corner: 250 @ 250."\r\tself enabled: false.\r\tself useSquareCorners.',
+			#stamp : 'EscalanteThiago 11/24/2023 17:36',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r\tsuper initialize.\r\tfuenteActual := (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 40).\r\tself label: \'16\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 40).\r\tself borderWidth: 2.\r\tself extent: 50@50.\r\t"bounds:= 200 @ 200 corner: 250 @ 250."\r\tself enabled: false.\r\tself useSquareCorners.',
+			#stamp : 'EscalanteThiago 11/24/2023 17:53',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T17:53:18.872-03:00' ],
+		#prior : OmReference [ '23' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r\tsuper initialize.\r\tfuenteActual := (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 40).\r\tself label: \'16\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 40).\r\tself borderWidth: 2.\r\tself extent: 50@50.\r\t"bounds:= 200 @ 200 corner: 250 @ 250."\r\tself enabled: false.\r\tself useSquareCorners.',
+			#stamp : 'EscalanteThiago 11/24/2023 17:53',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r\tsuper initialize.\r\tfuenteActual := (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 40).\r\tself label: \'16\' font: fuenteActual.\r\tself borderWidth: 2.\r\tself extent: 50@50.\r\t"bounds:= 200 @ 200 corner: 250 @ 250."\r\tself enabled: false.\r\tself useSquareCorners.',
+			#stamp : 'EscalanteThiago 11/24/2023 17:53',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T17:57:43.063-03:00' ],
+		#prior : OmReference [ '24' ],
+		#self : OmReference [ '25' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #'setTamaño:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'setTamaño: valor\r\r"bounds:= 200 @ 200 corner: (200+valor) @ (200+valor)."\rself extent: valor @ valor.',
+			#stamp : 'EscalanteThiago 11/24/2023 17:57',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T17:57:43.086-03:00' ],
+		#prior : OmReference [ '25' ],
+		#self : OmReference [ '26' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #'setTamaño:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'setTamaño: valor\r\r"bounds:= 200 @ 200 corner: (200+valor) @ (200+valor)."\rself extent: valor @ valor.',
+			#stamp : 'EscalanteThiago 11/24/2023 17:57',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #'setTamaño:',
+			#protocol : #initialization,
+			#sourceCode : 'setTamaño: valor\r\r"bounds:= 200 @ 200 corner: (200+valor) @ (200+valor)."\rself extent: valor @ valor.',
+			#stamp : 'EscalanteThiago 11/24/2023 17:57',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T18:08:43.512-03:00' ],
+		#prior : OmReference [ '26' ],
+		#self : OmReference [ '27' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'newCellAt:at:size:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'newCellAt: i at: j size: unTamaño\r"Create a cell for position (i,j) and add it to my on-screen\rrepresentation at the appropriate screen position. Answer the\rnew cell"\r| c origin |\r\tc := RefCell new.\r\tc setTamaño: unTamaño.\r\torigin := self innerBounds origin.\r\tself addMorph: c.\r\tc position: ((i - 1) * c width) @ ((j - 1) * c height) + origin.\r\t^c',
+			#stamp : 'EscalanteThiago 11/24/2023 18:08',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T18:08:43.537-03:00' ],
+		#prior : OmReference [ '27' ],
+		#self : OmReference [ '28' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'newCellAt:at:size:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'newCellAt: i at: j size: unTamaño\r"Create a cell for position (i,j) and add it to my on-screen\rrepresentation at the appropriate screen position. Answer the\rnew cell"\r| c origin |\r\tc := RefCell new.\r\tc setTamaño: unTamaño.\r\torigin := self innerBounds origin.\r\tself addMorph: c.\r\tc position: ((i - 1) * c width) @ ((j - 1) * c height) + origin.\r\t^c',
+			#stamp : 'EscalanteThiago 11/24/2023 18:08',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'newCellAt:at:size:',
+			#protocol : #accessing,
+			#sourceCode : 'newCellAt: i at: j size: unTamaño\r"Create a cell for position (i,j) and add it to my on-screen\rrepresentation at the appropriate screen position. Answer the\rnew cell"\r| c origin |\r\tc := RefCell new.\r\tc setTamaño: unTamaño.\r\torigin := self innerBounds origin.\r\tself addMorph: c.\r\tc position: ((i - 1) * c width) @ ((j - 1) * c height) + origin.\r\t^c',
+			#stamp : 'EscalanteThiago 11/24/2023 18:08',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T18:09:40.694-03:00' ],
+		#prior : OmReference [ '28' ],
+		#self : OmReference [ '29' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'crearTablero:ancho:altura:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearTablero: unTamaño ancho: unaAltura altura: unAncho\r| sampleCell width height |\r\tsampleCell := NOCell new.\r\tsampleCell setTamaño: unTamaño.\r\twidth := sampleCell width.\r\theight := sampleCell height.\r\tself bounds: (unTamaño @ unTamaño extent: (width * unaAltura) @ (height * unAncho) + (2 * self\r\tborderWidth)).\r\tcells := Array2D rows: unaAltura  columns: unAncho tabulate: [ :i :j | self newCellAt: i at:\r\tj size: unTamaño]',
+			#stamp : 'EscalanteThiago 11/24/2023 18:09',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T18:09:40.728-03:00' ],
+		#prior : OmReference [ '29' ],
+		#self : OmReference [ '30' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'crearTablero:ancho:altura:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearTablero: unTamaño ancho: unaAltura altura: unAncho\r| sampleCell width height |\r\tsampleCell := NOCell new.\r\tsampleCell setTamaño: unTamaño.\r\twidth := sampleCell width.\r\theight := sampleCell height.\r\tself bounds: (unTamaño @ unTamaño extent: (width * unaAltura) @ (height * unAncho) + (2 * self\r\tborderWidth)).\r\tcells := Array2D rows: unaAltura  columns: unAncho tabulate: [ :i :j | self newCellAt: i at:\r\tj size: unTamaño]',
+			#stamp : 'EscalanteThiago 11/24/2023 18:09',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'crearTablero:ancho:altura:',
+			#protocol : #initialization,
+			#sourceCode : 'crearTablero: unTamaño ancho: unaAltura altura: unAncho\r| sampleCell width height |\r\tsampleCell := NOCell new.\r\tsampleCell setTamaño: unTamaño.\r\twidth := sampleCell width.\r\theight := sampleCell height.\r\tself bounds: (unTamaño @ unTamaño extent: (width * unaAltura) @ (height * unAncho) + (2 * self\r\tborderWidth)).\r\tcells := Array2D rows: unaAltura  columns: unAncho tabulate: [ :i :j | self newCellAt: i at:\r\tj size: unTamaño]',
+			#stamp : 'EscalanteThiago 11/24/2023 18:09',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T18:10:09.547-03:00' ],
+		#prior : OmReference [ '30' ],
+		#self : OmReference [ '31' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'crearTablero:ancho:altura:',
+			#protocol : #initialization,
+			#sourceCode : 'crearTablero: unTamaño ancho: unaAltura altura: unAncho\r| sampleCell width height |\r\tsampleCell := NOCell new.\r\tsampleCell setTamaño: unTamaño.\r\twidth := sampleCell width.\r\theight := sampleCell height.\r\tself bounds: (unTamaño @ unTamaño extent: (width * unaAltura) @ (height * unAncho) + (2 * self\r\tborderWidth)).\r\tcells := Array2D rows: unaAltura  columns: unAncho tabulate: [ :i :j | self newCellAt: i at:\r\tj size: unTamaño]',
+			#stamp : 'EscalanteThiago 11/24/2023 18:09',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'crearTablero:ancho:altura:',
+			#protocol : #initialization,
+			#sourceCode : 'crearTablero: unTamaño ancho: unaAltura altura: unAncho\r| sampleCell width height |\r\tsampleCell := RefCell new.\r\tsampleCell setTamaño: unTamaño.\r\twidth := sampleCell width.\r\theight := sampleCell height.\r\tself bounds: (unTamaño @ unTamaño extent: (width * unaAltura) @ (height * unAncho) + (2 * self\r\tborderWidth)).\r\tcells := Array2D rows: unaAltura  columns: unAncho tabulate: [ :i :j | self newCellAt: i at:\r\tj size: unTamaño]',
+			#stamp : 'EscalanteThiago 11/24/2023 18:10',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T18:24:03.402-03:00' ],
+		#prior : OmReference [ '31' ],
+		#self : OmReference [ '32' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #oscura,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'oscura\rself color: (Color fromHexString: \'#FF4500\').',
+			#stamp : 'EscalanteThiago 11/24/2023 18:24',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T18:26:16.258-03:00' ],
+		#prior : OmReference [ '32' ],
+		#self : OmReference [ '33' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #oscura,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'oscura\rself color: (Color fromHexString: \'#FF4500\').',
+			#stamp : 'EscalanteThiago 11/24/2023 18:24',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #oscura,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'oscura\rself color: (Color fromHexString: \'#FF4500\').\rself borderColor: (Color fromHexString: \'#FF4500\').',
+			#stamp : 'EscalanteThiago 11/24/2023 18:26',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T18:29:04.534-03:00' ],
+		#prior : OmReference [ '33' ],
+		#self : OmReference [ '34' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #oscura,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'oscura\rself color: (Color fromHexString: \'#FF4500\').\rself borderColor: (Color fromHexString: \'#FF4500\').',
+			#stamp : 'EscalanteThiago 11/24/2023 18:26',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #oscura,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'oscura\rself color: (Color fromHexString: \'#FF4500\').\rself borderColor: (Color fromHexString: \'#404040\').',
+			#stamp : 'EscalanteThiago 11/24/2023 18:29',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T18:29:15.332-03:00' ],
+		#prior : OmReference [ '34' ],
+		#self : OmReference [ '35' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #oscura,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'oscura\rself color: (Color fromHexString: \'#FF4500\').\rself borderColor: (Color fromHexString: \'#404040\').',
+			#stamp : 'EscalanteThiago 11/24/2023 18:29',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #oscura,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'oscura\rself color: (Color fromHexString: \'#404040\').\rself borderColor: (Color fromHexString: \'#404040\').',
+			#stamp : 'EscalanteThiago 11/24/2023 18:29',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T18:30:15.814-03:00' ],
+		#prior : OmReference [ '35' ],
+		#self : OmReference [ '36' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nueva imagen\\Nueva imagen.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T18:32:13.059-03:00' ],
+		#prior : OmReference [ '36' ],
+		#self : OmReference [ '37' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #clara,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'clara\rself color: (Color fromHexString: \'#606060\').\rself borderColor: (Color fromHexString: \'#606060\').',
+			#stamp : 'EscalanteThiago 11/24/2023 18:32',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T18:32:50.392-03:00' ],
+		#prior : OmReference [ '37' ],
+		#self : OmReference [ '38' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #'mouseDown:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'mouseDown: anEvent\r"no hagas nada mi chino"',
+			#stamp : 'EscalanteThiago 11/24/2023 18:32',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T18:32:50.397-03:00' ],
+		#prior : OmReference [ '38' ],
+		#self : OmReference [ '39' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #'mouseDown:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'mouseDown: anEvent\r"no hagas nada mi chino"',
+			#stamp : 'EscalanteThiago 11/24/2023 18:32',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #'mouseDown:',
+			#protocol : #'event handling',
+			#sourceCode : 'mouseDown: anEvent\r"no hagas nada mi chino"',
+			#stamp : 'EscalanteThiago 11/24/2023 18:32',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T18:44:09.74-03:00' ],
+		#prior : OmReference [ '39' ],
+		#self : OmReference [ '40' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'newCellAt:at:size:',
+			#protocol : #accessing,
+			#sourceCode : 'newCellAt: i at: j size: unTamaño\r"Create a cell for position (i,j) and add it to my on-screen\rrepresentation at the appropriate screen position. Answer the\rnew cell"\r| c origin |\r\tc := RefCell new.\r\tc setTamaño: unTamaño.\r\torigin := self innerBounds origin.\r\tself addMorph: c.\r\tc position: ((i - 1) * c width) @ ((j - 1) * c height) + origin.\r\t^c',
+			#stamp : 'EscalanteThiago 11/24/2023 18:08',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'newCellAt:at:size:',
+			#protocol : #accessing,
+			#sourceCode : 'newCellAt: i at: j size: unTamaño\r"Create a cell for position (i,j) and add it to my on-screen\rrepresentation at the appropriate screen position. Answer the\rnew cell"\r| c origin |\r\tc := RefCell new.\r\tc setTamaño: unTamaño.\r\t\r\torigin := self innerBounds origin.\r\tself addMorph: c.\r\tc position: ((i - 1) * c width) @ ((j - 1) * c height) + origin.\r\t^c',
+			#stamp : 'EscalanteThiago 11/24/2023 18:44',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T18:52:55.942-03:00' ],
+		#prior : OmReference [ '40' ],
+		#self : OmReference [ '41' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'newCellAt:at:size:',
+			#protocol : #accessing,
+			#sourceCode : 'newCellAt: i at: j size: unTamaño\r"Create a cell for position (i,j) and add it to my on-screen\rrepresentation at the appropriate screen position. Answer the\rnew cell"\r| c origin |\r\tc := RefCell new.\r\tc setTamaño: unTamaño.\r\t\r\torigin := self innerBounds origin.\r\tself addMorph: c.\r\tc position: ((i - 1) * c width) @ ((j - 1) * c height) + origin.\r\t^c',
+			#stamp : 'EscalanteThiago 11/24/2023 18:44',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'newCellAt:at:size:',
+			#protocol : #accessing,
+			#sourceCode : 'newCellAt: i at: j size: unTamaño\r"Create a cell for position (i,j) and add it to my on-screen\rrepresentation at the appropriate screen position. Answer the\rnew cell"\r| c origin |\r\tc := RefCell new.\r\tc setTamaño: unTamaño.\r\t\r\t(i odd) \r\tifTrue: [ \r\t\t(j odd) \r\t\tifTrue: [ c clara ] \r\t\tifFalse: [ c oscura ].\r\t\t ] \r\tifFalse: [ \r\t\t(j odd) \r\t\tifTrue: [ c oscura ] \r\t\tifFalse: [ c clara ].\r\t\t ].\r\t\r\torigin := self innerBounds origin.\r\tself addMorph: c.\r\tc position: ((i - 1) * c width) @ ((j - 1) * c height) + origin.\r\t^c',
+			#stamp : 'EscalanteThiago 11/24/2023 18:52',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T18:55:06.657-03:00' ],
+		#prior : OmReference [ '41' ],
+		#self : OmReference [ '42' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'newCellAt:at:size:',
+			#protocol : #accessing,
+			#sourceCode : 'newCellAt: i at: j size: unTamaño\r"Create a cell for position (i,j) and add it to my on-screen\rrepresentation at the appropriate screen position. Answer the\rnew cell"\r| c origin |\r\tc := RefCell new.\r\tc setTamaño: unTamaño.\r\t\r\t(i odd) \r\tifTrue: [ \r\t\t(j odd) \r\t\tifTrue: [ c clara ] \r\t\tifFalse: [ c oscura ].\r\t\t ] \r\tifFalse: [ \r\t\t(j odd) \r\t\tifTrue: [ c oscura ] \r\t\tifFalse: [ c clara ].\r\t\t ].\r\t\r\torigin := self innerBounds origin.\r\tself addMorph: c.\r\tc position: ((i - 1) * c width) @ ((j - 1) * c height) + origin.\r\t^c',
+			#stamp : 'EscalanteThiago 11/24/2023 18:52',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'newCellAt:at:size:',
+			#protocol : #accessing,
+			#sourceCode : 'newCellAt: i at: j size: unTamaño\r"Create a cell for position (i,j) and add it to my on-screen\rrepresentation at the appropriate screen position. Answer the\rnew cell"\r| c origin |\r\tc := RefCell new.\r\tc setTamaño: unTamaño.\r\t\r\t(i odd) \r\tifTrue: [ \r\t\tc clara.\r\t\t ] \r\tifFalse: [ \r\t\tc oscura.\r\t\t ].\r\t\r\torigin := self innerBounds origin.\r\tself addMorph: c.\r\tc position: ((i - 1) * c width) @ ((j - 1) * c height) + origin.\r\t^c',
+			#stamp : 'EscalanteThiago 11/24/2023 18:55',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T18:57:11.598-03:00' ],
+		#prior : OmReference [ '42' ],
+		#self : OmReference [ '43' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #oscura,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'oscura\rself color: (Color fromHexString: \'#404040\').\rself borderColor: (Color fromHexString: \'#404040\').',
+			#stamp : 'EscalanteThiago 11/24/2023 18:29',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #oscura,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'oscura\rself color: (Color fromHexString: \'#404040\').\rself borderColor: (Color fromHexString: \'#a1a1a1\').',
+			#stamp : 'EscalanteThiago 11/24/2023 18:57',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T18:57:23.236-03:00' ],
+		#prior : OmReference [ '43' ],
+		#self : OmReference [ '44' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #clara,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'clara\rself color: (Color fromHexString: \'#606060\').\rself borderColor: (Color fromHexString: \'#606060\').',
+			#stamp : 'EscalanteThiago 11/24/2023 18:32',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #clara,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'clara\rself color: (Color fromHexString: \'#606060\').\rself borderColor: (Color fromHexString: \'#a1a1a1\').',
+			#stamp : 'EscalanteThiago 11/24/2023 18:57',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T18:59:16.445-03:00' ],
+		#prior : OmReference [ '44' ],
+		#self : OmReference [ '45' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initialize \rsuper initialize\rself borderColor: (Color fromHexString: #a1a1a1)',
+			#stamp : 'EscalanteThiago 11/24/2023 18:59',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T18:59:16.452-03:00' ],
+		#prior : OmReference [ '45' ],
+		#self : OmReference [ '46' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initialize \rsuper initialize\rself borderColor: (Color fromHexString: #a1a1a1)',
+			#stamp : 'EscalanteThiago 11/24/2023 18:59',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize\rself borderColor: (Color fromHexString: #a1a1a1)',
+			#stamp : 'EscalanteThiago 11/24/2023 18:59',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T18:59:36.468-03:00' ],
+		#prior : OmReference [ '46' ],
+		#self : OmReference [ '47' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize\rself borderColor: (Color fromHexString: #a1a1a1)',
+			#stamp : 'EscalanteThiago 11/24/2023 18:59',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize.\rself borderColor: (Color fromHexString: #a1a1a1)',
+			#stamp : 'EscalanteThiago 11/24/2023 18:59',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T19:01:46.826-03:00' ],
+		#prior : OmReference [ '47' ],
+		#self : OmReference [ '48' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'BorderedMorph subclass: #Refer_iz\r\tinstanceVariableNames: \'cells\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'BorderedMorph',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Refer_iz,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Refer_iz,
+						#isMetaSide : false
+					},
+					#name : #cells,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Refer_iz class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Refer_iz class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Refer_iz,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T19:01:46.835-03:00' ],
+		#prior : OmReference [ '48' ],
+		#self : OmReference [ '49' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_iz,
+				#isMetaSide : false
+			},
+			#name : #'crearTablero:ancho:altura:',
+			#protocol : #initialization,
+			#sourceCode : 'crearTablero: unTamaño ancho: unaAltura altura: unAncho\r| sampleCell width height |\r\tsampleCell := RefCell new.\r\tsampleCell setTamaño: unTamaño.\r\twidth := sampleCell width.\r\theight := sampleCell height.\r\tself bounds: (unTamaño @ unTamaño extent: (width * unaAltura) @ (height * unAncho) + (2 * self\r\tborderWidth)).\r\tcells := Array2D rows: unaAltura  columns: unAncho tabulate: [ :i :j | self newCellAt: i at:\r\tj size: unTamaño]',
+			#stamp : 'EscalanteThiago 11/24/2023 19:01',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T19:01:46.838-03:00' ],
+		#prior : OmReference [ '49' ],
+		#self : OmReference [ '50' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_iz,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize.\rself borderColor: (Color fromHexString: #a1a1a1)',
+			#stamp : 'EscalanteThiago 11/24/2023 19:01',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T19:01:46.842-03:00' ],
+		#prior : OmReference [ '50' ],
+		#self : OmReference [ '51' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_iz,
+				#isMetaSide : false
+			},
+			#name : #'newCellAt:at:size:',
+			#protocol : #accessing,
+			#sourceCode : 'newCellAt: i at: j size: unTamaño\r"Create a cell for position (i,j) and add it to my on-screen\rrepresentation at the appropriate screen position. Answer the\rnew cell"\r| c origin |\r\tc := RefCell new.\r\tc setTamaño: unTamaño.\r\t\r\t(i odd) \r\tifTrue: [ \r\t\tc clara.\r\t\t ] \r\tifFalse: [ \r\t\tc oscura.\r\t\t ].\r\t\r\torigin := self innerBounds origin.\r\tself addMorph: c.\r\tc position: ((i - 1) * c width) @ ((j - 1) * c height) + origin.\r\t^c',
+			#stamp : 'EscalanteThiago 11/24/2023 19:01',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T19:02:30.304-03:00' ],
+		#prior : OmReference [ '51' ],
+		#self : OmReference [ '52' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_iz,
+				#isMetaSide : false
+			},
+			#name : #'newCellAt:at:size:',
+			#protocol : #accessing,
+			#sourceCode : 'newCellAt: i at: j size: unTamaño\r"Create a cell for position (i,j) and add it to my on-screen\rrepresentation at the appropriate screen position. Answer the\rnew cell"\r| c origin |\r\tc := RefCell new.\r\tc setTamaño: unTamaño.\r\t\r\t(i odd) \r\tifTrue: [ \r\t\tc clara.\r\t\t ] \r\tifFalse: [ \r\t\tc oscura.\r\t\t ].\r\t\r\torigin := self innerBounds origin.\r\tself addMorph: c.\r\tc position: ((i - 1) * c width) @ ((j - 1) * c height) + origin.\r\t^c',
+			#stamp : 'EscalanteThiago 11/24/2023 19:01',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_iz,
+				#isMetaSide : false
+			},
+			#name : #'newCellAt:at:size:',
+			#protocol : #accessing,
+			#sourceCode : 'newCellAt: i at: j size: unTamaño\r"Create a cell for position (i,j) and add it to my on-screen\rrepresentation at the appropriate screen position. Answer the\rnew cell"\r| c origin |\r\tc := RefCell new.\r\tc setTamaño: unTamaño.\r\t\r\t(j odd) \r\tifTrue: [ \r\t\tc clara.\r\t\t ] \r\tifFalse: [ \r\t\tc oscura.\r\t\t ].\r\t\r\torigin := self innerBounds origin.\r\tself addMorph: c.\r\tc position: ((i - 1) * c width) @ ((j - 1) * c height) + origin.\r\t^c',
+			#stamp : 'EscalanteThiago 11/24/2023 19:02',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T19:06:31.388-03:00' ],
+		#prior : OmReference [ '52' ],
+		#self : OmReference [ '53' ]
+	},
+	#content : EpCompositeRefactoring {
+		#childrenRefactorings : [ ]
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#prior : OmReference [ '53' ],
+		#self : OmReference [ '54' ],
+		#time : DateAndTime [ '2023-11-24T19:06:31.521-03:00' ],
+		#trigger : @3
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_iz,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize.\rself borderColor: (Color fromHexString: #a1a1a1)',
+			#stamp : 'EscalanteThiago 11/24/2023 19:01',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#prior : OmReference [ '54' ],
+		#self : OmReference [ '55' ],
+		#time : DateAndTime [ '2023-11-24T19:06:31.522-03:00' ],
+		#trigger : OmReference [ '53' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_iz,
+				#isMetaSide : false
+			},
+			#name : #'newCellAt:at:size:',
+			#protocol : #accessing,
+			#sourceCode : 'newCellAt: i at: j size: unTamaño\r"Create a cell for position (i,j) and add it to my on-screen\rrepresentation at the appropriate screen position. Answer the\rnew cell"\r| c origin |\r\tc := RefCell new.\r\tc setTamaño: unTamaño.\r\t\r\t(j odd) \r\tifTrue: [ \r\t\tc clara.\r\t\t ] \r\tifFalse: [ \r\t\tc oscura.\r\t\t ].\r\t\r\torigin := self innerBounds origin.\r\tself addMorph: c.\r\tc position: ((i - 1) * c width) @ ((j - 1) * c height) + origin.\r\t^c',
+			#stamp : 'EscalanteThiago 11/24/2023 19:02',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#prior : OmReference [ '55' ],
+		#self : OmReference [ '56' ],
+		#time : DateAndTime [ '2023-11-24T19:06:31.522-03:00' ],
+		#trigger : OmReference [ '53' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_iz,
+				#isMetaSide : false
+			},
+			#name : #'crearTablero:ancho:altura:',
+			#protocol : #initialization,
+			#sourceCode : 'crearTablero: unTamaño ancho: unaAltura altura: unAncho\r| sampleCell width height |\r\tsampleCell := RefCell new.\r\tsampleCell setTamaño: unTamaño.\r\twidth := sampleCell width.\r\theight := sampleCell height.\r\tself bounds: (unTamaño @ unTamaño extent: (width * unaAltura) @ (height * unAncho) + (2 * self\r\tborderWidth)).\r\tcells := Array2D rows: unaAltura  columns: unAncho tabulate: [ :i :j | self newCellAt: i at:\r\tj size: unTamaño]',
+			#stamp : 'EscalanteThiago 11/24/2023 19:01',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#prior : OmReference [ '56' ],
+		#self : OmReference [ '57' ],
+		#time : DateAndTime [ '2023-11-24T19:06:31.522-03:00' ],
+		#trigger : OmReference [ '53' ]
+	},
+	#content : EpClassRemoval {
+		#classRemoved : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'BorderedMorph subclass: \'Refer_iz\'\r\tinstanceVariableNames: \'cells\'\r\tclassVariableNames: \'\'\r\tpackage: #Nonograma',
+				#superclassName : 'BorderedMorph',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Refer_iz,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #AnObsoleteRefer_iz,
+						#isMetaSide : false
+					},
+					#name : #cells,
+					#parent : @8
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Refer_iz class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'AnObsoleteRefer_iz class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @8
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #AnObsoleteRefer_iz,
+					#isMetaSide : false
+				},
+				#parent : @8,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T19:07:15.204-03:00' ],
+		#prior : OmReference [ '57' ],
+		#self : OmReference [ '58' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'Refer_sup subclass: #Refer_iz\r\tinstanceVariableNames: \'\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'Refer_sup',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Refer_iz,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Refer_iz class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Refer_iz class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Refer_iz,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T19:07:51.526-03:00' ],
+		#prior : OmReference [ '58' ],
+		#self : OmReference [ '59' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_iz,
+				#isMetaSide : false
+			},
+			#name : #'newCellAt:at:size:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'newCellAt: i at: j size: unTamaño\r"Create a cell for position (i,j) and add it to my on-screen\rrepresentation at the appropriate screen position. Answer the\rnew cell"\r| c origin |\r\tc := RefCell new.\r\tc setTamaño: unTamaño.\r\t\r\t(j odd) \r\tifTrue: [ \r\t\tc clara.\r\t\t ] \r\tifFalse: [ \r\t\tc oscura.\r\t\t ].\r\t\r\torigin := self innerBounds origin.\r\tself addMorph: c.\r\tc position: ((i - 1) * c width) @ ((j - 1) * c height) + origin.\r\t^c',
+			#stamp : 'EscalanteThiago 11/24/2023 19:07',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T19:07:51.533-03:00' ],
+		#prior : OmReference [ '59' ],
+		#self : OmReference [ '60' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_iz,
+				#isMetaSide : false
+			},
+			#name : #'newCellAt:at:size:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'newCellAt: i at: j size: unTamaño\r"Create a cell for position (i,j) and add it to my on-screen\rrepresentation at the appropriate screen position. Answer the\rnew cell"\r| c origin |\r\tc := RefCell new.\r\tc setTamaño: unTamaño.\r\t\r\t(j odd) \r\tifTrue: [ \r\t\tc clara.\r\t\t ] \r\tifFalse: [ \r\t\tc oscura.\r\t\t ].\r\t\r\torigin := self innerBounds origin.\r\tself addMorph: c.\r\tc position: ((i - 1) * c width) @ ((j - 1) * c height) + origin.\r\t^c',
+			#stamp : 'EscalanteThiago 11/24/2023 19:07',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_iz,
+				#isMetaSide : false
+			},
+			#name : #'newCellAt:at:size:',
+			#protocol : #accessing,
+			#sourceCode : 'newCellAt: i at: j size: unTamaño\r"Create a cell for position (i,j) and add it to my on-screen\rrepresentation at the appropriate screen position. Answer the\rnew cell"\r| c origin |\r\tc := RefCell new.\r\tc setTamaño: unTamaño.\r\t\r\t(j odd) \r\tifTrue: [ \r\t\tc clara.\r\t\t ] \r\tifFalse: [ \r\t\tc oscura.\r\t\t ].\r\t\r\torigin := self innerBounds origin.\r\tself addMorph: c.\r\tc position: ((i - 1) * c width) @ ((j - 1) * c height) + origin.\r\t^c',
+			#stamp : 'EscalanteThiago 11/24/2023 19:07',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T19:19:08.369-03:00' ],
+		#prior : OmReference [ '60' ],
+		#self : OmReference [ '61' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r\tsuper initialize.\r\tfuenteActual := (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 40).\r\tself label: \'16\' font: fuenteActual.\r\tself borderWidth: 2.\r\tself extent: 50@50.\r\t"bounds:= 200 @ 200 corner: 250 @ 250."\r\tself enabled: false.\r\tself useSquareCorners.',
+			#stamp : 'EscalanteThiago 11/24/2023 17:53',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r\tsuper initialize.\r\tfuenteActual := (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 40).\r\tself label: \'16\' font: fuenteActual.\r\tself borderWidth: 1.\r\tself extent: 50@50.\r\t"bounds:= 200 @ 200 corner: 250 @ 250."\r\tself enabled: false.\r\tself useSquareCorners.',
+			#stamp : 'EscalanteThiago 11/24/2023 19:19',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T19:20:32.795-03:00' ],
+		#prior : OmReference [ '61' ],
+		#self : OmReference [ '62' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'Object subclass: #Nivel\r\tinstanceVariableNames: \'Tablero Ref_superior Ref_izquierda\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'Object',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Nivel,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #Tablero,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #Ref_superior,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #Ref_izquierda,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Nivel class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Nivel class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Nivel,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T19:27:19.108-03:00' ],
+		#prior : OmReference [ '62' ],
+		#self : OmReference [ '63' ]
+	},
+	#content : EpClassModification {
+		#oldClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'Object subclass: #Nivel\r\tinstanceVariableNames: \'Tablero Ref_superior Ref_izquierda\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'Object',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Nivel,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #Tablero,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #Ref_superior,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #Ref_izquierda,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Nivel class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Nivel class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Nivel,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#newClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'Object subclass: #Nivel\r\tinstanceVariableNames: \'tablero ref_superior ref_izquierda\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'Object',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Nivel,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #tablero,
+					#parent : @27
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ref_superior,
+					#parent : @27
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ref_izquierda,
+					#parent : @27
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Nivel class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Nivel class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @27
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Nivel,
+					#isMetaSide : false
+				},
+				#parent : @27,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T19:27:25.14-03:00' ],
+		#prior : OmReference [ '63' ],
+		#self : OmReference [ '64' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:ancho:alto:puzzle:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unTamaño ancho: unAncho alto: unAlto puzzle: unaMatriz\r\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r\rref_superior',
+			#stamp : 'EscalanteThiago 11/24/2023 19:27',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T19:30:28.145-03:00' ],
+		#prior : OmReference [ '64' ],
+		#self : OmReference [ '65' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:ancho:alto:puzzle:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unTamaño ancho: unAncho alto: unAlto puzzle: unaMatriz\r\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r\rref_superior',
+			#stamp : 'EscalanteThiago 11/24/2023 19:27',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:ancho:alto:puzzle:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unTamaño ancho: unAncho alto: unAlto puzzle: unaMatriz\r\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r\rref_superior:= Refer_sup new.\rref_superior crearTablero: unTamaño ancho: (unAncho / 2) ceiling altura: unAlto.',
+			#stamp : 'EscalanteThiago 11/24/2023 19:30',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T19:34:08.27-03:00' ],
+		#prior : OmReference [ '65' ],
+		#self : OmReference [ '66' ]
+	},
+	#content : EpClassModification {
+		#oldClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'Object subclass: #Nivel\r\tinstanceVariableNames: \'tablero ref_superior ref_izquierda\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'Object',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Nivel,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #tablero,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ref_superior,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ref_izquierda,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Nivel class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Nivel class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Nivel,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#newClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'Object subclass: #Nivel\r\tinstanceVariableNames: \'tablero ref_superior ref_izquierda ventana\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'Object',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Nivel,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #tablero,
+					#parent : @27
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ref_superior,
+					#parent : @27
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ref_izquierda,
+					#parent : @27
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ventana,
+					#parent : @27
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Nivel class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Nivel class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @27
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Nivel,
+					#isMetaSide : false
+				},
+				#parent : @27,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T19:40:42.687-03:00' ],
+		#prior : OmReference [ '66' ],
+		#self : OmReference [ '67' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:ancho:alto:puzzle:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unTamaño ancho: unAncho alto: unAlto puzzle: unaMatriz\r\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r\rref_superior:= Refer_sup new.\rref_superior crearTablero: unTamaño ancho: (unAncho / 2) ceiling altura: unAlto.',
+			#stamp : 'EscalanteThiago 11/24/2023 19:30',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:ancho:alto:puzzle:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unTamaño ancho: unAncho alto: unAlto puzzle: unaMatriz\r\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r\rref_superior:= Refer_sup new.\rref_superior crearTablero: unTamaño ancho: (unAncho / 2) ceiling altura: unAlto.\r\rref_izquierda := Refer_iz new.\rref_izquierda crearTablero: unTamaño ancho: unAncho altura: (unAlto / 2) ceiling.\r\rventana:= SystemWindow new.\rventana extent: (tablero extent)+((ref_izquierda width)@(ref_superior height))+(100@100)',
+			#stamp : 'EscalanteThiago 11/24/2023 19:40',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T19:42:46.983-03:00' ],
+		#prior : OmReference [ '67' ],
+		#self : OmReference [ '68' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:ancho:alto:puzzle:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unTamaño ancho: unAncho alto: unAlto puzzle: unaMatriz\r\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r\rref_superior:= Refer_sup new.\rref_superior crearTablero: unTamaño ancho: (unAncho / 2) ceiling altura: unAlto.\r\rref_izquierda := Refer_iz new.\rref_izquierda crearTablero: unTamaño ancho: unAncho altura: (unAlto / 2) ceiling.\r\rventana:= SystemWindow new.\rventana extent: (tablero extent)+((ref_izquierda width)@(ref_superior height))+(100@100)',
+			#stamp : 'EscalanteThiago 11/24/2023 19:40',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:ancho:alto:puzzle:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unTamaño ancho: unAncho alto: unAlto puzzle: unaMatriz\r\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r\rref_superior:= Refer_sup new.\rref_superior crearTablero: unTamaño ancho: (unAncho / 2) ceiling altura: unAlto.\r\rref_izquierda := Refer_iz new.\rref_izquierda crearTablero: unTamaño ancho: unAncho altura: (unAlto / 2) ceiling.\r\rventana:= SystemWindow new.\rventana extent: (tablero extent)+((ref_izquierda width)@(ref_superior height))+(100@100).\rventana addMorph: tablero.\rventana addMorph: ref_izquierda.\rventana addMorph: ref_superior.\r',
+			#stamp : 'EscalanteThiago 11/24/2023 19:42',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T19:51:22.692-03:00' ],
+		#prior : OmReference [ '68' ],
+		#self : OmReference [ '69' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nueva imagen\\Nueva imagen.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T19:54:46.862-03:00' ],
+		#prior : OmReference [ '69' ],
+		#self : OmReference [ '70' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:ancho:alto:puzzle:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unTamaño ancho: unAncho alto: unAlto puzzle: unaMatriz\r\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r\rref_superior:= Refer_sup new.\rref_superior crearTablero: unTamaño ancho: (unAncho / 2) ceiling altura: unAlto.\r\rref_izquierda := Refer_iz new.\rref_izquierda crearTablero: unTamaño ancho: unAncho altura: (unAlto / 2) ceiling.\r\rventana:= SystemWindow new.\rventana extent: (tablero extent)+((ref_izquierda width)@(ref_superior height))+(100@100).\rventana addMorph: tablero.\rventana addMorph: ref_izquierda.\rventana addMorph: ref_superior.\r',
+			#stamp : 'EscalanteThiago 11/24/2023 19:42',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:ancho:alto:puzzle:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unTamaño ancho: unAncho alto: unAlto puzzle: unaMatriz\r\r"Creamos el tablero del tamaño"\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r"Creamos la referencia superior"\rref_superior:= Refer_sup new.\rref_superior crearTablero: unTamaño ancho: (unAncho / 2) ceiling altura: unAlto.\r"Creamos la referencia izquierda"\rref_izquierda := Refer_iz new.\rref_izquierda crearTablero: unTamaño ancho: unAncho altura: (unAlto / 2) ceiling.\r\r"creamos la ventana para poner todo lo demas dentro y posicionamos lo que creamos"\rventana:= SystemWindow new.\rventana extent: (tablero extent)+((ref_izquierda width)@(ref_superior height))+(100@100).\rventana addMorph: tablero.\rventana addMorph: ref_izquierda.\rventana addMorph: ref_superior.\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50) + ((ref_izquierda width)@(ref_superior height)).\rref_izquierda position: ventana position + (50@50) + (0@(ref_superior height)).\rref_superior position: ventana position + (50@50) + ((ref_izquierda width)@0).\r',
+			#stamp : 'EscalanteThiago 11/24/2023 19:54',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T19:55:19.705-03:00' ],
+		#prior : OmReference [ '70' ],
+		#self : OmReference [ '71' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:ancho:alto:puzzle:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unTamaño ancho: unAncho alto: unAlto puzzle: unaMatriz\r\r"Creamos el tablero del tamaño"\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r"Creamos la referencia superior"\rref_superior:= Refer_sup new.\rref_superior crearTablero: unTamaño ancho: (unAncho / 2) ceiling altura: unAlto.\r"Creamos la referencia izquierda"\rref_izquierda := Refer_iz new.\rref_izquierda crearTablero: unTamaño ancho: unAncho altura: (unAlto / 2) ceiling.\r\r"creamos la ventana para poner todo lo demas dentro y posicionamos lo que creamos"\rventana:= SystemWindow new.\rventana extent: (tablero extent)+((ref_izquierda width)@(ref_superior height))+(100@100).\rventana addMorph: tablero.\rventana addMorph: ref_izquierda.\rventana addMorph: ref_superior.\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50) + ((ref_izquierda width)@(ref_superior height)).\rref_izquierda position: ventana position + (50@50) + (0@(ref_superior height)).\rref_superior position: ventana position + (50@50) + ((ref_izquierda width)@0).\r',
+			#stamp : 'EscalanteThiago 11/24/2023 19:54',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:ancho:alto:puzzle:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unTamaño ancho: unAncho alto: unAlto puzzle: unaMatriz\r\r"Creamos el tablero del tamaño"\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r"Creamos la referencia superior"\rref_superior:= Refer_sup new.\rref_superior crearTablero: unTamaño ancho: (unAncho / 2) ceiling altura: unAlto.\r"Creamos la referencia izquierda"\rref_izquierda := Refer_iz new.\rref_izquierda crearTablero: unTamaño ancho: unAncho altura: (unAlto / 2) ceiling.\r\r"creamos la ventana para poner todo lo demas dentro y posicionamos lo que creamos"\rventana:= SystemWindow new.\rventana extent: (tablero extent)+((ref_izquierda width)@(ref_superior height))+(100@100).\rventana addMorph: tablero.\rventana addMorph: ref_izquierda.\rventana addMorph: ref_superior.\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50) + ((ref_izquierda width)@(ref_superior height)).\rref_izquierda position: ventana position + (50@50) + (0@(ref_superior height)).\rref_superior position: ventana position + (50@50) + ((ref_izquierda width)@0).\r\r"Abrimos la ventana en el mundo"\rventana setLabel: \'Nonograma\'.\rventana openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/24/2023 19:55',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T19:58:31.143-03:00' ],
+		#prior : OmReference [ '71' ],
+		#self : OmReference [ '72' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:ancho:alto:puzzle:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unTamaño ancho: unAncho alto: unAlto puzzle: unaMatriz\r\r"Creamos el tablero del tamaño"\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r"Creamos la referencia superior"\rref_superior:= Refer_sup new.\rref_superior crearTablero: unTamaño ancho: (unAncho / 2) ceiling altura: unAlto.\r"Creamos la referencia izquierda"\rref_izquierda := Refer_iz new.\rref_izquierda crearTablero: unTamaño ancho: unAncho altura: (unAlto / 2) ceiling.\r\r"creamos la ventana para poner todo lo demas dentro y posicionamos lo que creamos"\rventana:= SystemWindow new.\rventana extent: (tablero extent)+((ref_izquierda width)@(ref_superior height))+(100@100).\rventana addMorph: tablero.\rventana addMorph: ref_izquierda.\rventana addMorph: ref_superior.\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50) + ((ref_izquierda width)@(ref_superior height)).\rref_izquierda position: ventana position + (50@50) + (0@(ref_superior height)).\rref_superior position: ventana position + (50@50) + ((ref_izquierda width)@0).\r\r"Abrimos la ventana en el mundo"\rventana setLabel: \'Nonograma\'.\rventana openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/24/2023 19:55',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:ancho:alto:puzzle:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unTamaño ancho: unAncho alto: unAlto puzzle: unaMatriz\r\r"Creamos el tablero del tamaño"\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r"Creamos la referencia superior"\rref_superior:= Refer_sup new.\rref_superior crearTablero: unTamaño ancho: unAncho altura: (unAlto / 2) ceiling.\r"Creamos la referencia izquierda"\rref_izquierda := Refer_iz new.\rref_izquierda crearTablero: unTamaño ancho: (unAncho /2) ceiling altura: unAlto ceiling.\r\r"creamos la ventana para poner todo lo demas dentro y posicionamos lo que creamos"\rventana:= SystemWindow new.\rventana extent: (tablero extent)+((ref_izquierda width)@(ref_superior height))+(100@100).\rventana addMorph: tablero.\rventana addMorph: ref_izquierda.\rventana addMorph: ref_superior.\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50) + ((ref_izquierda width)@(ref_superior height)).\rref_izquierda position: ventana position + (50@50) + (0@(ref_superior height)).\rref_superior position: ventana position + (50@50) + ((ref_izquierda width)@0).\r\r"Abrimos la ventana en el mundo"\rventana setLabel: \'Nonograma\'.\rventana openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/24/2023 19:58',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T19:59:23.804-03:00' ],
+		#prior : OmReference [ '72' ],
+		#self : OmReference [ '73' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r\tsuper initialize.\r\tfuenteActual := (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 40).\r\tself label: \'16\' font: fuenteActual.\r\tself borderWidth: 1.\r\tself extent: 50@50.\r\t"bounds:= 200 @ 200 corner: 250 @ 250."\r\tself enabled: false.\r\tself useSquareCorners.',
+			#stamp : 'EscalanteThiago 11/24/2023 19:19',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r\tsuper initialize.\r\tfuenteActual := (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 20).\r\tself label: \'16\' font: fuenteActual.\r\tself borderWidth: 1.\r\tself extent: 50@50.\r\t"bounds:= 200 @ 200 corner: 250 @ 250."\r\tself enabled: false.\r\tself useSquareCorners.',
+			#stamp : 'EscalanteThiago 11/24/2023 19:59',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T20:01:00.549-03:00' ],
+		#prior : OmReference [ '73' ],
+		#self : OmReference [ '74' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r\tsuper initialize.\r\tfuenteActual := (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 20).\r\tself label: \'16\' font: fuenteActual.\r\tself borderWidth: 1.\r\tself extent: 50@50.\r\t"bounds:= 200 @ 200 corner: 250 @ 250."\r\tself enabled: false.\r\tself useSquareCorners.',
+			#stamp : 'EscalanteThiago 11/24/2023 19:59',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r\tsuper initialize.\r\tfuenteActual := (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 20).\r\tself label: \'0\' font: fuenteActual.\r\tself borderWidth: 1.\r\tself extent: 50@50.\r\t"bounds:= 200 @ 200 corner: 250 @ 250."\r\tself enabled: false.\r\tself useSquareCorners.',
+			#stamp : 'EscalanteThiago 11/24/2023 20:01',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T20:05:08.825-03:00' ],
+		#prior : OmReference [ '74' ],
+		#self : OmReference [ '75' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nueva imagen\\Nueva imagen.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T21:12:27.327-03:00' ],
+		#prior : OmReference [ '75' ],
+		#self : OmReference [ '76' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'Object subclass: #Puzzle\r\tinstanceVariableNames: \'\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'Object',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Puzzle,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Puzzle class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Puzzle class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Puzzle,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T21:53:12.951-03:00' ],
+		#prior : OmReference [ '76' ],
+		#self : OmReference [ '77' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nueva imagen\\Nueva imagen.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T22:22:08.076-03:00' ],
+		#prior : OmReference [ '77' ],
+		#self : OmReference [ '78' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'Puzzle class',
+				#isMetaSide : true
+			},
+			#name : #'numero:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'numero: unNumero\r|matriz|\r\r\r(unNumero = 1)\rifTrue:[\r\tmatriz:= Array2D new: 8.\r\tmatriz at:1 at:3 put: 1.\r\tmatriz at:1 at:6 put: 1.\r\tmatriz at:2 at:3 put: 1.\r\tmatriz at:2 at:6 put: 1.\r\tmatriz at:4 at:2 put: 1.\r\tmatriz at:4 at:7 put: 1.\r\tmatriz at:5 at:3 put: 1.\r\tmatriz at:5 at:6 put: 1.\r\tmatriz at:6 at:4 put: 1.\r\tmatriz at:6 at:5 put: 1.\r\tmatriz at:7 at:1 put: 1.\r\tmatriz at:7 at:8 put: 1.\r\tmatriz at:8 at:1 put: 1.\r\tmatriz at:8 at:2 put: 1.\r\tmatriz at:8 at:3 put: 1.\r\tmatriz at:8 at:4 put: 1.\r\tmatriz at:8 at:5 put: 1.\r\tmatriz at:8 at:6 put: 1.\r\tmatriz at:8 at:7 put: 1.\r\tmatriz at:8 at:8 put: 1.\r\t\r\t] ',
+			#stamp : 'EscalanteThiago 11/24/2023 22:22',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T22:23:09.661-03:00' ],
+		#prior : OmReference [ '78' ],
+		#self : OmReference [ '79' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'Puzzle class',
+				#isMetaSide : true
+			},
+			#name : #'numero:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'numero: unNumero\r|matriz|\r\r\r(unNumero = 1)\rifTrue:[\r\tmatriz:= Array2D new: 8.\r\tmatriz at:1 at:3 put: 1.\r\tmatriz at:1 at:6 put: 1.\r\tmatriz at:2 at:3 put: 1.\r\tmatriz at:2 at:6 put: 1.\r\tmatriz at:4 at:2 put: 1.\r\tmatriz at:4 at:7 put: 1.\r\tmatriz at:5 at:3 put: 1.\r\tmatriz at:5 at:6 put: 1.\r\tmatriz at:6 at:4 put: 1.\r\tmatriz at:6 at:5 put: 1.\r\tmatriz at:7 at:1 put: 1.\r\tmatriz at:7 at:8 put: 1.\r\tmatriz at:8 at:1 put: 1.\r\tmatriz at:8 at:2 put: 1.\r\tmatriz at:8 at:3 put: 1.\r\tmatriz at:8 at:4 put: 1.\r\tmatriz at:8 at:5 put: 1.\r\tmatriz at:8 at:6 put: 1.\r\tmatriz at:8 at:7 put: 1.\r\tmatriz at:8 at:8 put: 1.\r\t\r\t] ',
+			#stamp : 'EscalanteThiago 11/24/2023 22:22',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'Puzzle class',
+				#isMetaSide : true
+			},
+			#name : #'numero:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'numero: unNumero\r|matriz|\r\r\r(unNumero = 1)\rifTrue:[\r\tmatriz:= Array2D new: 8.\r\tmatriz at:1 at:3 put: 1.\r\tmatriz at:1 at:6 put: 1.\r\tmatriz at:2 at:3 put: 1.\r\tmatriz at:2 at:6 put: 1.\r\tmatriz at:4 at:2 put: 1.\r\tmatriz at:4 at:7 put: 1.\r\tmatriz at:5 at:3 put: 1.\r\tmatriz at:5 at:6 put: 1.\r\tmatriz at:6 at:4 put: 1.\r\tmatriz at:6 at:5 put: 1.\r\tmatriz at:7 at:1 put: 1.\r\tmatriz at:7 at:8 put: 1.\r\tmatriz at:8 at:1 put: 1.\r\tmatriz at:8 at:2 put: 1.\r\tmatriz at:8 at:3 put: 1.\r\tmatriz at:8 at:4 put: 1.\r\tmatriz at:8 at:5 put: 1.\r\tmatriz at:8 at:6 put: 1.\r\tmatriz at:8 at:7 put: 1.\r\tmatriz at:8 at:8 put: 1.\r\t\r\t] .\r\r^matriz',
+			#stamp : 'EscalanteThiago 11/24/2023 22:23',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T22:27:24.241-03:00' ],
+		#prior : OmReference [ '79' ],
+		#self : OmReference [ '80' ]
+	},
+	#content : EpClassModification {
+		#oldClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'Object subclass: #Nivel\r\tinstanceVariableNames: \'tablero ref_superior ref_izquierda ventana\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'Object',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Nivel,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #tablero,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ref_superior,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ref_izquierda,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ventana,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Nivel class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Nivel class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Nivel,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#newClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'Object subclass: #Nivel\r\tinstanceVariableNames: \'tablero ref_superior ref_izquierda ventana puzzle\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'Object',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Nivel,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #tablero,
+					#parent : @29
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ref_superior,
+					#parent : @29
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ref_izquierda,
+					#parent : @29
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ventana,
+					#parent : @29
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #puzzle,
+					#parent : @29
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Nivel class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Nivel class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @29
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Nivel,
+					#isMetaSide : false
+				},
+				#parent : @29,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T22:27:36.944-03:00' ],
+		#prior : OmReference [ '80' ],
+		#self : OmReference [ '81' ]
+	},
+	#content : EpClassModification {
+		#oldClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'Object subclass: #Nivel\r\tinstanceVariableNames: \'tablero ref_superior ref_izquierda ventana puzzle\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'Object',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Nivel,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #tablero,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ref_superior,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ref_izquierda,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ventana,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #puzzle,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Nivel class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Nivel class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Nivel,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#newClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'Object subclass: #Nivel\r\tinstanceVariableNames: \'tablero ref_superior ref_izquierda ventana matriz\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'Object',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Nivel,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #tablero,
+					#parent : @31
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ref_superior,
+					#parent : @31
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ref_izquierda,
+					#parent : @31
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ventana,
+					#parent : @31
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #matriz,
+					#parent : @31
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Nivel class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Nivel class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @31
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Nivel,
+					#isMetaSide : false
+				},
+				#parent : @31,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T22:29:47.274-03:00' ],
+		#prior : OmReference [ '81' ],
+		#self : OmReference [ '82' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:ancho:alto:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unTamaño ancho: unAncho alto: unAlto \r\r"Creamos el tablero del tamaño"\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r"Creamos la referencia superior"\rref_superior:= Refer_sup new.\rref_superior crearTablero: unTamaño ancho: unAncho altura: (unAlto / 2) ceiling.\r"Creamos la referencia izquierda"\rref_izquierda := Refer_iz new.\rref_izquierda crearTablero: unTamaño ancho: (unAncho /2) ceiling altura: unAlto ceiling.\r\r"creamos la ventana para poner todo lo demas dentro y posicionamos lo que creamos"\rventana:= SystemWindow new.\rventana extent: (tablero extent)+((ref_izquierda width)@(ref_superior height))+(100@100).\rventana addMorph: tablero.\rventana addMorph: ref_izquierda.\rventana addMorph: ref_superior.\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50) + ((ref_izquierda width)@(ref_superior height)).\rref_izquierda position: ventana position + (50@50) + (0@(ref_superior height)).\rref_superior position: ventana position + (50@50) + ((ref_izquierda width)@0).\r\r"Abrimos la ventana en el mundo"\rventana setLabel: \'Nonograma\'.\rventana openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/24/2023 22:29',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T22:29:51.73-03:00' ],
+		#prior : OmReference [ '82' ],
+		#self : OmReference [ '83' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:ancho:alto:puzzle:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unTamaño ancho: unAncho alto: unAlto puzzle: unaMatriz\r\r"Creamos el tablero del tamaño"\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r"Creamos la referencia superior"\rref_superior:= Refer_sup new.\rref_superior crearTablero: unTamaño ancho: unAncho altura: (unAlto / 2) ceiling.\r"Creamos la referencia izquierda"\rref_izquierda := Refer_iz new.\rref_izquierda crearTablero: unTamaño ancho: (unAncho /2) ceiling altura: unAlto ceiling.\r\r"creamos la ventana para poner todo lo demas dentro y posicionamos lo que creamos"\rventana:= SystemWindow new.\rventana extent: (tablero extent)+((ref_izquierda width)@(ref_superior height))+(100@100).\rventana addMorph: tablero.\rventana addMorph: ref_izquierda.\rventana addMorph: ref_superior.\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50) + ((ref_izquierda width)@(ref_superior height)).\rref_izquierda position: ventana position + (50@50) + (0@(ref_superior height)).\rref_superior position: ventana position + (50@50) + ((ref_izquierda width)@0).\r\r"Abrimos la ventana en el mundo"\rventana setLabel: \'Nonograma\'.\rventana openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/24/2023 19:58',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T22:32:29.138-03:00' ],
+		#prior : OmReference [ '83' ],
+		#self : OmReference [ '84' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unaMatriz\rself crearNivel: 25 ancho: (unaMatriz numberOfColumns) alto: (unaMatriz numberOfRows).',
+			#stamp : 'EscalanteThiago 11/24/2023 22:32',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T23:05:21.645-03:00' ],
+		#prior : OmReference [ '84' ],
+		#self : OmReference [ '85' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nueva imagen\\Nueva imagen.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T23:38:55.45-03:00' ],
+		#prior : OmReference [ '85' ],
+		#self : OmReference [ '86' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unaMatriz\rself crearNivel: 25 ancho: (unaMatriz numberOfColumns) alto: (unaMatriz numberOfRows).',
+			#stamp : 'EscalanteThiago 11/24/2023 22:32',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unaMatriz\rself crearNivel: 25 ancho: (unaMatriz numberOfColumns) alto: (unaMatriz numberOfRows).\rref_superior.\rref_izquierda.',
+			#stamp : 'EscalanteThiago 11/24/2023 23:38',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T23:39:26.618-03:00' ],
+		#prior : OmReference [ '86' ],
+		#self : OmReference [ '87' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #cells,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'cells\r^cells',
+			#stamp : 'EscalanteThiago 11/24/2023 23:39',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T23:39:26.625-03:00' ],
+		#prior : OmReference [ '87' ],
+		#self : OmReference [ '88' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #cells,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'cells\r^cells',
+			#stamp : 'EscalanteThiago 11/24/2023 23:39',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #cells,
+			#protocol : #accessing,
+			#sourceCode : 'cells\r^cells',
+			#stamp : 'EscalanteThiago 11/24/2023 23:39',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T23:55:04.567-03:00' ],
+		#prior : OmReference [ '88' ],
+		#self : OmReference [ '89' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\rfila:= cells numberOfRows.\rcont:= 0.\r\r1 to: (unaMatriz numberOfColumns) \rdo: [ j | \r\t(unaMatriz numberOfRows to: 1 by: -1)\r\t do: [ i | \r\t\t((unaMatriz at: i at:j) = 1) ifTrue:[ cont:= cont + 1]\r\t\tifFalse:[\r\t\t\t(cont > 1)ifTrue:[\r\t\t\t\t(cells at: fila at: i)\r\t\t\t\t]\r\t\t\t]\r\t\t]\r\t ]',
+			#stamp : 'EscalanteThiago 11/24/2023 23:55',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T23:55:37.399-03:00' ],
+		#prior : OmReference [ '89' ],
+		#self : OmReference [ '90' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\rfila:= cells numberOfRows.\rcont:= 0.\r\r1 to: (unaMatriz numberOfColumns) \rdo: [ j | \r\t(unaMatriz numberOfRows to: 1 by: -1)\r\t do: [ i | \r\t\t((unaMatriz at: i at:j) = 1) ifTrue:[ cont:= cont + 1]\r\t\tifFalse:[\r\t\t\t(cont > 1)ifTrue:[\r\t\t\t\t(cells at: fila at: i)\r\t\t\t\t]\r\t\t\t]\r\t\t]\r\t ]',
+			#stamp : 'EscalanteThiago 11/24/2023 23:55',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|j i cont fila|\r\rfila:= cells numberOfRows.\rcont:= 0.\r\r1 to: (unaMatriz numberOfColumns) \rdo: [ j | \r\t(unaMatriz numberOfRows to: 1 by: -1)\r\t do: [ i | \r\t\t((unaMatriz at: i at:j) = 1) ifTrue:[ cont:= cont + 1]\r\t\tifFalse:[\r\t\t\t(cont > 1)ifTrue:[\r\t\t\t\t(cells at: fila at: i)\r\t\t\t\t]\r\t\t\t]\r\t\t]\r\t ]',
+			#stamp : 'EscalanteThiago 11/24/2023 23:55',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T23:56:03.731-03:00' ],
+		#prior : OmReference [ '90' ],
+		#self : OmReference [ '91' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|j i cont fila|\r\rfila:= cells numberOfRows.\rcont:= 0.\r\r1 to: (unaMatriz numberOfColumns) \rdo: [ j | \r\t(unaMatriz numberOfRows to: 1 by: -1)\r\t do: [ i | \r\t\t((unaMatriz at: i at:j) = 1) ifTrue:[ cont:= cont + 1]\r\t\tifFalse:[\r\t\t\t(cont > 1)ifTrue:[\r\t\t\t\t(cells at: fila at: i)\r\t\t\t\t]\r\t\t\t]\r\t\t]\r\t ]',
+			#stamp : 'EscalanteThiago 11/24/2023 23:55',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|cont fila|\r\rfila:= cells numberOfRows.\rcont:= 0.\r\r1 to: (unaMatriz numberOfColumns) \rdo: [ :j | \r\t(unaMatriz numberOfRows to: 1 by: -1)\r\t do: [ :i | \r\t\t((unaMatriz at: i at:j) = 1) ifTrue:[ cont:= cont + 1]\r\t\tifFalse:[\r\t\t\t(cont > 1)ifTrue:[\r\t\t\t\t(cells at: fila at: i)\r\t\t\t\t]\r\t\t\t]\r\t\t]\r\t ]',
+			#stamp : 'EscalanteThiago 11/24/2023 23:56',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T23:57:41.507-03:00' ],
+		#prior : OmReference [ '91' ],
+		#self : OmReference [ '92' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|cont fila|\r\rfila:= cells numberOfRows.\rcont:= 0.\r\r1 to: (unaMatriz numberOfColumns) \rdo: [ :j | \r\t(unaMatriz numberOfRows to: 1 by: -1)\r\t do: [ :i | \r\t\t((unaMatriz at: i at:j) = 1) ifTrue:[ cont:= cont + 1]\r\t\tifFalse:[\r\t\t\t(cont > 1)ifTrue:[\r\t\t\t\t(cells at: fila at: i)\r\t\t\t\t]\r\t\t\t]\r\t\t]\r\t ]',
+			#stamp : 'EscalanteThiago 11/24/2023 23:56',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|cont fila|\r\rfila:= cells numberOfRows.\rcont:= 0.\r\r1 to: (unaMatriz numberOfColumns) \rdo: [ :j | \r\t(unaMatriz numberOfRows to: 1 by: -1)\r\t do: [ :i | \r\t\t((unaMatriz at: i at:j) = 1) ifTrue:[ cont:= cont + 1]\r\t\tifFalse:[\r\t\t\t(cont > 1)ifTrue:[\r\t\t\t\t(cells at: fila at: i)label: cont asString.\r\t\t\t\t].\r\t\t\t].\r\t\t].\r\t ].',
+			#stamp : 'EscalanteThiago 11/24/2023 23:57',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T23:58:05.927-03:00' ],
+		#prior : OmReference [ '92' ],
+		#self : OmReference [ '93' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|cont fila|\r\rfila:= cells numberOfRows.\rcont:= 0.\r\r1 to: (unaMatriz numberOfColumns) \rdo: [ :j | \r\t(unaMatriz numberOfRows to: 1 by: -1)\r\t do: [ :i | \r\t\t((unaMatriz at: i at:j) = 1) ifTrue:[ cont:= cont + 1]\r\t\tifFalse:[\r\t\t\t(cont > 1)ifTrue:[\r\t\t\t\t(cells at: fila at: i)label: cont asString.\r\t\t\t\t].\r\t\t\t].\r\t\t].\r\t ].',
+			#stamp : 'EscalanteThiago 11/24/2023 23:57',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|cont fila|\r\rfila:= cells numberOfRows.\rcont:= 0.\r\r1 to: (unaMatriz numberOfColumns) \rdo: [ :j | \r\t(unaMatriz numberOfRows to: 1 by: -1)\r\t do: [ :i | \r\t\t((unaMatriz at: i at:j) = 1) ifTrue:[ cont:= cont + 1]\r\t\tifFalse:[\r\t\t\t(cont > 1)ifTrue:[\r\t\t\t\t(cells at: fila at: i)label: cont asString.\r\t\t\t\t].\r\t\t\tcont:= 0\r\t\t\t].\r\t\t].\r\t ].',
+			#stamp : 'EscalanteThiago 11/24/2023 23:58',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T23:58:32.865-03:00' ],
+		#prior : OmReference [ '93' ],
+		#self : OmReference [ '94' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|cont fila|\r\rfila:= cells numberOfRows.\rcont:= 0.\r\r1 to: (unaMatriz numberOfColumns) \rdo: [ :j | \r\t(unaMatriz numberOfRows to: 1 by: -1)\r\t do: [ :i | \r\t\t((unaMatriz at: i at:j) = 1) ifTrue:[ cont:= cont + 1]\r\t\tifFalse:[\r\t\t\t(cont > 1)ifTrue:[\r\t\t\t\t(cells at: fila at: i)label: cont asString.\r\t\t\t\t].\r\t\t\tcont:= 0\r\t\t\t].\r\t\t].\r\t ].',
+			#stamp : 'EscalanteThiago 11/24/2023 23:58',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|cont fila|\r\rfila:= cells numberOfRows.\rcont:= 0.\r\r1 to: (unaMatriz numberOfColumns) \rdo: [ :j | \r\t(unaMatriz numberOfRows to: 1 by: -1)\r\t do: [ :i | \r\t\t((unaMatriz at: i at:j) = 1) ifTrue:[ cont:= cont + 1]\r\t\tifFalse:[\r\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t(cells at: fila at: i)label: cont asString.\r\t\t\t\t].\r\t\t\tcont:= 0\r\t\t\t].\r\t\t].\r\t ].',
+			#stamp : 'EscalanteThiago 11/24/2023 23:58',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-24T23:59:32.659-03:00' ],
+		#prior : OmReference [ '94' ],
+		#self : OmReference [ '95' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unaMatriz\rself crearNivel: 25 ancho: (unaMatriz numberOfColumns) alto: (unaMatriz numberOfRows).\rref_superior.\rref_izquierda.',
+			#stamp : 'EscalanteThiago 11/24/2023 23:38',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unaMatriz\rself crearNivel: 25 ancho: (unaMatriz numberOfColumns) alto: (unaMatriz numberOfRows).\rref_superior calcularReferencia: unaMatriz.\r"ref_izquierda."',
+			#stamp : 'EscalanteThiago 11/24/2023 23:59',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T00:01:59.626-03:00' ],
+		#prior : OmReference [ '95' ],
+		#self : OmReference [ '96' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|cont fila|\r\rfila:= cells numberOfRows.\rcont:= 0.\r\r1 to: (unaMatriz numberOfColumns) \rdo: [ :j | \r\t(unaMatriz numberOfRows to: 1 by: -1)\r\t do: [ :i | \r\t\t((unaMatriz at: i at:j) = 1) ifTrue:[ cont:= cont + 1]\r\t\tifFalse:[\r\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t(cells at: fila at: i)label: cont asString.\r\t\t\t\t].\r\t\t\tcont:= 0\r\t\t\t].\r\t\t].\r\t ].',
+			#stamp : 'EscalanteThiago 11/24/2023 23:58',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|cont fila|\r\rTranscript show: \'Llegue1\'.\r\rfila:= cells numberOfRows.\rcont:= 0.\rTranscript show: \'Llegue2\'.\r\r1 to: (unaMatriz numberOfColumns) \rdo: [ :j | \r\t(unaMatriz numberOfRows to: 1 by: -1)\r\t do: [ :i | \r\t\t((unaMatriz at: i at:j) = 1) ifTrue:[ cont:= cont + 1]\r\t\tifFalse:[\r\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t(cells at: fila at: i)label: cont asString.\r\t\t\t\t].\r\t\t\tcont:= 0\r\t\t\t].\r\t\t].\r\t ].',
+			#stamp : 'EscalanteThiago 11/25/2023 00:01',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T00:04:01.658-03:00' ],
+		#prior : OmReference [ '96' ],
+		#self : OmReference [ '97' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|cont fila|\r\rTranscript show: \'Llegue1\'.\r\rfila:= cells numberOfRows.\rcont:= 0.\rTranscript show: \'Llegue2\'.\r\r1 to: (unaMatriz numberOfColumns) \rdo: [ :j | \r\t(unaMatriz numberOfRows to: 1 by: -1)\r\t do: [ :i | \r\t\t((unaMatriz at: i at:j) = 1) ifTrue:[ cont:= cont + 1]\r\t\tifFalse:[\r\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t(cells at: fila at: i)label: cont asString.\r\t\t\t\t].\r\t\t\tcont:= 0\r\t\t\t].\r\t\t].\r\t ].',
+			#stamp : 'EscalanteThiago 11/25/2023 00:01',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|cont fila|\r\rTranscript show: \'Llegue1\'.\r\rfila:= cells numberOfRows.\rcont:= 0.\rTranscript show: \'Llegue2\'.\r\r1 to: (unaMatriz numberOfColumns) \rdo: [ :j | \r\t(unaMatriz numberOfRows to: 1 by: -1)\r\t do: [ :i | \r\t\t((unaMatriz at: i at:j) = 1) ifTrue:[ cont:= cont + 1]\r\t\tifFalse:[\r\t\t\t(cont > 0)ifTrue:[ Transcript show: \'Llegue3\'.\r\t\t\t\t(cells at: fila at: i)label: cont asString.\r\t\t\t\t].\r\t\t\tcont:= 0\r\t\t\t].\r\t\t].\r\t ].',
+			#stamp : 'EscalanteThiago 11/25/2023 00:04',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T00:04:31.718-03:00' ],
+		#prior : OmReference [ '97' ],
+		#self : OmReference [ '98' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|cont fila|\r\rTranscript show: \'Llegue1\'.\r\rfila:= cells numberOfRows.\rcont:= 0.\rTranscript show: \'Llegue2\'.\r\r1 to: (unaMatriz numberOfColumns) \rdo: [ :j | \r\t(unaMatriz numberOfRows to: 1 by: -1)\r\t do: [ :i | \r\t\t((unaMatriz at: i at:j) = 1) ifTrue:[ cont:= cont + 1]\r\t\tifFalse:[\r\t\t\t(cont > 0)ifTrue:[ Transcript show: \'Llegue3\'.\r\t\t\t\t(cells at: fila at: i)label: cont asString.\r\t\t\t\t].\r\t\t\tcont:= 0\r\t\t\t].\r\t\t].\r\t ].',
+			#stamp : 'EscalanteThiago 11/25/2023 00:04',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|cont fila|\r\rTranscript show: \'Llegue1\'.\r\rfila:= cells numberOfRows.\rcont:= 0.\rTranscript show: \'Llegue2\'.\r\r1 to: (unaMatriz numberOfColumns) \rdo: [ :j | \r\t(unaMatriz numberOfRows to: 1 by: -1)\r\t do: [ :i | \r\t\t((unaMatriz at: i at:j) = 1) ifTrue:[ cont:= cont + 1]\r\t\tifFalse:[\r\t\t\t(cont > 0)ifTrue:[ Transcript show: \'Llegue3\'.\r\t\t\t\t(cells at: fila at: i)label: cont asString.\r\t\t\t\tTranscript show: \'Llegue4\'.\r\t\t\t\t].\r\t\t\tcont:= 0\r\t\t\t].\r\t\t].\r\t ].',
+			#stamp : 'EscalanteThiago 11/25/2023 00:04',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T00:05:20.725-03:00' ],
+		#prior : OmReference [ '98' ],
+		#self : OmReference [ '99' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|cont fila|\r\rTranscript show: \'Llegue1\'.\r\rfila:= cells numberOfRows.\rcont:= 0.\rTranscript show: \'Llegue2\'.\r\r1 to: (unaMatriz numberOfColumns) \rdo: [ :j | \r\t(unaMatriz numberOfRows to: 1 by: -1)\r\t do: [ :i | \r\t\t((unaMatriz at: i at:j) = 1) ifTrue:[ cont:= cont + 1]\r\t\tifFalse:[\r\t\t\t(cont > 0)ifTrue:[ Transcript show: \'Llegue3\'.\r\t\t\t\t(cells at: fila at: i)label: cont asString.\r\t\t\t\tTranscript show: \'Llegue4\'.\r\t\t\t\t].\r\t\t\tcont:= 0\r\t\t\t].\r\t\t].\r\t ].',
+			#stamp : 'EscalanteThiago 11/25/2023 00:04',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|cont fila|\r\rTranscript show: \'Llegue1\'.\r\rfila:= cells numberOfRows.\rcont:= 0.\rTranscript show: \'Llegue2\'.\r\r1 to: (unaMatriz numberOfColumns) \rdo: [ :j | \r\t(unaMatriz numberOfRows to: 1 by: -1)\r\t do: [ :i | \r\t\t((unaMatriz at: i at:j) = 1) ifTrue:[ cont:= cont + 1]\r\t\tifFalse:[\r\t\t\t(cont > 0)ifTrue:[ Transcript show: \'Llegue3\'.\r\t\t\t\t(cells at: fila at: j)label: cont asString.\r\t\t\t\tTranscript show: \'Llegue4\'.\r\t\t\t\t].\r\t\t\tcont:= 0\r\t\t\t].\r\t\t].\r\t ].',
+			#stamp : 'EscalanteThiago 11/25/2023 00:05',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T00:10:49.546-03:00' ],
+		#prior : OmReference [ '99' ],
+		#self : OmReference [ '100' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|cont fila|\r\rTranscript show: \'Llegue1\'.\r\rfila:= cells numberOfRows.\rcont:= 0.\rTranscript show: \'Llegue2\'.\r\r1 to: (unaMatriz numberOfColumns) \rdo: [ :j | \r\t(unaMatriz numberOfRows to: 1 by: -1)\r\t do: [ :i | \r\t\t((unaMatriz at: i at:j) = 1) ifTrue:[ cont:= cont + 1]\r\t\tifFalse:[\r\t\t\t(cont > 0)ifTrue:[ Transcript show: \'Llegue3\'.\r\t\t\t\t(cells at: fila at: j)label: cont asString.\r\t\t\t\tTranscript show: \'Llegue4\'.\r\t\t\t\t].\r\t\t\tcont:= 0\r\t\t\t].\r\t\t].\r\t ].',
+			#stamp : 'EscalanteThiago 11/25/2023 00:05',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|cont fila|\r\rTranscript show: \'Llegue1\'.\r\rfila:= cells numberOfRows.\rcont:= 0.\rTranscript show: \'Llegue2\'.\r\r1 to: (unaMatriz numberOfColumns) \rdo: [ :j | \r\t(unaMatriz numberOfRows to: 1 by: -1)\r\t do: [ :i | \r\t\t((unaMatriz at: i at:j) = 1) ifTrue:[ cont:= cont + 1]\r\t\tifFalse:[\r\t\t\t(cont > 0)ifTrue:[ Transcript show: \'Llegue3\'.\r\t\t\t\t(cells at: fila at: j)label: cont asString.\r\t\t\t\tfila:= fila - 1.\r\t\t\t\tTranscript show: \'Llegue4\'.\r\t\t\t\t].\r\t\t\tcont:= 0\r\t\t\t].\r\t\t].\r\t ].',
+			#stamp : 'EscalanteThiago 11/25/2023 00:10',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T00:21:56.655-03:00' ],
+		#prior : OmReference [ '100' ],
+		#self : OmReference [ '101' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|cont fila|\r\rTranscript show: \'Llegue1\'.\r\rfila:= cells numberOfRows.\rcont:= 0.\rTranscript show: \'Llegue2\'.\r\r1 to: (unaMatriz numberOfColumns) \rdo: [ :j | \r\t(unaMatriz numberOfRows to: 1 by: -1)\r\t do: [ :i | \r\t\t((unaMatriz at: i at:j) = 1) ifTrue:[ cont:= cont + 1]\r\t\tifFalse:[\r\t\t\t(cont > 0)ifTrue:[ Transcript show: \'Llegue3\'.\r\t\t\t\t(cells at: fila at: j)label: cont asString.\r\t\t\t\tfila:= fila - 1.\r\t\t\t\tTranscript show: \'Llegue4\'.\r\t\t\t\t].\r\t\t\tcont:= 0\r\t\t\t].\r\t\t].\r\t ].',
+			#stamp : 'EscalanteThiago 11/25/2023 00:10',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|cont fila|\r\rTranscript show: \'Llegue1\'.\r\rfila:= cells numberOfRows.\rcont:= 0.\rTranscript show: \'Llegue2\'.\r\r1 to: (unaMatriz numberOfColumns) \rdo: [ :j | \r\tunaMatriz numberOfRows to: 1 by: -1\r\t do: [ :i | \r\t\t((unaMatriz at: i at:j) = 1) ifTrue:[ cont:= cont + 1]\r\t\tifFalse:[\r\t\t\t(cont > 0)ifTrue:[ Transcript show: \'Llegue3\'.\r\t\t\t\t(cells at: fila at: j)label: cont asString.\r\t\t\t\tfila:= fila - 1.\r\t\t\t\tTranscript show: \'Llegue4\'.\r\t\t\t\t].\r\t\t\tcont:= 0\r\t\t\t].\r\t\t].\r\t ].',
+			#stamp : 'EscalanteThiago 11/25/2023 00:21',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T00:24:27.444-03:00' ],
+		#prior : OmReference [ '101' ],
+		#self : OmReference [ '102' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|cont fila|\r\rTranscript show: \'Llegue1\'.\r\rfila:= cells numberOfRows.\rcont:= 0.\rTranscript show: \'Llegue2\'.\r\r1 to: (unaMatriz numberOfColumns) \rdo: [ :j | \r\tunaMatriz numberOfRows to: 1 by: -1\r\t do: [ :i | \r\t\t((unaMatriz at: i at:j) = 1) ifTrue:[ cont:= cont + 1]\r\t\tifFalse:[\r\t\t\t(cont > 0)ifTrue:[ Transcript show: \'Llegue3\'.\r\t\t\t\t(cells at: fila at: j)label: cont asString.\r\t\t\t\tfila:= fila - 1.\r\t\t\t\tTranscript show: \'Llegue4\'.\r\t\t\t\t].\r\t\t\tcont:= 0\r\t\t\t].\r\t\t].\r\t ].',
+			#stamp : 'EscalanteThiago 11/25/2023 00:21',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|cont fila|\r\rTranscript show: \'Llegue1\'.\r\rfila:= cells numberOfRows.\rcont:= 0.\rTranscript show: \'Llegue2\'.\r\r1 to: (unaMatriz numberOfColumns) \rdo: [ :j | \r\tunaMatriz numberOfRows to: 1 by: -1\r\t do: [ :i | \r\t\t((unaMatriz at: i at:j) = 1) ifTrue:[ cont:= cont + 1]\r\t\tifFalse:[\r\t\t\t(cont > 0)ifTrue:[ Transcript show: \'Llegue3\'.\r\t\t\t\t(cells at: fila at: j)label: cont asString.\r\t\t\t\tfila:= fila - 1.\r\t\t\t\tTranscript show: \'Llegue4\'.\r\t\t\t\t].\r\t\t\tcont:= 0\r\t\t\t].\r\t\t].\r\tfila:= cells numberOfRows.\r\t ].',
+			#stamp : 'EscalanteThiago 11/25/2023 00:24',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T00:25:36.779-03:00' ],
+		#prior : OmReference [ '102' ],
+		#self : OmReference [ '103' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nueva imagen\\Nueva imagen.image'
+	}
+}

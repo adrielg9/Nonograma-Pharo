@@ -1,0 +1,1 @@
+| object fileStream |"Create an object to be stored"object := #(1 2 'Hello' $a)."Open a file for writing"fileStream := FileStream fileNamed: 'objectFile.txt' mode: WriteStream mode."Store the object in the file"object storeOn: fileStream."Close the file"fileStream close.

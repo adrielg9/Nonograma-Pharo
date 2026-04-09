@@ -1,0 +1,21 @@
+OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-26T20:00:39.887-03:00' ],
+		#prior : OmReference [ 'Pharo11-SNAPSHOT-64bit-f3b81e5.3E5CD3B88A80', '3' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nonograma\\Nonograma.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-26T20:01:19.526-03:00' ],
+		#prior : OmReference [ '1' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nonograma\\Nonograma.image'
+	}
+}

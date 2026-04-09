@@ -1,0 +1,19 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T20:40:07.562-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '| object fileName stream |\r\robject := (Puzzle numero: 1). "reemplazar MiObjeto por el objeto que deseas instanciar"\rfileName := \'puzzle1.fuel\'.\rstream := fileName asFileReference binaryWriteStream.\rFLSerializer serialize: object on: stream.\rstream close.\r"serializa el objeto en un archivo llamado \'myObject.fuel\'."'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T20:40:56.677-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : '| object fileName stream |\r\tfileName := \'myObject.fuel\'.\r\t"la variable stream se utiliza para leer el objeto serializado desde el archivo. \r\tLa clase FLMaterializer se utiliza para deserializar el objeto, y el objeto deserializado se almacena en la variable object."\r\t\r\tstream := fileName asFileReference binaryReadStream.\r\tobject := FLMaterializer materializeFrom: stream.\r\tstream close.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T20:41:28.649-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : '| object fileName stream |\r\tfileName := \'puzzle1.fuel\'.\r\t"la variable stream se utiliza para leer el objeto serializado desde el archivo. \r\tLa clase FLMaterializer se utiliza para deserializar el objeto, y el objeto deserializado se almacena en la variable object."\r\t\r\tstream := fileName asFileReference binaryReadStream.\r\tobject := FLMaterializer materializeFrom: stream.\r\tstream close.\r\t\rTranscript show: object.'
+}

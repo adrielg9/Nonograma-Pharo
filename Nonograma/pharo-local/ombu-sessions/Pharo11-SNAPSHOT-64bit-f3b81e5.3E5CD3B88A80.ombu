@@ -1,0 +1,74 @@
+OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T19:04:05.728-03:00' ],
+		#prior : OmReference [ 'Pharo11-SNAPSHOT-64bit-f3b81e5.3A349E818A00', '55' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'Object subclass: #Juego\r\tinstanceVariableNames: \'\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'Object',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Juego,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Juego class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Juego class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Juego,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T19:04:22.126-03:00' ],
+		#prior : OmReference [ '1' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'Juego class',
+				#isMetaSide : true
+			},
+			#name : #iniciar,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciar\rPTitulo new.',
+			#stamp : 'EscalanteThiago 11/26/2023 19:04',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T19:49:32.527-03:00' ],
+		#prior : OmReference [ '2' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nueva imagen\\Nueva imagen.image'
+	}
+}

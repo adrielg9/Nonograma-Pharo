@@ -1,0 +1,2281 @@
+[31mFileDoesNotExistException: 'C:\Users\JulioPro2020\Documents\Pharo\images\Nueva imagen\puzzle1.fuel'
+[0mFile>>openForWrite:
+File>>openForRead
+File>>readStream
+FileHandle>>binaryReadStream
+FileSystem>>binaryReadStreamOn:
+FileReference>>binaryReadStream
+SelecNiv>>seleccionar:
+[self seleccionar: x] in SelecNiv>>initialize in Block: [self seleccionar: x]
+BotonComun>>mouseUp:
+BotonComun(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+BotonComun(Morph)>>handleEvent:
+BotonComun(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+HandMorph>>sendEvent:focus:clear:
+HandMorph>>sendMouseEvent:
+HandMorph>>handleEvent:
+[
+		(morphicWorld activeHand isNotNil and: [ anEvent hand isNotNil ]) ifTrue: [
+			morphicWorld activeHand handleEvent: anEvent
+		]
+	] in OSWindowMorphicEventHandler>>dispatchMorphicEvent: in Block: [...
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycleNow
+WorldMorph>>doOneCycle
+[
+		| extraWorldsToDraw |
+		extraWorldsToDraw := ExtraWorldListMutex critical: [
+			                     self extraWorldList ].
+		extraWorldsToDraw do: [ :world | world doOneCycle ].
+
+		(self currentWorld isNotNil and: [
+			 (extraWorldsToDraw includes: self currentWorld) not ]) ifTrue: [
+			self currentWorld doOneCycle ] ] in WorldMorph class>>doOneCycle in Block: [...
+FullBlockClosure(BlockClosure)>>ensure:
+WorldState class>>doDrawCycleWith:
+WorldMorph class>>doOneCycle
+[0m[31mFileDoesNotExistException: 'C:\Users\JulioPro2020\Documents\Pharo\images\Nueva imagen\puzzle1.fuel'
+[0mFile>>openForWrite:
+File>>openForRead
+File>>readStream
+FileHandle>>binaryReadStream
+FileSystem>>binaryReadStreamOn:
+FileReference>>binaryReadStream
+SelecNiv>>seleccionar:
+[self seleccionar: x] in SelecNiv>>initialize in Block: [self seleccionar: x]
+BotonComun>>mouseUp:
+BotonComun(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+BotonComun(Morph)>>handleEvent:
+BotonComun(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+HandMorph>>sendEvent:focus:clear:
+HandMorph>>sendMouseEvent:
+HandMorph>>handleEvent:
+[
+		(morphicWorld activeHand isNotNil and: [ anEvent hand isNotNil ]) ifTrue: [
+			morphicWorld activeHand handleEvent: anEvent
+		]
+	] in OSWindowMorphicEventHandler>>dispatchMorphicEvent: in Block: [...
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycleNow
+WorldMorph>>doOneCycle
+[
+		| extraWorldsToDraw |
+		extraWorldsToDraw := ExtraWorldListMutex critical: [
+			                     self extraWorldList ].
+		extraWorldsToDraw do: [ :world | world doOneCycle ].
+
+		(self currentWorld isNotNil and: [
+			 (extraWorldsToDraw includes: self currentWorld) not ]) ifTrue: [
+			self currentWorld doOneCycle ] ] in WorldMorph class>>doOneCycle in Block: [...
+FullBlockClosure(BlockClosure)>>ensure:
+WorldState class>>doDrawCycleWith:
+WorldMorph class>>doOneCycle
+[0m[31mFileDoesNotExistException: 'C:\Users\JulioPro2020\Documents\Pharo\images\Nueva imagen\puzzle1.fuel'
+[0mFile>>openForWrite:
+File>>openForRead
+File>>readStream
+FileHandle>>binaryReadStream
+FileSystem>>binaryReadStreamOn:
+FileReference>>binaryReadStream
+SelecNiv>>seleccionar:
+[self seleccionar: x] in SelecNiv>>initialize in Block: [self seleccionar: x]
+BotonComun>>mouseUp:
+BotonComun(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+BotonComun(Morph)>>handleEvent:
+BotonComun(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+HandMorph>>sendEvent:focus:clear:
+HandMorph>>sendMouseEvent:
+HandMorph>>handleEvent:
+[
+		(morphicWorld activeHand isNotNil and: [ anEvent hand isNotNil ]) ifTrue: [
+			morphicWorld activeHand handleEvent: anEvent
+		]
+	] in OSWindowMorphicEventHandler>>dispatchMorphicEvent: in Block: [...
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycleNow
+WorldMorph>>doOneCycle
+[
+		| extraWorldsToDraw |
+		extraWorldsToDraw := ExtraWorldListMutex critical: [
+			                     self extraWorldList ].
+		extraWorldsToDraw do: [ :world | world doOneCycle ].
+
+		(self currentWorld isNotNil and: [
+			 (extraWorldsToDraw includes: self currentWorld) not ]) ifTrue: [
+			self currentWorld doOneCycle ] ] in WorldMorph class>>doOneCycle in Block: [...
+FullBlockClosure(BlockClosure)>>ensure:
+WorldState class>>doDrawCycleWith:
+WorldMorph class>>doOneCycle
+[0m[31mFileDoesNotExistException: 'C:\Users\JulioPro2020\Documents\Pharo\images\Nueva imagen\puzzle1.fuel'
+[0mFile>>openForWrite:
+File>>openForRead
+File>>readStream
+FileHandle>>binaryReadStream
+FileSystem>>binaryReadStreamOn:
+FileReference>>binaryReadStream
+SelecNiv>>seleccionar:
+[self seleccionar: x] in SelecNiv>>initialize in Block: [self seleccionar: x]
+BotonComun>>mouseUp:
+BotonComun(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+BotonComun(Morph)>>handleEvent:
+BotonComun(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+HandMorph>>sendEvent:focus:clear:
+HandMorph>>sendMouseEvent:
+HandMorph>>handleEvent:
+[
+		(morphicWorld activeHand isNotNil and: [ anEvent hand isNotNil ]) ifTrue: [
+			morphicWorld activeHand handleEvent: anEvent
+		]
+	] in OSWindowMorphicEventHandler>>dispatchMorphicEvent: in Block: [...
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycleNow
+WorldMorph>>doOneCycle
+[
+		| extraWorldsToDraw |
+		extraWorldsToDraw := ExtraWorldListMutex critical: [
+			                     self extraWorldList ].
+		extraWorldsToDraw do: [ :world | world doOneCycle ].
+
+		(self currentWorld isNotNil and: [
+			 (extraWorldsToDraw includes: self currentWorld) not ]) ifTrue: [
+			self currentWorld doOneCycle ] ] in WorldMorph class>>doOneCycle in Block: [...
+FullBlockClosure(BlockClosure)>>ensure:
+WorldState class>>doDrawCycleWith:
+WorldMorph class>>doOneCycle
+[0muateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+[0m[31mInstance of SmallInteger did not understand #x
+[0mSmallInteger(Object)>>doesNotUnderstand: #x
+Point>>>
+BotonComun(Morph)>>position:
+Alerta>>initialize
+Alerta class(Behavior)>>new
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+[0m[31mInstance of SmallInteger did not understand #x
+[0mSmallInteger(Object)>>doesNotUnderstand: #x
+Point>>>
+BotonComun(Morph)>>position:
+Alerta>>initialize
+Alerta class(Behavior)>>new
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+[0m[31mInstance of SmallInteger did not understand #x
+[0mSmallInteger(Object)>>doesNotUnderstand: #x
+Point>>>
+BotonComun(Morph)>>position:
+Alerta>>initialize
+Alerta class(Behavior)>>new
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+[0m[31mInstance of SmallInteger did not understand #x
+[0mSmallInteger(Object)>>doesNotUnderstand: #x
+Point>>>
+BotonComun(Morph)>>position:
+Alerta>>initialize
+Alerta class(Behavior)>>new
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+[0m[31mInstance of SmallInteger did not understand #x
+[0mSmallInteger(Object)>>doesNotUnderstand: #x
+Point>>>
+BotonComun(Morph)>>position:
+Alerta>>initialize
+Alerta class(Behavior)>>new
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+[0m[31mInstance of SmallInteger did not understand #x
+[0mSmallInteger(Object)>>doesNotUnderstand: #x
+Point>>>
+BotonComun(Morph)>>position:
+Alerta>>initialize
+Alerta class(Behavior)>>new
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+[0m[31mInstance of SmallInteger did not understand #x
+[0mSmallInteger(Object)>>doesNotUnderstand: #x
+Point>>>
+BotonComun(Morph)>>position:
+Alerta>>initialize
+Alerta class(Behavior)>>new
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+[0m[31mInstance of SmallInteger did not understand #x
+[0mSmallInteger(Object)>>doesNotUnderstand: #x
+Point>>>
+BotonComun(Morph)>>position:
+Alerta>>initialize
+Alerta class(Behavior)>>new
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+[0m[31mInstance of SmallInteger did not understand #x
+[0mSmallInteger(Object)>>doesNotUnderstand: #x
+Point>>>
+BotonComun(Morph)>>position:
+Alerta>>initialize
+Alerta class(Behavior)>>new
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+[0m[31mInstance of SmallInteger did not understand #x
+[0mSmallInteger(Object)>>doesNotUnderstand: #x
+Point>>>
+BotonComun(Morph)>>position:
+Alerta>>initialize
+Alerta class(Behavior)>>new
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+[0m[31mInstance of SmallInteger did not understand #x
+[0mSmallInteger(Object)>>doesNotUnderstand: #x
+Point>>>
+BotonComun(Morph)>>position:
+Alerta>>initialize
+Alerta class(Behavior)>>new
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+[0m[31mInstance of SmallInteger did not understand #x
+[0mSmallInteger(Object)>>doesNotUnderstand: #x
+Point>>>
+BotonComun(Morph)>>position:
+Alerta>>initialize
+Alerta class(Behavior)>>new
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+[0m[31mInstance of SmallInteger did not understand #x
+[0mSmallInteger(Object)>>doesNotUnderstand: #x
+Point>>>
+BotonComun(Morph)>>position:
+Alerta>>initialize
+Alerta class(Behavior)>>new
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+[0m] in OSWindowMorphicEventHandler>>dispatchMorphicEvent: in Block: [...
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycleNow
+WorldMorph>>doOneCycle
+[
+		| extraWorldsToDraw |
+		extraWorldsToDraw := ExtraWorldListMutex critical: [
+			                     self extraWorldList ].
+		extraWorldsToDraw do: [ :world | world doOneCycle ].
+
+		(self currentWorld isNotNil and: [
+			 (extraWorldsToDraw includes: self currentWorld) not ]) ifTrue: [
+			self currentWorld doOneCycle ] ] in WorldMorph class>>doOneCycle in Block: [...
+FullBlockClosure(BlockClosure)>>ensure:
+WorldState class>>doDrawCycleWith:
+WorldMorph class>>doOneCycle
+MorphicRenderLoop>>doOneCycle
+MorphicRenderLoop>>doOneCycleWhile:
+[ MorphicRenderLoop new doOneCycleWhile: [ true ] ] in MorphicUIManager>>spawnNewProcess in Block: [ MorphicRenderLoop new doOneCycleWhile: [ tru[..]
+[self value.
+			"IMPORTANT: Do not step over next line of code. See method comments for details"
+			Processor terminateRealActive] in FullBlockClosure(BlockClosure)>>newProcess in Block: [self value....
+[0m[31mInstance of Character did not understand #adaptToNumber:andSend:
+[0mCharacter(Object)>>doesNotUnderstand: #adaptToNumber:andSend:
+Character(Object)>>adaptToInteger:andSend:
+SmallInteger(Integer)>>+
+SmallInteger>>+
+[:element | rcvr perform: selector with: element] in ByteString(Collection)>>adaptToNumber:andSend: in Block: [:element | rcvr perform: selector with: element]
+ByteString(SequenceableCollection)>>collect:
+ByteString(Collection)>>adaptToNumber:andSend:
+ByteString(Object)>>adaptToInteger:andSend:
+SmallInteger(Integer)>>+
+SmallInteger>>+
+NOCell>>setTamaño:
+Nonograma>>crearTablero:ancho:altura:
+Nivel>>crearNivel:ancho:alto:
+Nivel>>crearNivel:
+SelecNiv>>seleccionar:
+[self seleccionar: x] in SelecNiv>>initialize in Block: [self seleccionar: x]
+BotonComun>>mouseUp:
+BotonComun(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+BotonComun(Morph)>>handleEvent:
+BotonComun(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+HandMorph>>sendEvent:focus:clear:
+HandMorph>>sendMouseEvent:
+HandMorph>>handleEvent:
+[
+		(morphicWorld activeHand isNotNil and: [ anEvent hand isNotNil ]) ifTrue: [
+			morphicWorld activeHand handleEvent: anEvent
+		]
+	] in OSWindowMorphicEventHandler>>dispatchMorphicEvent: in Block: [...
+WorldState>>runStepMethodsIn:
+[0m[31mInstance of Character did not understand #adaptToNumber:andSend:
+[0mCharacter(Object)>>doesNotUnderstand: #adaptToNumber:andSend:
+Character(Object)>>adaptToInteger:andSend:
+SmallInteger(Integer)>>+
+SmallInteger>>+
+[:element | rcvr perform: selector with: element] in ByteString(Collection)>>adaptToNumber:andSend: in Block: [:element | rcvr perform: selector with: element]
+ByteString(SequenceableCollection)>>collect:
+ByteString(Collection)>>adaptToNumber:andSend:
+ByteString(Object)>>adaptToInteger:andSend:
+SmallInteger(Integer)>>+
+SmallInteger>>+
+NOCell>>setTamaño:
+Nonograma>>crearTablero:ancho:altura:
+Nivel>>crearNivel:ancho:alto:
+Nivel>>crearNivel:
+SelecNiv>>seleccionar:
+[self seleccionar: x] in SelecNiv>>initialize in Block: [self seleccionar: x]
+BotonComun>>mouseUp:
+BotonComun(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+BotonComun(Morph)>>handleEvent:
+BotonComun(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+HandMorph>>sendEvent:focus:clear:
+HandMorph>>sendMouseEvent:
+HandMorph>>handleEvent:
+[
+		(morphicWorld activeHand isNotNil and: [ anEvent hand isNotNil ]) ifTrue: [
+			morphicWorld activeHand handleEvent: anEvent
+		]
+	] in OSWindowMorphicEventHandler>>dispatchMorphicEvent: in Block: [...
+WorldState>>runStepMethodsIn:
+[0m[31mFileDoesNotExistException: 'C:\Users\JulioPro2020\Documents\Pharo\images\Nueva imagen\puzzle9.fuel'
+[0mFile>>openForWrite:
+File>>openForRead
+File>>readStream
+FileHandle>>binaryReadStream
+FileSystem>>binaryReadStreamOn:
+FileReference>>binaryReadStream
+SelecNiv>>seleccionar:
+[self seleccionar: x] in SelecNiv>>initialize in Block: [self seleccionar: x]
+BotonComun>>mouseUp:
+BotonComun(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+BotonComun(Morph)>>handleEvent:
+BotonComun(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+HandMorph>>sendEvent:focus:clear:
+HandMorph>>sendMouseEvent:
+HandMorph>>handleEvent:
+[
+		(morphicWorld activeHand isNotNil and: [ anEvent hand isNotNil ]) ifTrue: [
+			morphicWorld activeHand handleEvent: anEvent
+		]
+	] in OSWindowMorphicEventHandler>>dispatchMorphicEvent: in Block: [...
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycleNow
+WorldMorph>>doOneCycle
+[
+		| extraWorldsToDraw |
+		extraWorldsToDraw := ExtraWorldListMutex critical: [
+			                     self extraWorldList ].
+		extraWorldsToDraw do: [ :world | world doOneCycle ].
+
+		(self currentWorld isNotNil and: [
+			 (extraWorldsToDraw includes: self currentWorld) not ]) ifTrue: [
+			self currentWorld doOneCycle ] ] in WorldMorph class>>doOneCycle in Block: [...
+FullBlockClosure(BlockClosure)>>ensure:
+WorldState class>>doDrawCycleWith:
+WorldMorph class>>doOneCycle
+[0m[31mFileDoesNotExistException: 'C:\Users\JulioPro2020\Documents\Pharo\images\Nueva imagen\puzzle9.fuel'
+[0mFile>>openForWrite:
+File>>openForRead
+File>>readStream
+FileHandle>>binaryReadStream
+FileSystem>>binaryReadStreamOn:
+FileReference>>binaryReadStream
+SelecNiv>>seleccionar:
+[self seleccionar: x] in SelecNiv>>initialize in Block: [self seleccionar: x]
+BotonComun>>mouseUp:
+BotonComun(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+BotonComun(Morph)>>handleEvent:
+BotonComun(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+HandMorph>>sendEvent:focus:clear:
+HandMorph>>sendMouseEvent:
+HandMorph>>handleEvent:
+[
+		(morphicWorld activeHand isNotNil and: [ anEvent hand isNotNil ]) ifTrue: [
+			morphicWorld activeHand handleEvent: anEvent
+		]
+	] in OSWindowMorphicEventHandler>>dispatchMorphicEvent: in Block: [...
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycleNow
+WorldMorph>>doOneCycle
+[
+		| extraWorldsToDraw |
+		extraWorldsToDraw := ExtraWorldListMutex critical: [
+			                     self extraWorldList ].
+		extraWorldsToDraw do: [ :world | world doOneCycle ].
+
+		(self currentWorld isNotNil and: [
+			 (extraWorldsToDraw includes: self currentWorld) not ]) ifTrue: [
+			self currentWorld doOneCycle ] ] in WorldMorph class>>doOneCycle in Block: [...
+FullBlockClosure(BlockClosure)>>ensure:
+WorldState class>>doDrawCycleWith:
+WorldMorph class>>doOneCycle
+[0m[31mFileDoesNotExistException: 'C:\Users\JulioPro2020\Documents\Pharo\images\Nueva imagen\puzzle9.fuel'
+[0mFile>>openForWrite:
+File>>openForRead
+File>>readStream
+FileHandle>>binaryReadStream
+FileSystem>>binaryReadStreamOn:
+FileReference>>binaryReadStream
+SelecNiv>>seleccionar:
+[self seleccionar: x] in SelecNiv>>initialize in Block: [self seleccionar: x]
+BotonComun>>mouseUp:
+BotonComun(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+BotonComun(Morph)>>handleEvent:
+BotonComun(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+HandMorph>>sendEvent:focus:clear:
+HandMorph>>sendMouseEvent:
+HandMorph>>handleEvent:
+[
+		(morphicWorld activeHand isNotNil and: [ anEvent hand isNotNil ]) ifTrue: [
+			morphicWorld activeHand handleEvent: anEvent
+		]
+	] in OSWindowMorphicEventHandler>>dispatchMorphicEvent: in Block: [...
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycleNow
+WorldMorph>>doOneCycle
+[
+		| extraWorldsToDraw |
+		extraWorldsToDraw := ExtraWorldListMutex critical: [
+			                     self extraWorldList ].
+		extraWorldsToDraw do: [ :world | world doOneCycle ].
+
+		(self currentWorld isNotNil and: [
+			 (extraWorldsToDraw includes: self currentWorld) not ]) ifTrue: [
+			self currentWorld doOneCycle ] ] in WorldMorph class>>doOneCycle in Block: [...
+FullBlockClosure(BlockClosure)>>ensure:
+WorldState class>>doDrawCycleWith:
+WorldMorph class>>doOneCycle
+[0m[31mFileDoesNotExistException: 'C:\Users\JulioPro2020\Documents\Pharo\images\Nueva imagen\puzzle9.fuel'
+[0mFile>>openForWrite:
+File>>openForRead
+File>>readStream
+FileHandle>>binaryReadStream
+FileSystem>>binaryReadStreamOn:
+FileReference>>binaryReadStream
+SelecNiv>>seleccionar:
+[self seleccionar: x] in SelecNiv>>initialize in Block: [self seleccionar: x]
+BotonComun>>mouseUp:
+BotonComun(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+BotonComun(Morph)>>handleEvent:
+BotonComun(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+HandMorph>>sendEvent:focus:clear:
+HandMorph>>sendMouseEvent:
+HandMorph>>handleEvent:
+[
+		(morphicWorld activeHand isNotNil and: [ anEvent hand isNotNil ]) ifTrue: [
+			morphicWorld activeHand handleEvent: anEvent
+		]
+	] in OSWindowMorphicEventHandler>>dispatchMorphicEvent: in Block: [...
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycleNow
+WorldMorph>>doOneCycle
+[
+		| extraWorldsToDraw |
+		extraWorldsToDraw := ExtraWorldListMutex critical: [
+			                     self extraWorldList ].
+		extraWorldsToDraw do: [ :world | world doOneCycle ].
+
+		(self currentWorld isNotNil and: [
+			 (extraWorldsToDraw includes: self currentWorld) not ]) ifTrue: [
+			self currentWorld doOneCycle ] ] in WorldMorph class>>doOneCycle in Block: [...
+FullBlockClosure(BlockClosure)>>ensure:
+WorldState class>>doDrawCycleWith:
+WorldMorph class>>doOneCycle
+[0m[31mInstance of Puzzle class did not understand #numberOfColumns
+[0mPuzzle class(Object)>>doesNotUnderstand: #numberOfColumns
+Nivel>>crearNivel:
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+FullBlockClosure(BlockClosure)>>cull:cull:cull:
+KMCategoryBinding>>completeMatch:buffer:
+[ :l | l completeMatch: self buffer: aBuffer ] in KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
+[0m[31mInstance of Puzzle class did not understand #numberOfColumns
+[0mPuzzle class(Object)>>doesNotUnderstand: #numberOfColumns
+Nivel>>crearNivel:
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+FullBlockClosure(BlockClosure)>>cull:cull:cull:
+KMCategoryBinding>>completeMatch:buffer:
+[ :l | l completeMatch: self buffer: aBuffer ] in KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
+[0m[31mInstance of MorphicUIManager did not understand #chooseFileDirectory
+[0mMorphicUIManager(Object)>>doesNotUnderstand: #chooseFileDirectory
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+FullBlockClosure(BlockClosure)>>cull:cull:cull:
+KMCategoryBinding>>completeMatch:buffer:
+[ :l | l completeMatch: self buffer: aBuffer ] in KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
+Array(SequenceableCollection)>>do:
+[0m[31mInstance of MorphicUIManager did not understand #chooseFileDirectory
+[0mMorphicUIManager(Object)>>doesNotUnderstand: #chooseFileDirectory
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+FullBlockClosure(BlockClosure)>>cull:cull:cull:
+KMCategoryBinding>>completeMatch:buffer:
+[ :l | l completeMatch: self buffer: aBuffer ] in KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
+Array(SequenceableCollection)>>do:
+[0m[31mInstance of MorphicUIManager did not understand #fileSelectorPrompt:
+[0mMorphicUIManager(Object)>>doesNotUnderstand: #fileSelectorPrompt:
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodePrintItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodePrintItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodePrintItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+FullBlockClosure(BlockClosure)>>cull:cull:cull:
+KMCategoryBinding>>completeMatch:buffer:
+[ :l | l completeMatch: self buffer: aBuffer ] in KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
+Array(SequenceableCollection)>>do:
+[0m[31mInstance of MorphicUIManager did not understand #fileSelectorPrompt:
+[0mMorphicUIManager(Object)>>doesNotUnderstand: #fileSelectorPrompt:
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodePrintItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodePrintItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodePrintItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+FullBlockClosure(BlockClosure)>>cull:cull:cull:
+KMCategoryBinding>>completeMatch:buffer:
+[ :l | l completeMatch: self buffer: aBuffer ] in KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
+Array(SequenceableCollection)>>do:
+[0m[31mInstance of Character did not understand #match:
+[0mCharacter(Object)>>doesNotUnderstand: #match:
+[ :pat | pat match: de name ] in [ :de |
+					(dialog defaultFileSelectionBlock value: de)
+						and: [ de isDirectory or: [ patterns anySatisfy: [ :pat | pat match: de name ] ] ] ] in PharoDarkTheme(UITheme)>>chooseFullFileNameIn:title:patterns:path:preview: in Block: [ :pat | pat match: de name ]
+[ :each | (aBlock value: each) ifTrue: [ ^ true ] ] in ByteString(Collection)>>anySatisfy: in Block: [ :each | (aBlock value: each) ifTrue: [ ^ tru[..]
+ByteString(SequenceableCollection)>>do:
+ByteString(Collection)>>anySatisfy:
+[ :de |
+					(dialog defaultFileSelectionBlock value: de)
+						and: [ de isDirectory or: [ patterns anySatisfy: [ :pat | pat match: de name ] ] ] ] in PharoDarkTheme(UITheme)>>chooseFullFileNameIn:title:patterns:path:preview: in Block: [ :de |...
+[ :stream|
+		1 to: self size do: [ :index |
+			(aBlock value: (each := self at: index))
+				ifTrue: [ stream nextPut: each ]]] in Array(SequenceableCollection)>>select: in Block: [ :stream|...
+Array class(SequenceableCollection class)>>new:streamContents:
+Array(SequenceableCollection)>>select:
+[ | cache filteredCache |
+		cache := self cache: self selectedFileDirectory.
+		filteredCache := cache select: self fileSelectionBlock.
+		filteredCache asSortedCollection: self fileSortBlock ] in FileDialogWindow>>files in Block: [ | cache filteredCache |...
+FullBlockClosure(BlockClosure)>>ensure:
+CursorWithMask(Cursor)>>showWhile:
+FileDialogWindow>>files
+PluggableIconListMorph>>getList
+PluggableIconListMorph(PluggableListMorph)>>getListSize
+LazyMorphListMorph(LazyListMorph)>>getListSize
+LazyMorphListMorph>>listChanged
+PluggableIconListMorph(PluggableListMorph)>>updateList
+PluggableIconListMorph(PluggableListMorph)>>update:
+MorphChanged>>deliverTo:
+PluggableIconListMorph(Morph)>>handleUpdate:
+MessageSend>>value:
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[action cull: anAnnouncement cull: announcer] in AnnouncementSubscription>>deliver: in Block: [action cull: anAnnouncement cull: announcer]
+FullBlockClosure(BlockClosure)>>on:do:
+[ Processor terminateRealActive ] in [ :ex |
+			  | onDoCtx handler bottom thisCtx |
+			  onDoCtx := thisContext.
+			  thisCtx := onDoCtx home.
+
+			  "find the context on stack for which this method's is sender"
+
+			  [ onDoCtx sender == thisCtx ] whileFalse: [
+				  onDoCtx := onDoCtx sender.
+				  onDoCtx ifNil: [ "Can't find our home context. seems like we're already forked
+				and handling another exception in new thread. In this case, just pass it through handler."
+					  ^ handlerAction cull: ex ] ].
+
+			  bottom := [ Processor terminateRealActive ] asContext.
+			  onDoCtx privSender: bottom.
+
+			  handler := [ handlerAction cull: ex ] asContext.
+			  handler privSender: thisContext sender.
+
+			  (Process forContext: handler priority: Processor activePriority) resume.
+
+			  "cut the stack of current process"
+			  thisContext privSender: thisCtx.
+			  nil ] in FullBlockClosure(BlockClosure)>>on:fork: in Block: [ Processor terminateRealActive ]
+[0m[31mInstance of Character did not understand #match:
+[0mCharacter(Object)>>doesNotUnderstand: #match:
+[ :pat | pat match: de name ] in [ :de |
+					(dialog defaultFileSelectionBlock value: de)
+						and: [ de isDirectory or: [ patterns anySatisfy: [ :pat | pat match: de name ] ] ] ] in PharoDarkTheme(UITheme)>>chooseFullFileNameIn:title:patterns:path:preview: in Block: [ :pat | pat match: de name ]
+[ :each | (aBlock value: each) ifTrue: [ ^ true ] ] in ByteString(Collection)>>anySatisfy: in Block: [ :each | (aBlock value: each) ifTrue: [ ^ tru[..]
+ByteString(SequenceableCollection)>>do:
+ByteString(Collection)>>anySatisfy:
+[ :de |
+					(dialog defaultFileSelectionBlock value: de)
+						and: [ de isDirectory or: [ patterns anySatisfy: [ :pat | pat match: de name ] ] ] ] in PharoDarkTheme(UITheme)>>chooseFullFileNameIn:title:patterns:path:preview: in Block: [ :de |...
+[ :stream|
+		1 to: self size do: [ :index |
+			(aBlock value: (each := self at: index))
+				ifTrue: [ stream nextPut: each ]]] in Array(SequenceableCollection)>>select: in Block: [ :stream|...
+Array class(SequenceableCollection class)>>new:streamContents:
+Array(SequenceableCollection)>>select:
+[ | cache filteredCache |
+		cache := self cache: self selectedFileDirectory.
+		filteredCache := cache select: self fileSelectionBlock.
+		filteredCache asSortedCollection: self fileSortBlock ] in FileDialogWindow>>files in Block: [ | cache filteredCache |...
+FullBlockClosure(BlockClosure)>>ensure:
+CursorWithMask(Cursor)>>showWhile:
+FileDialogWindow>>files
+PluggableIconListMorph>>getList
+PluggableIconListMorph(PluggableListMorph)>>getListSize
+LazyMorphListMorph(LazyListMorph)>>getListSize
+LazyMorphListMorph>>listChanged
+PluggableIconListMorph(PluggableListMorph)>>updateList
+PluggableIconListMorph(PluggableListMorph)>>update:
+MorphChanged>>deliverTo:
+PluggableIconListMorph(Morph)>>handleUpdate:
+MessageSend>>value:
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[action cull: anAnnouncement cull: announcer] in AnnouncementSubscription>>deliver: in Block: [action cull: anAnnouncement cull: announcer]
+FullBlockClosure(BlockClosure)>>on:do:
+[ Processor terminateRealActive ] in [ :ex |
+			  | onDoCtx handler bottom thisCtx |
+			  onDoCtx := thisContext.
+			  thisCtx := onDoCtx home.
+
+			  "find the context on stack for which this method's is sender"
+
+			  [ onDoCtx sender == thisCtx ] whileFalse: [
+				  onDoCtx := onDoCtx sender.
+				  onDoCtx ifNil: [ "Can't find our home context. seems like we're already forked
+				and handling another exception in new thread. In this case, just pass it through handler."
+					  ^ handlerAction cull: ex ] ].
+
+			  bottom := [ Processor terminateRealActive ] asContext.
+			  onDoCtx privSender: bottom.
+
+			  handler := [ handlerAction cull: ex ] asContext.
+			  handler privSender: thisContext sender.
+
+			  (Process forContext: handler priority: Processor activePriority) resume.
+
+			  "cut the stack of current process"
+			  thisContext privSender: thisCtx.
+			  nil ] in FullBlockClosure(BlockClosure)>>on:fork: in Block: [ Processor terminateRealActive ]
+[0m[31mInstance of True did not understand #anySatisfy:
+[0mTrue(Object)>>doesNotUnderstand: #anySatisfy:
+[ :de |
+					(dialog defaultFileSelectionBlock value: de)
+						and: [ de isDirectory or: [ patterns anySatisfy: [ :pat | pat match: de name ] ] ] ] in PharoDarkTheme(UITheme)>>chooseFullFileNameIn:title:patterns:path:preview: in Block: [ :de |...
+[ :stream|
+		1 to: self size do: [ :index |
+			(aBlock value: (each := self at: index))
+				ifTrue: [ stream nextPut: each ]]] in Array(SequenceableCollection)>>select: in Block: [ :stream|...
+Array class(SequenceableCollection class)>>new:streamContents:
+Array(SequenceableCollection)>>select:
+[ | cache filteredCache |
+		cache := self cache: self selectedFileDirectory.
+		filteredCache := cache select: self fileSelectionBlock.
+		filteredCache asSortedCollection: self fileSortBlock ] in FileDialogWindow>>files in Block: [ | cache filteredCache |...
+FullBlockClosure(BlockClosure)>>ensure:
+CursorWithMask(Cursor)>>showWhile:
+FileDialogWindow>>files
+PluggableIconListMorph>>getList
+PluggableIconListMorph(PluggableListMorph)>>getListSize
+LazyMorphListMorph(LazyListMorph)>>getListSize
+LazyMorphListMorph>>listChanged
+PluggableIconListMorph(PluggableListMorph)>>updateList
+PluggableIconListMorph(PluggableListMorph)>>update:
+MorphChanged>>deliverTo:
+PluggableIconListMorph(Morph)>>handleUpdate:
+MessageSend>>value:
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[action cull: anAnnouncement cull: announcer] in AnnouncementSubscription>>deliver: in Block: [action cull: anAnnouncement cull: announcer]
+FullBlockClosure(BlockClosure)>>on:do:
+[ Processor terminateRealActive ] in [ :ex |
+			  | onDoCtx handler bottom thisCtx |
+			  onDoCtx := thisContext.
+			  thisCtx := onDoCtx home.
+
+			  "find the context on stack for which this method's is sender"
+
+			  [ onDoCtx sender == thisCtx ] whileFalse: [
+				  onDoCtx := onDoCtx sender.
+				  onDoCtx ifNil: [ "Can't find our home context. seems like we're already forked
+				and handling another exception in new thread. In this case, just pass it through handler."
+					  ^ handlerAction cull: ex ] ].
+
+			  bottom := [ Processor terminateRealActive ] asContext.
+			  onDoCtx privSender: bottom.
+
+			  handler := [ handlerAction cull: ex ] asContext.
+			  handler privSender: thisContext sender.
+
+			  (Process forContext: handler priority: Processor activePriority) resume.
+
+			  "cut the stack of current process"
+			  thisContext privSender: thisCtx.
+			  nil ] in FullBlockClosure(BlockClosure)>>on:fork: in Block: [ Processor terminateRealActive ]
+[0m[31mInstance of True did not understand #anySatisfy:
+[0mTrue(Object)>>doesNotUnderstand: #anySatisfy:
+[ :de |
+					(dialog defaultFileSelectionBlock value: de)
+						and: [ de isDirectory or: [ patterns anySatisfy: [ :pat | pat match: de name ] ] ] ] in PharoDarkTheme(UITheme)>>chooseFullFileNameIn:title:patterns:path:preview: in Block: [ :de |...
+[ :stream|
+		1 to: self size do: [ :index |
+			(aBlock value: (each := self at: index))
+				ifTrue: [ stream nextPut: each ]]] in Array(SequenceableCollection)>>select: in Block: [ :stream|...
+Array class(SequenceableCollection class)>>new:streamContents:
+Array(SequenceableCollection)>>select:
+[ | cache filteredCache |
+		cache := self cache: self selectedFileDirectory.
+		filteredCache := cache select: self fileSelectionBlock.
+		filteredCache asSortedCollection: self fileSortBlock ] in FileDialogWindow>>files in Block: [ | cache filteredCache |...
+FullBlockClosure(BlockClosure)>>ensure:
+CursorWithMask(Cursor)>>showWhile:
+FileDialogWindow>>files
+PluggableIconListMorph>>getList
+PluggableIconListMorph(PluggableListMorph)>>getListSize
+LazyMorphListMorph(LazyListMorph)>>getListSize
+LazyMorphListMorph>>listChanged
+PluggableIconListMorph(PluggableListMorph)>>updateList
+PluggableIconListMorph(PluggableListMorph)>>update:
+MorphChanged>>deliverTo:
+PluggableIconListMorph(Morph)>>handleUpdate:
+MessageSend>>value:
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[action cull: anAnnouncement cull: announcer] in AnnouncementSubscription>>deliver: in Block: [action cull: anAnnouncement cull: announcer]
+FullBlockClosure(BlockClosure)>>on:do:
+[ Processor terminateRealActive ] in [ :ex |
+			  | onDoCtx handler bottom thisCtx |
+			  onDoCtx := thisContext.
+			  thisCtx := onDoCtx home.
+
+			  "find the context on stack for which this method's is sender"
+
+			  [ onDoCtx sender == thisCtx ] whileFalse: [
+				  onDoCtx := onDoCtx sender.
+				  onDoCtx ifNil: [ "Can't find our home context. seems like we're already forked
+				and handling another exception in new thread. In this case, just pass it through handler."
+					  ^ handlerAction cull: ex ] ].
+
+			  bottom := [ Processor terminateRealActive ] asContext.
+			  onDoCtx privSender: bottom.
+
+			  handler := [ handlerAction cull: ex ] asContext.
+			  handler privSender: thisContext sender.
+
+			  (Process forContext: handler priority: Processor activePriority) resume.
+
+			  "cut the stack of current process"
+			  thisContext privSender: thisCtx.
+			  nil ] in FullBlockClosure(BlockClosure)>>on:fork: in Block: [ Processor terminateRealActive ]
+[0mo:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+[0m[31mInstance of Refer_iz did not understand #numberOfColumns
+[0mRefer_iz(Object)>>doesNotUnderstand: #numberOfColumns
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodePrintItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodePrintItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodePrintItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+FullBlockClosure(BlockClosure)>>cull:cull:cull:
+KMCategoryBinding>>completeMatch:buffer:
+[ :l | l completeMatch: self buffer: aBuffer ] in KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
+Array(SequenceableCollection)>>do:
+[0m[31mInstance of Refer_iz did not understand #numberOfColumns
+[0mRefer_iz(Object)>>doesNotUnderstand: #numberOfColumns
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodePrintItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodePrintItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodePrintItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+FullBlockClosure(BlockClosure)>>cull:cull:cull:
+KMCategoryBinding>>completeMatch:buffer:
+[ :l | l completeMatch: self buffer: aBuffer ] in KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
+Array(SequenceableCollection)>>do:
+[0m[31mError: 1st subscript out of range
+[0mArray2D(Object)>>error:
+Array2D>>indexForRow:andColumn:
+Array2D>>at:at:
+Refer_iz>>calcularReferencia:
+Nivel>>crearNivel:
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+[0m[31mError: 1st subscript out of range
+[0mArray2D(Object)>>error:
+Array2D>>indexForRow:andColumn:
+Array2D>>at:at:
+Refer_iz>>calcularReferencia:
+Nivel>>crearNivel:
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+[0m[31mError: 1st subscript out of range
+[0mArray2D(Object)>>error:
+Array2D>>indexForRow:andColumn:
+Array2D>>at:at:
+Refer_iz>>calcularReferencia:
+Nivel>>crearNivel:
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+[0m[31mError: 1st subscript out of range
+[0mArray2D(Object)>>error:
+Array2D>>indexForRow:andColumn:
+Array2D>>at:at:
+Refer_iz>>calcularReferencia:
+Nivel>>crearNivel:
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+[0m[31mError: 1st subscript out of range
+[0mArray2D(Object)>>error:
+Array2D>>indexForRow:andColumn:
+Array2D>>at:at:
+Refer_iz>>calcularReferencia:
+Nivel>>crearNivel:
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+[0m[31mError: 1st subscript out of range
+[0mArray2D(Object)>>error:
+Array2D>>indexForRow:andColumn:
+Array2D>>at:at:
+Refer_iz>>calcularReferencia:
+Nivel>>crearNivel:
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		receiver := self interactionModel doItReceiver.
+		result := receiver class compiler
+			source: aString;
+			context: self interactionModel doItContext;
+			receiver: self interactionModel doItReceiver;
+			requestor: self interactionModel;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self withAdapterDo: [ :anAdapter | anAdapter refreshStyling ] ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError: in Block: [...
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeDoItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute in Block: [ self decoratedCommand execute ]
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during: in Block: [ activeProcess...
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ 
+			aCmCommand canBeExecuted 
+				ifTrue: [ aCmCommand execute ] ] in SpKMCategoryBuilder>>visitCommand: in Block: [ ...
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+[0m

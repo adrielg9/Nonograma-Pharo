@@ -1,0 +1,1 @@
+Juego iniciar.Truco resolver: true.

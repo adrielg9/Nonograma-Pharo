@@ -1,0 +1,7 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T23:53:57.398-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : 'coso:= Array2D new: 5.\rcoso at: 2 at: 5 put: 1.\r^coso'
+}

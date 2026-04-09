@@ -1,0 +1,1096 @@
+OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T09:52:38.249-03:00' ],
+		#prior : OmReference [ 'Pharo11-SNAPSHOT-64bit-f3b81e5.38A2CE0FCF40', '103' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|cont fila|\r\rTranscript show: \'Llegue1\'.\r\rfila:= cells numberOfRows.\rcont:= 0.\rTranscript show: \'Llegue2\'.\r\r1 to: (unaMatriz numberOfColumns) \rdo: [ :j | \r\tunaMatriz numberOfRows to: 1 by: -1\r\t do: [ :i | \r\t\t((unaMatriz at: i at:j) = 1) ifTrue:[ cont:= cont + 1]\r\t\tifFalse:[\r\t\t\t(cont > 0)ifTrue:[ Transcript show: \'Llegue3\'.\r\t\t\t\t(cells at: fila at: j)label: cont asString.\r\t\t\t\tfila:= fila - 1.\r\t\t\t\tTranscript show: \'Llegue4\'.\r\t\t\t\t].\r\t\t\tcont:= 0\r\t\t\t].\r\t\t].\r\tfila:= cells numberOfRows.\r\t ].',
+			#stamp : 'EscalanteThiago 11/25/2023 00:24',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\rTranscript show: \'Llegue1\'.\r\rfila:= cells numberOfRows.\rcont:= 0.\r',
+			#stamp : 'EscalanteThiago 11/25/2023 09:52',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T10:00:33.233-03:00' ],
+		#prior : OmReference [ '1' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\rTranscript show: \'Llegue1\'.\r\rfila:= cells numberOfRows.\rcont:= 0.\r',
+			#stamp : 'EscalanteThiago 11/25/2023 09:52',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows.\rj:= 1.\rcont:= 0.\r\r[ j <= (unaMatriz numberOfColumns) ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\t\r\t\r\tj:= j + 1\r\t ]\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 10:00',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T10:01:42.753-03:00' ],
+		#prior : OmReference [ '2' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'PackageManifest subclass: #ManifestNonograma\r\tinstanceVariableNames: \'\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'PackageManifest',
+				#traitCompositionSource : '{}'
+			},
+			#name : #ManifestNonograma,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'ManifestNonograma class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'ManifestNonograma class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #ManifestNonograma,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T10:01:42.754-03:00' ],
+		#prior : OmReference [ '3' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : EpCategoryAddition {
+		#classCategoryName : #Nonograma-Manifest,
+		#affectedPackageName : #Nonograma
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T10:01:42.759-03:00' ],
+		#prior : OmReference [ '4' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : EpBehaviorCategoryChange {
+		#oldCategory : #Nonograma,
+		#newCategory : #Nonograma-Manifest,
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'PackageManifest subclass: #ManifestNonograma\r\tinstanceVariableNames: \'\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma-Manifest\'',
+				#superclassName : 'PackageManifest',
+				#traitCompositionSource : '{}'
+			},
+			#name : #ManifestNonograma,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'ManifestNonograma class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'ManifestNonograma class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #ManifestNonograma,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma-Manifest,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T10:01:42.762-03:00' ],
+		#prior : OmReference [ '5' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : EpBehaviorCommentChange {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'PackageManifest subclass: #ManifestNonograma\r\tinstanceVariableNames: \'\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma-Manifest\'',
+				#superclassName : 'PackageManifest',
+				#traitCompositionSource : '{}'
+			},
+			#name : #ManifestNonograma,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'ManifestNonograma class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'ManifestNonograma class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #ManifestNonograma,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : 'Please describe the package using the class comment of the included manifest class. The manifest class also includes other additional metadata for the package. These meta data are used by other tools such as the SmalllintManifestChecker and the critics Browser',
+				#stamp : '<historical>'
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma-Manifest,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#oldComment : '',
+		#newComment : 'Please describe the package using the class comment of the included manifest class. The manifest class also includes other additional metadata for the package. These meta data are used by other tools such as the SmalllintManifestChecker and the critics Browser',
+		#oldStamp : '',
+		#newStamp : '<historical>'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T10:01:42.769-03:00' ],
+		#prior : OmReference [ '6' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'ManifestNonograma class',
+				#isMetaSide : true
+			},
+			#name : #ruleWhileTrueRuleV1FalsePositive,
+			#protocol : #code-critics,
+			#sourceCode : 'ruleWhileTrueRuleV1FalsePositive\r\r\t<ignoreForCoverage>\r\t^ #()',
+			#stamp : 'EscalanteThiago 11/25/2023 10:01',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T10:01:42.773-03:00' ],
+		#prior : OmReference [ '7' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'ManifestNonograma class',
+				#isMetaSide : true
+			},
+			#name : #ruleWhileTrueRuleV1FalsePositive,
+			#protocol : #code-critics,
+			#sourceCode : 'ruleWhileTrueRuleV1FalsePositive\r\r\t<ignoreForCoverage>\r\t^ #()',
+			#stamp : 'EscalanteThiago 11/25/2023 10:01',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'ManifestNonograma class',
+				#isMetaSide : true
+			},
+			#name : #ruleWhileTrueRuleV1FalsePositive,
+			#protocol : #code-critics,
+			#sourceCode : 'ruleWhileTrueRuleV1FalsePositive\r\r\t<ignoreForCoverage>\r\t^ #(#(#(#RGClassDefinition #(#Refer_sup)) #\'2023-11-25T10:01:42.77-03:00\') )',
+			#stamp : 'EscalanteThiago 11/25/2023 10:01',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T10:07:13.958-03:00' ],
+		#prior : OmReference [ '8' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows.\rj:= 1.\rcont:= 0.\r\r[ j <= (unaMatriz numberOfColumns) ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\t\r\t\r\tj:= j + 1\r\t ]\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 10:00',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows.\rj:= 1.\rcont:= 0.\r\r[ j <= (unaMatriz numberOfColumns) ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t\r\t\t\r\t\t\r\t\ti:= i - 1\r\t ].\r\t\r\t\r\tj:= j + 1\r\t ]\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 10:07',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T10:08:29.524-03:00' ],
+		#prior : OmReference [ '9' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows.\rj:= 1.\rcont:= 0.\r\r[ j <= (unaMatriz numberOfColumns) ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t\r\t\t\r\t\t\r\t\ti:= i - 1\r\t ].\r\t\r\t\r\tj:= j + 1\r\t ]\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 10:07',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows.\rj:= 1.\rcont:= 0.\r\r[ j <= (unaMatriz numberOfColumns) ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t\r\t\t\r\t\t\r\t\ti:= i - 1\r\t ].\r\t\r\t\r\tj:= j + 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 10:08',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T10:18:13.559-03:00' ],
+		#prior : OmReference [ '10' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows.\rj:= 1.\rcont:= 0.\r\r[ j <= (unaMatriz numberOfColumns) ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t\r\t\t\r\t\t\r\t\ti:= i - 1\r\t ].\r\t\r\t\r\tj:= j + 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 10:08',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows.\rj:= 1.\rcont:= 0.\r\r[ j <= (unaMatriz numberOfColumns) ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t\r\t\t\t].\r\t\t\r\t\t\r\t\ti := i - 1\r\t ].\r\t\r\t\r\tj:= j + 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 10:18',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T10:24:49.511-03:00' ],
+		#prior : OmReference [ '11' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows.\rj:= 1.\rcont:= 0.\r\r[ j <= (unaMatriz numberOfColumns) ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t\r\t\t\t].\r\t\t\r\t\t\r\t\ti := i - 1\r\t ].\r\t\r\t\r\tj:= j + 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 10:18',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows.\rj:= 1.\rcont:= 0.\r\r[ j <= (unaMatriz numberOfColumns) ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: fila at: j) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\t\r\t\t\r\t\ti := i - 1\r\t ].\r\t\r\t\r\tj:= j + 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 10:24',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T10:28:50.075-03:00' ],
+		#prior : OmReference [ '12' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows.\rj:= 1.\rcont:= 0.\r\r[ j <= (unaMatriz numberOfColumns) ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: fila at: j) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\t\r\t\t\r\t\ti := i - 1\r\t ].\r\t\r\t\r\tj:= j + 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 10:24',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r"\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows."\rj:= 1.\rcont:= 0.\r\r[ j <= (unaMatriz numberOfColumns) ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\tfila:= cells numberOfRows.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: fila at: j) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: fila at: j) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j + 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 10:28',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T10:37:25.652-03:00' ],
+		#prior : OmReference [ '13' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nueva imagen\\Nueva imagen.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T10:46:36.852-03:00' ],
+		#prior : OmReference [ '14' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r"\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows."\rj:= 1.\rcont:= 0.\r\r[ j <= (unaMatriz numberOfColumns) ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\tfila:= cells numberOfRows.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: fila at: j) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: fila at: j) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j + 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 10:28',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r"\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows."\rj:= 1.\rcont:= 0.\r\r[ j <= (unaMatriz numberOfColumns) ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\tfila:= cells numberOfRows.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: j at: fila) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: fila at: j) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j + 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 10:46',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T10:47:06.668-03:00' ],
+		#prior : OmReference [ '15' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r"\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows."\rj:= 1.\rcont:= 0.\r\r[ j <= (unaMatriz numberOfColumns) ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\tfila:= cells numberOfRows.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: j at: fila) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: fila at: j) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j + 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 10:46',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r"\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows."\rj:= 1.\rcont:= 0.\r\r[ j <= (unaMatriz numberOfColumns) ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\tfila:= cells numberOfRows.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: fila at: j) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: fila at: j) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j + 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 10:47',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T10:54:33.674-03:00' ],
+		#prior : OmReference [ '16' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r"\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows."\rj:= 1.\rcont:= 0.\r\r[ j <= (unaMatriz numberOfColumns) ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\tfila:= cells numberOfRows.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: fila at: j) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: fila at: j) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j + 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 10:47',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r"\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows."\rj:= 1.\rcont:= 0.\rcells:= cells transposed.\r\r[ j <= (unaMatriz numberOfColumns) ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\tfila:= cells numberOfRows.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: fila at: j) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: fila at: j) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j + 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 10:54',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T10:54:56.516-03:00' ],
+		#prior : OmReference [ '17' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r"\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows."\rj:= 1.\rcont:= 0.\rcells:= cells transposed.\r\r[ j <= (unaMatriz numberOfColumns) ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\tfila:= cells numberOfRows.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: fila at: j) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: fila at: j) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j + 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 10:54',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r"\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows."\rj:= 1.\rcont:= 0.\r\r[ j <= (unaMatriz numberOfColumns) ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\tfila:= cells numberOfRows.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: fila at: j) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: fila at: j) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j + 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 10:54',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T10:55:43.266-03:00' ],
+		#prior : OmReference [ '18' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r"\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows."\rj:= 1.\rcont:= 0.\r\r[ j <= (unaMatriz numberOfColumns) ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\tfila:= cells numberOfRows.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: fila at: j) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: fila at: j) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j + 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 10:54',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r"\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows."\rj:= 1.\rcont:= 0.\r\r[ j <= (unaMatriz numberOfColumns) ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\tfila:= cells numberOfColumns.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: fila at: j) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: fila at: j) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j + 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 10:55',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T10:56:14.113-03:00' ],
+		#prior : OmReference [ '19' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r"\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows."\rj:= 1.\rcont:= 0.\r\r[ j <= (unaMatriz numberOfColumns) ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\tfila:= cells numberOfColumns.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: fila at: j) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: fila at: j) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j + 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 10:55',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r"\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows."\rj:= 1.\rcont:= 0.\r\r[ j <= (unaMatriz numberOfColumns) ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\tfila:= cells numberOfColumns.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: j at: fila) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: fila at: j) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j + 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 10:56',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T10:57:18.628-03:00' ],
+		#prior : OmReference [ '20' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r"\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows."\rj:= 1.\rcont:= 0.\r\r[ j <= (unaMatriz numberOfColumns) ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\tfila:= cells numberOfColumns.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: j at: fila) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: fila at: j) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j + 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 10:56',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r"\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows."\rj:= 1.\rcont:= 0.\r\r[ j <= (unaMatriz numberOfColumns) ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\tfila:= cells numberOfRows.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: fila at: j) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: fila at: j) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j + 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 10:57',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T10:59:57.766-03:00' ],
+		#prior : OmReference [ '21' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r"\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows."\rj:= 1.\rcont:= 0.\r\r[ j <= (unaMatriz numberOfColumns) ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\tfila:= cells numberOfRows.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: fila at: j) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: fila at: j) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j + 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 10:57',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r"\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows."\rj:= unaMatriz numberOfColumns.\rcont:= 0.\r\r[ j>0 ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\tfila:= cells numberOfRows.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: fila at: j) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: fila at: j) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j - 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 10:59',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T11:00:44.545-03:00' ],
+		#prior : OmReference [ '22' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r"\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows."\rj:= unaMatriz numberOfColumns.\rcont:= 0.\r\r[ j>0 ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\tfila:= cells numberOfRows.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: fila at: j) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: fila at: j) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j - 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 10:59',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r"\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows."\rj:= unaMatriz numberOfColumns.\rcont:= 0.\r\r[ j>0 ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\tfila:= cells numberOfRows.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: j at: fila) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: fila at: j) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j - 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 11:00',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T11:10:59.317-03:00' ],
+		#prior : OmReference [ '23' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r"\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows."\rj:= unaMatriz numberOfColumns.\rcont:= 0.\r\r[ j>0 ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\tfila:= cells numberOfRows.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: j at: fila) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: fila at: j) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j - 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 11:08',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r"\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows."\rj:= unaMatriz numberOfColumns.\rcont:= 0.\r\r[ j>0 ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\tfila:= cells numberOfColumns.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: j at: fila) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: fila at: j) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j - 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 11:10',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T11:13:12.584-03:00' ],
+		#prior : OmReference [ '24' ],
+		#self : OmReference [ '25' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r"\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows."\rj:= unaMatriz numberOfColumns.\rcont:= 0.\r\r[ j>0 ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\tfila:= cells numberOfColumns.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: j at: fila) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: fila at: j) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j - 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 11:10',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r"\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows."\rj:= unaMatriz numberOfColumns.\rcont:= 0.\r\r[ j>0 ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\tfila:= cells numberOfColumns.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: j at: fila) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: j at: fila) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j - 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 11:13',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T11:14:57.266-03:00' ],
+		#prior : OmReference [ '25' ],
+		#self : OmReference [ '26' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nueva imagen\\Nueva imagen.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T11:15:24.417-03:00' ],
+		#prior : OmReference [ '26' ],
+		#self : OmReference [ '27' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\r"\rfila:= cells numberOfRows.\ri:= unaMatriz numberOfRows."\rj:= unaMatriz numberOfColumns.\rcont:= 0.\r\r[ j>0 ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\tfila:= cells numberOfColumns.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: j at: fila) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: j at: fila) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j - 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 11:13',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_sup,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\rj:= unaMatriz numberOfColumns.\rcont:= 0.\r\r[ j>0 ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfRows.\r\tfila:= cells numberOfColumns.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: j at: fila) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: j at: fila) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j - 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 11:15',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T11:15:55.307-03:00' ],
+		#prior : OmReference [ '27' ],
+		#self : OmReference [ '28' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r\tsuper initialize.\r\tfuenteActual := (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 20).\r\tself label: \'0\' font: fuenteActual.\r\tself borderWidth: 1.\r\tself extent: 50@50.\r\t"bounds:= 200 @ 200 corner: 250 @ 250."\r\tself enabled: false.\r\tself useSquareCorners.',
+			#stamp : 'EscalanteThiago 11/24/2023 20:01',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r\tsuper initialize.\r\tfuenteActual := (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 20).\r\tself label: \'\' font: fuenteActual.\r\tself borderWidth: 1.\r\tself extent: 50@50.\r\t"bounds:= 200 @ 200 corner: 250 @ 250."\r\tself enabled: false.\r\tself useSquareCorners.',
+			#stamp : 'EscalanteThiago 11/25/2023 11:15',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T11:30:53.593-03:00' ],
+		#prior : OmReference [ '28' ],
+		#self : OmReference [ '29' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_iz,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\rj:= unaMatriz numberOfRows.\rcont:= 0.\r\r[ j>0 ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfColumns.\r\tfila:= cells numberOfRows.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: j at: fila) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: j at: fila) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j - 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 11:30',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T11:31:03.03-03:00' ],
+		#prior : OmReference [ '29' ],
+		#self : OmReference [ '30' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'ManifestNonograma class',
+				#isMetaSide : true
+			},
+			#name : #ruleWhileTrueRuleV1FalsePositive,
+			#protocol : #code-critics,
+			#sourceCode : 'ruleWhileTrueRuleV1FalsePositive\r\r\t<ignoreForCoverage>\r\t^ #(#(#(#RGClassDefinition #(#Refer_sup)) #\'2023-11-25T10:01:42.77-03:00\') )',
+			#stamp : 'EscalanteThiago 11/25/2023 10:01',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'ManifestNonograma class',
+				#isMetaSide : true
+			},
+			#name : #ruleWhileTrueRuleV1FalsePositive,
+			#protocol : #code-critics,
+			#sourceCode : 'ruleWhileTrueRuleV1FalsePositive\r\r\t<ignoreForCoverage>\r\t^ #(#(#(#RGClassDefinition #(#Refer_sup)) #\'2023-11-25T10:01:42.77-03:00\') #(#(#RGPackageDefinition #(#Nonograma)) #\'2023-11-25T11:31:03.02-03:00\') )',
+			#stamp : 'EscalanteThiago 11/25/2023 11:31',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T11:31:40.793-03:00' ],
+		#prior : OmReference [ '30' ],
+		#self : OmReference [ '31' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unaMatriz\rself crearNivel: 25 ancho: (unaMatriz numberOfColumns) alto: (unaMatriz numberOfRows).\rref_superior calcularReferencia: unaMatriz.\r"ref_izquierda."',
+			#stamp : 'EscalanteThiago 11/24/2023 23:59',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unaMatriz\rself crearNivel: 25 ancho: (unaMatriz numberOfColumns) alto: (unaMatriz numberOfRows).\rref_superior calcularReferencia: unaMatriz.\rref_izquierda calcularReferencia: unaMatriz.',
+			#stamp : 'EscalanteThiago 11/25/2023 11:31',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T11:32:23.02-03:00' ],
+		#prior : OmReference [ '31' ],
+		#self : OmReference [ '32' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_iz,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\rj:= unaMatriz numberOfRows.\rcont:= 0.\r\r[ j>0 ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfColumns.\r\tfila:= cells numberOfRows.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: j at: fila) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: j at: fila) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j - 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 11:30',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_iz,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\rj:= unaMatriz numberOfRows.\rcont:= 0.\r\r[ j>0 ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfColumns.\r\tfila:= cells numberOfRows.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: fila at: j) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: fila at: j) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j - 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 11:32',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T11:33:50.259-03:00' ],
+		#prior : OmReference [ '32' ],
+		#self : OmReference [ '33' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_iz,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\rj:= unaMatriz numberOfRows.\rcont:= 0.\r\r[ j>0 ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\ti:= unaMatriz numberOfColumns.\r\tfila:= cells numberOfRows.\r\t[ i > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: fila at: j) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: fila at: j) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j - 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 11:32',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_iz,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\ri:= unaMatriz numberOfRows.\rcont:= 0.\r\r[ i>0 ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\tj:= unaMatriz numberOfColumns.\r\tfila:= cells numberOfRows.\r\t[ j > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: fila at: j) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: fila at: j) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j - 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 11:33',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T11:34:54.164-03:00' ],
+		#prior : OmReference [ '33' ],
+		#self : OmReference [ '34' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_iz,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\ri:= unaMatriz numberOfRows.\rcont:= 0.\r\r[ i>0 ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\tj:= unaMatriz numberOfColumns.\r\tfila:= cells numberOfRows.\r\t[ j > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: fila at: j) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\ti := i - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: fila at: j) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\tj:= j - 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 11:33',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_iz,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\ri:= unaMatriz numberOfRows.\rcont:= 0.\r\r[ i>0 ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\tj:= unaMatriz numberOfColumns.\r\tfila:= cells numberOfRows.\r\t[ j > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: j at: fila) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\tj := j - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: j at: fila) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\ti:= i - 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 11:34',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T11:35:39.02-03:00' ],
+		#prior : OmReference [ '34' ],
+		#self : OmReference [ '35' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_iz,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\ri:= unaMatriz numberOfRows.\rcont:= 0.\r\r[ i>0 ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\tj:= unaMatriz numberOfColumns.\r\tfila:= cells numberOfRows.\r\t[ j > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: j at: fila) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\tj := j - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: j at: fila) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\ti:= i - 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 11:34',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Refer_iz,
+				#isMetaSide : false
+			},
+			#name : #'calcularReferencia:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularReferencia: unaMatriz\r|i j cont fila|\r\ri:= unaMatriz numberOfRows.\rcont:= 0.\r\r[ i>0 ] whileTrue: [ \r\tTranscript show: \'col:\' asString; show: j; cr.\r\tj:= unaMatriz numberOfColumns.\r\tfila:= cells numberOfRows.\r\t[ j > 0 ] whileTrue: [ \r\t\tTranscript show: \'fila:\' asString; show: i; cr.\r\t\t((unaMatriz at:i at:j) = 1)ifTrue:[\r\t\t\t\tcont:= cont + 1.\r\t\t\t]ifFalse:[\r\t\t\t\t(cont > 0)ifTrue:[\r\t\t\t\t\t(cells at: fila at: i) label: cont asString.\r\t\t\t\t\tcont:= 0.\r\t\t\t\t\tfila:= fila -1.\r\t\t\t\t\t].\r\t\t\t].\r\t\tj := j - 1\r\t ].\r\t\r\t(cont > 0)ifTrue:[\r\t\t(cells at: fila at: i) label: cont asString.\r\t\tcont:= 0.\r\t\tfila:= fila -1.\r\t\t].\r\t\r\ti:= i - 1\r\t ].\r\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 11:35',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T11:52:54.737-03:00' ],
+		#prior : OmReference [ '35' ],
+		#self : OmReference [ '36' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nonograma,
+				#isMetaSide : false
+			},
+			#name : #'newCellAt:at:size:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'newCellAt: i at: j size: unTamaño\r"Create a cell for position (i,j) and add it to my on-screen\rrepresentation at the appropriate screen position. Answer the\rnew cell"\r| c origin |\r\tc := NOCell new.\r\tc setTamaño: unTamaño.\r\torigin := self innerBounds origin.\r\tself addMorph: c.\r\tc position: ((i - 1) * c width) @ ((j - 1) * c height) + origin.\r\tc mouseAction: [ \r\t\tc isOn ifTrue: [ self disminuir] \r\t\tifFalse: [ self aumentar].\r\t\tc toggleState.\r\t\tTranscript show: cont; cr.].\r\t^c',
+			#stamp : 'ThiagoEscalante 11/23/2023 21:54',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nonograma,
+				#isMetaSide : false
+			},
+			#name : #'newCellAt:at:size:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'newCellAt: i at: j size: unTamaño\r"Create a cell for position (i,j) and add it to my on-screen\rrepresentation at the appropriate screen position. Answer the\rnew cell"\r| c origin |\r\tc := NOCell new.\r\tc setTamaño: unTamaño.\r\torigin := self innerBounds origin.\r\tself addMorph: c.\r\tc position: ((i - 1) * c width) @ ((j - 1) * c height) + origin.\r\tc mouseAction: [ \r\t\tc isOn ifTrue: [ self disminuir] \r\t\tifFalse: [ self aumentar].\r\t\tc toggleState.\r\t\t].\r\t^c',
+			#stamp : 'EscalanteThiago 11/25/2023 11:52',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T12:02:58.058-03:00' ],
+		#prior : OmReference [ '36' ],
+		#self : OmReference [ '37' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nueva imagen\\Nueva imagen.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T14:02:05.73-03:00' ],
+		#prior : OmReference [ '37' ],
+		#self : OmReference [ '38' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nueva imagen\\Nueva imagen.image'
+	}
+}

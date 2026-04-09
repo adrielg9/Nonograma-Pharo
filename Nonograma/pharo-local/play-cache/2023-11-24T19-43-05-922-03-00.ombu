@@ -1,0 +1,13 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T19:43:25.169-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : 'tablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r\rref_superior:= Refer_sup new.\rref_superior crearTablero: unTamaño ancho: (unAncho / 2) ceiling altura: unAlto.\r\rref_izquierda := Refer_iz new.\rref_izquierda crearTablero: unTamaño ancho: unAncho altura: (unAlto / 2) ceiling.\r\rventana:= SystemWindow new.\rventana extent: (tablero extent)+((ref_izquierda width)@(ref_superior height))+(100@100).\rventana addMorph: tablero.\rventana addMorph: ref_izquierda.\rventana addMorph: ref_superior.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T19:44:26.117-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : 'unTamaño:= 20.\runAncho:= 16.\runAlto:= 16\r\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r\rref_superior:= Refer_sup new.\rref_superior crearTablero: unTamaño ancho: (unAncho / 2) ceiling altura: unAlto.\r\rref_izquierda := Refer_iz new.\rref_izquierda crearTablero: unTamaño ancho: unAncho altura: (unAlto / 2) ceiling.\r\rventana:= SystemWindow new.\rventana extent: (tablero extent)+((ref_izquierda width)@(ref_superior height))+(100@100).\rventana addMorph: tablero.\rventana addMorph: ref_izquierda.\rventana addMorph: ref_superior.'
+}

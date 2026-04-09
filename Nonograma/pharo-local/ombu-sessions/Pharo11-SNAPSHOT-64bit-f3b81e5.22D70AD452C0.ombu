@@ -1,0 +1,114 @@
+OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T10:40:50.216-03:00' ],
+		#prior : OmReference [ 'Pharo11-SNAPSHOT-64bit-f3b81e5.4298BAF3C4C0', '85' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\r\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 4.\rventana extent: (200@250) + (ancho@alto).\rancho:= (botones at:1) width.\ralto:= (botones at:1) height .\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (ancho@0) + (50@0).\r(botones at:3) position: ((botones at:2) position) + (ancho@0) + (50@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@50).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@50).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@50).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@50).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@50).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@50).\r(botones at:1) mouseAction: [self seleccionar: 1].\r\rvolver:= BotonComun new.\rvolver label: \'Volver\'.\rvolver color: (Color fromHexString: \'#5ba35f\').\rcustom:= BotonComun new.\rcustom label: \'Custom\'.\rcustom color: (Color fromHexString: \'#a14347\').\rventana addMorph: volver.\rventana addMorph: custom.\rcustom position: ((botones at:8) position) + (0@alto) + (0@50).\rvolver position: ((botones at:9) position) + (0@alto) + (0@50).\r\rventana setLabel: \'Selecciona un Nivel\'.\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/26/2023 00:00',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x).\r\t(botones at:x) mouseAction: [self seleccionar: x]. \r\t].\r\r\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 4.\rventana extent: (200@250) + (ancho@alto).\rancho:= (botones at:1) width.\ralto:= (botones at:1) height .\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (ancho@0) + (50@0).\r(botones at:3) position: ((botones at:2) position) + (ancho@0) + (50@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@50).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@50).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@50).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@50).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@50).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@50).\r"(botones at:1) mouseAction: [self seleccionar: 1]."\r\rvolver:= BotonComun new.\rvolver label: \'Volver\'.\rvolver color: (Color fromHexString: \'#5ba35f\').\rcustom:= BotonComun new.\rcustom label: \'Custom\'.\rcustom color: (Color fromHexString: \'#a14347\').\rventana addMorph: volver.\rventana addMorph: custom.\rcustom position: ((botones at:8) position) + (0@alto) + (0@50).\rvolver position: ((botones at:9) position) + (0@alto) + (0@50).\r\rventana setLabel: \'Selecciona un Nivel\'.\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/26/2023 10:40',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T11:16:10.264-03:00' ],
+		#prior : OmReference [ '1' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #'nombre:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'nombre: unNumero\r^\'puzzle\', (unNumero asString)',
+			#stamp : 'EscalanteThiago 11/26/2023 11:16',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T11:17:08.709-03:00' ],
+		#prior : OmReference [ '2' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #'nombre:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'nombre: unNumero\r^\'puzzle\', (unNumero asString)',
+			#stamp : 'EscalanteThiago 11/26/2023 11:16',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #'nombre:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'nombre: unNumero\r^\'puzzle\', (unNumero asString), \'.fuel\'',
+			#stamp : 'EscalanteThiago 11/26/2023 11:17',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T11:19:30.255-03:00' ],
+		#prior : OmReference [ '3' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #'seleccionar:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'seleccionar: unNumero\r| object fileName stream nivel |\r(unNumero = 1) ifTrue: [ fileName := \'puzzle1.fuel\'. ].\r\t\rstream := fileName asFileReference binaryReadStream.\robject := FLMaterializer materializeFrom: stream.\rstream close.\r\rnivel:= Nivel new.\rnivel crearNivel: object.\r',
+			#stamp : 'EscalanteThiago 11/25/2023 23:59',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #'seleccionar:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'seleccionar: unNumero\r| object fileName stream nivel |\rfileName := (self seleccionar: unNumero).\r\t\rstream := fileName asFileReference binaryReadStream.\robject := FLMaterializer materializeFrom: stream.\rstream close.\r\rnivel:= Nivel new.\rnivel crearNivel: object.\r',
+			#stamp : 'EscalanteThiago 11/26/2023 11:19',
+			#package : #Nonograma
+		}
+	}
+}

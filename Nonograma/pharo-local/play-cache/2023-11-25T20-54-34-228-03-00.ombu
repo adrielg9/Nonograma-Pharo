@@ -1,0 +1,121 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T20:54:41.693-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : 'prueba:= '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T20:55:06.979-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : 'prueba:= BotonComun new.\rprueba openInWorld.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T21:16:11.847-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : 'nivel:= Nivel new.\rNivel editor: 25 ancho: 16 alto:16.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T21:16:29.161-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel editor: 25 ancho: 16 alto:16.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T21:38:21.389-03:00' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel editor: 25 ancho: 16 alto:16.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T21:38:40.697-03:00' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel editor: 25 ancho: 16 alto:16.\rTranscript'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T21:39:12.919-03:00' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel editor: 25 ancho: 16 alto:16.\rTranscript show: (nivel tablero copiarMatriz).'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T21:39:50.074-03:00' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel editor: 25 ancho: 8 alto:8.\rTranscript show: (nivel tablero copiarMatriz).'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T21:40:35.835-03:00' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel editor: 25 ancho: 8 alto:16.\rTranscript show: (nivel tablero copiarMatriz).'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T21:47:06.076-03:00' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel editor: 25 ancho: 8 alto:16.\rTranscript show: (nivel tablero copiarMatriz).\rnivel tablero limpiar'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T21:56:33.948-03:00' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel editor: 25 ancho: 8 alto:16.\rTranscript show: (nivel tablero copiarMatriz).\rnivel tablero limpiar\r\rm1:= Array 2D new: 8.\rm2:= Array 2D new: 8.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T21:57:03.372-03:00' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel editor: 25 ancho: 8 alto:16.\rTranscript show: (nivel tablero copiarMatriz).\rnivel tablero limpiar\r\rm1:= Array2D new: 8.\rm2:= Array2D new: 8.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T21:57:45.117-03:00' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel editor: 25 ancho: 8 alto:16.\rTranscript show: (nivel tablero copiarMatriz).\rnivel tablero limpiar\r\rm1:= Array2D new: 8.\rm2:= Array2D new: 8.\rm1 = m2.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T22:00:36.923-03:00' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel editor: 25 ancho: 8 alto:16.\rTranscript show: (nivel tablero copiarMatriz).\rnivel tablero limpiar'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-25T22:04:14.823-03:00' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : 'nivel:= Nivel new.\rnivel editor: 25 ancho: 8 alto:16.\rTranscript show: (nivel tablero copiarMatriz).\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T12:48:17.669-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : 'SelecNiv new.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T12:48:29.826-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : 'SelecNiv new.\rNonograma completar.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T12:52:43.07-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : 'variable:= SelecNiv new.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T12:53:01.896-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : 'variable:= SelecNiv new.\rvariable nivel tablero\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T12:53:38.394-03:00' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : 'variable:= SelecNiv new.\rvariable nivel tablero completar.\r\r'
+}

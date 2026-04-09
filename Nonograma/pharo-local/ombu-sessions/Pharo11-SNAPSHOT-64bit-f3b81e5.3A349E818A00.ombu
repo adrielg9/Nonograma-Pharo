@@ -1,0 +1,1541 @@
+OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T17:53:56.989-03:00' ],
+		#prior : OmReference [ 'Pharo11-SNAPSHOT-64bit-f3b81e5.2528E3840680', '139' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'SystemWindow subclass: #Credito\r\tinstanceVariableNames: \'titulo nombres volver\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'SystemWindow',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Credito,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Credito,
+						#isMetaSide : false
+					},
+					#name : #titulo,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Credito,
+						#isMetaSide : false
+					},
+					#name : #nombres,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Credito,
+						#isMetaSide : false
+					},
+					#name : #volver,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Credito class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Credito class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Credito,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T17:55:27.611-03:00' ],
+		#prior : OmReference [ '1' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Credito,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initialize \rsuper initialize .\rself crearElementos.\rself colocarElementos.\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 17:55',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T17:55:27.617-03:00' ],
+		#prior : OmReference [ '2' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Credito,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initialize \rsuper initialize .\rself crearElementos.\rself colocarElementos.\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 17:55',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Credito,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize .\rself crearElementos.\rself colocarElementos.\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 17:55',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:00:00.271-03:00' ],
+		#prior : OmReference [ '3' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : EpClassModification {
+		#oldClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'SystemWindow subclass: #Credito\r\tinstanceVariableNames: \'titulo nombres volver\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'SystemWindow',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Credito,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Credito,
+						#isMetaSide : false
+					},
+					#name : #titulo,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Credito,
+						#isMetaSide : false
+					},
+					#name : #nombres,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Credito,
+						#isMetaSide : false
+					},
+					#name : #volver,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Credito class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Credito class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Credito,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#newClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'SystemWindow subclass: #Credito\r\tinstanceVariableNames: \'titulo nombre1 nombre2 nombre3 nombre4 volver\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'SystemWindow',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Credito,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Credito,
+						#isMetaSide : false
+					},
+					#name : #titulo,
+					#parent : @27
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Credito,
+						#isMetaSide : false
+					},
+					#name : #nombre1,
+					#parent : @27
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Credito,
+						#isMetaSide : false
+					},
+					#name : #nombre2,
+					#parent : @27
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Credito,
+						#isMetaSide : false
+					},
+					#name : #nombre3,
+					#parent : @27
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Credito,
+						#isMetaSide : false
+					},
+					#name : #nombre4,
+					#parent : @27
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Credito,
+						#isMetaSide : false
+					},
+					#name : #volver,
+					#parent : @27
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Credito class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Credito class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @27
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Credito,
+					#isMetaSide : false
+				},
+				#parent : @27,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:04:12.227-03:00' ],
+		#prior : OmReference [ '4' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Credito,
+				#isMetaSide : false
+			},
+			#name : #crearElementos,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearElementos \rtitulo:= Cartel new.\rtitulo label: \'Grupo 10\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 35).\rself addMorph: titulo.\r\rnombre1:= Cartel new.\rnombre1 label: \'Escalante Thiago\'.\rself addMorph: nombre1.\r\rnombre2:= Cartel new.\rnombre2 label: \'Gallego Adriel\'.\rself addMorph: nombre2.\r\rnombre3 := Cartel new.\rnombre3 label: \'Sonza Matias\'.\rself addMorph: nombre3.\r\rnombre4 := Cartel new.\rnombre4  label: \'Zappa Estefano\'.\rself addMorph: nombre4.\r\rvolver := Cartel new.\rvolver  label: \'Volver\'.\rself addMorph: volver.\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:04',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:08:04.047-03:00' ],
+		#prior : OmReference [ '5' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Credito,
+				#isMetaSide : false
+			},
+			#name : #crearElementos,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearElementos \rtitulo:= Cartel new.\rtitulo label: \'Grupo 10\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 35).\rself addMorph: titulo.\r\rnombre1:= Cartel new.\rnombre1 label: \'Escalante Thiago\'.\rself addMorph: nombre1.\r\rnombre2:= Cartel new.\rnombre2 label: \'Gallego Adriel\'.\rself addMorph: nombre2.\r\rnombre3 := Cartel new.\rnombre3 label: \'Sonza Matias\'.\rself addMorph: nombre3.\r\rnombre4 := Cartel new.\rnombre4  label: \'Zappa Estefano\'.\rself addMorph: nombre4.\r\rvolver := Cartel new.\rvolver  label: \'Volver\'.\rself addMorph: volver.\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:04',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Credito,
+				#isMetaSide : false
+			},
+			#name : #crearElementos,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearElementos \rtitulo:= Cartel new.\rtitulo label: \'Grupo 10\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 35).\rself addMorph: titulo.\r\rnombre1:= Cartel new.\rnombre1 label: \'Escalante Thiago\'.\rself addMorph: nombre1.\r\rnombre2:= Cartel new.\rnombre2 label: \'Gallego Adriel\'.\rself addMorph: nombre2.\r\rnombre3 := Cartel new.\rnombre3 label: \'Sonza Matias\'.\rself addMorph: nombre3.\r\rnombre4 := Cartel new.\rnombre4  label: \'Zappa Estefano\'.\rself addMorph: nombre4.\r\rvolver := BotonComun new.\rvolver  label: \'Volver\'.\rvolver color: (Color fromHexString: \'#5ba35f\').\rvolver mouseAction: [ self regresar ].\rself addMorph: volver.\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:08',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:08:55.55-03:00' ],
+		#prior : OmReference [ '6' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Credito,
+				#isMetaSide : false
+			},
+			#name : #regresar,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'regresar \rself close.\rPTitulo new.',
+			#stamp : 'EscalanteThiago 11/26/2023 18:08',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:09:27.56-03:00' ],
+		#prior : OmReference [ '7' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Credito,
+				#isMetaSide : false
+			},
+			#name : #crearElementos,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearElementos \rtitulo:= Cartel new.\rtitulo label: \'Grupo 10\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 35).\rself addMorph: titulo.\r\rnombre1:= Cartel new.\rnombre1 label: \'Escalante Thiago\'.\rself addMorph: nombre1.\r\rnombre2:= Cartel new.\rnombre2 label: \'Gallego Adriel\'.\rself addMorph: nombre2.\r\rnombre3 := Cartel new.\rnombre3 label: \'Sonza Matias\'.\rself addMorph: nombre3.\r\rnombre4 := Cartel new.\rnombre4  label: \'Zappa Estefano\'.\rself addMorph: nombre4.\r\rvolver := BotonComun new.\rvolver  label: \'Volver\'.\rvolver color: (Color fromHexString: \'#5ba35f\').\rvolver mouseAction: [ self regresar ].\rself addMorph: volver.\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:08',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Credito,
+				#isMetaSide : false
+			},
+			#name : #crearElementos,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearElementos \rtitulo:= Cartel new.\rtitulo label: \'Grupo 11\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 35).\rself addMorph: titulo.\r\rnombre1:= Cartel new.\rnombre1 label: \'Escalante Thiago\'.\rself addMorph: nombre1.\r\rnombre2:= Cartel new.\rnombre2 label: \'Gallego Adriel\'.\rself addMorph: nombre2.\r\rnombre3 := Cartel new.\rnombre3 label: \'Sonza Matias\'.\rself addMorph: nombre3.\r\rnombre4 := Cartel new.\rnombre4  label: \'Zappa Estefano\'.\rself addMorph: nombre4.\r\rvolver := BotonComun new.\rvolver  label: \'Volver\'.\rvolver color: (Color fromHexString: \'#5ba35f\').\rvolver mouseAction: [ self regresar ].\rself addMorph: volver.\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:09',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:13:38.611-03:00' ],
+		#prior : OmReference [ '8' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Credito,
+				#isMetaSide : false
+			},
+			#name : #colocarElementos,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'colocarElementos\r\rtitulo position: self position + (50@50).\rnombre1 position: titulo position + (0@(titulo height)) + (0@20).\rnombre2 position: nombre1 position + (0@(titulo height)) + (0@20).\rnombre3 position: nombre2 position + (0@(titulo height)) + (0@20).\rnombre4 position: nombre3 position + (0@(titulo height)) + (0@20).\rvolver position: nombre4 position + (0@(titulo height)) + (0@20).',
+			#stamp : 'EscalanteThiago 11/26/2023 18:13',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:16:05.356-03:00' ],
+		#prior : OmReference [ '9' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Credito,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize .\rself crearElementos.\rself colocarElementos.\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 17:55',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Credito,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize .\rself crearElementos.\rself extent: (100@350) + ((titulo width)@((titulo height)*6)).\rself colocarElementos.\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:16',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:16:32.875-03:00' ],
+		#prior : OmReference [ '10' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Credito,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize .\rself crearElementos.\rself extent: (100@350) + ((titulo width)@((titulo height)*6)).\rself colocarElementos.\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:16',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Credito,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize .\rself crearElementos.\rself extent: (100@350) + ((titulo width)@((titulo height)*6)).\rself colocarElementos.\rself openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:16',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:17:14.255-03:00' ],
+		#prior : OmReference [ '11' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #PTitulo,
+				#isMetaSide : false
+			},
+			#name : #creditos,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'creditos\rself close.\rCredito new.',
+			#stamp : 'EscalanteThiago 11/26/2023 18:17',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:17:14.258-03:00' ],
+		#prior : OmReference [ '12' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #PTitulo,
+				#isMetaSide : false
+			},
+			#name : #creditos,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'creditos\rself close.\rCredito new.',
+			#stamp : 'EscalanteThiago 11/26/2023 18:17',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #PTitulo,
+				#isMetaSide : false
+			},
+			#name : #creditos,
+			#protocol : #accessing,
+			#sourceCode : 'creditos\rself close.\rCredito new.',
+			#stamp : 'EscalanteThiago 11/26/2023 18:17',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:17:58.472-03:00' ],
+		#prior : OmReference [ '13' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #PTitulo,
+				#isMetaSide : false
+			},
+			#name : #crearElementos,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearElementos\rjugar := BotonComun new.\rjugar label: \'Jugar\'.\rjugar mouseAction: [ self jugar ].\reditor := BotonComun new.\reditor label: \'Editor\'.\reditor color: (Color fromHexString: \'#a14347\').\reditor mouseAction: [ self editor ].\rcreditos := BotonComun new.\rcreditos label: \'Creditos\'.\rcreditos color: (Color fromHexString: \'#8347a6\').\rtitulo:= Cartel new.\rtitulo label: \'Nonograma UTN\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 35).',
+			#stamp : 'EscalanteThiago 11/26/2023 16:49',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #PTitulo,
+				#isMetaSide : false
+			},
+			#name : #crearElementos,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearElementos\rjugar := BotonComun new.\rjugar label: \'Jugar\'.\rjugar mouseAction: [ self jugar ].\reditor := BotonComun new.\reditor label: \'Editor\'.\reditor color: (Color fromHexString: \'#a14347\').\reditor mouseAction: [ self editor ].\rcreditos := BotonComun new.\rcreditos label: \'Creditos\'.\rcreditos color: (Color fromHexString: \'#8347a6\').\rcreditos mouseAction: [ self creditos ].\rtitulo:= Cartel new.\rtitulo label: \'Nonograma UTN\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 35).',
+			#stamp : 'EscalanteThiago 11/26/2023 18:17',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:19:03.777-03:00' ],
+		#prior : OmReference [ '14' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Credito,
+				#isMetaSide : false
+			},
+			#name : #colocarElementos,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'colocarElementos\r\rtitulo position: self position + (50@50).\rnombre1 position: titulo position + (0@(titulo height)) + (0@20).\rnombre2 position: nombre1 position + (0@(titulo height)) + (0@20).\rnombre3 position: nombre2 position + (0@(titulo height)) + (0@20).\rnombre4 position: nombre3 position + (0@(titulo height)) + (0@20).\rvolver position: nombre4 position + (0@(titulo height)) + (0@20).',
+			#stamp : 'EscalanteThiago 11/26/2023 18:13',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Credito,
+				#isMetaSide : false
+			},
+			#name : #colocarElementos,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'colocarElementos\r\rtitulo position: self position + (50@50).\rnombre1 position: titulo position + (0@(titulo height)) + (0@5).\rnombre2 position: nombre1 position + (0@(titulo height)) + (0@5).\rnombre3 position: nombre2 position + (0@(titulo height)) + (0@5).\rnombre4 position: nombre3 position + (0@(titulo height)) + (0@5).\rvolver position: nombre4 position + (0@(titulo height)) + (0@5).',
+			#stamp : 'EscalanteThiago 11/26/2023 18:19',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:19:15.724-03:00' ],
+		#prior : OmReference [ '15' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Credito,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize .\rself crearElementos.\rself extent: (100@350) + ((titulo width)@((titulo height)*6)).\rself colocarElementos.\rself openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:16',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Credito,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize .\rself crearElementos.\rself extent: (100@125) + ((titulo width)@((titulo height)*6)).\rself colocarElementos.\rself openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:19',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:20:03.571-03:00' ],
+		#prior : OmReference [ '16' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Credito,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize .\rself crearElementos.\rself extent: (100@125) + ((titulo width)@((titulo height)*6)).\rself colocarElementos.\rself openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:19',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Credito,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize .\rself crearElementos.\rself extent: (100@125) + ((titulo width)@((titulo height)*6)).\rself colocarElementos.\rself setLabel: \'Creditos\'.\rself openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:20',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:20:32.135-03:00' ],
+		#prior : OmReference [ '17' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Credito,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize .\rself crearElementos.\rself extent: (100@125) + ((titulo width)@((titulo height)*6)).\rself colocarElementos.\rself setLabel: \'Creditos\'.\rself openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:20',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Credito,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize .\rself center: World center.\rself crearElementos.\rself extent: (100@125) + ((titulo width)@((titulo height)*6)).\rself colocarElementos.\rself setLabel: \'Creditos\'.\rself openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:20',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:20:55.653-03:00' ],
+		#prior : OmReference [ '18' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Credito,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize .\rself center: World center.\rself crearElementos.\rself extent: (100@125) + ((titulo width)@((titulo height)*6)).\rself colocarElementos.\rself setLabel: \'Creditos\'.\rself openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:20',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Credito,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize .\rself crearElementos.\rself extent: (100@125) + ((titulo width)@((titulo height)*6)).\rself colocarElementos.\rself setLabel: \'Creditos\'.\rself openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:20',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:21:06.447-03:00' ],
+		#prior : OmReference [ '19' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Credito,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize .\rself crearElementos.\rself extent: (100@125) + ((titulo width)@((titulo height)*6)).\rself colocarElementos.\rself setLabel: \'Creditos\'.\rself openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:20',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Credito,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize .\rself crearElementos.\rself extent: (100@100) + ((titulo width)@((titulo height)*6)).\rself colocarElementos.\rself setLabel: \'Creditos\'.\rself openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:21',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:21:19.179-03:00' ],
+		#prior : OmReference [ '20' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Credito,
+				#isMetaSide : false
+			},
+			#name : #colocarElementos,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'colocarElementos\r\rtitulo position: self position + (50@50).\rnombre1 position: titulo position + (0@(titulo height)) + (0@5).\rnombre2 position: nombre1 position + (0@(titulo height)) + (0@5).\rnombre3 position: nombre2 position + (0@(titulo height)) + (0@5).\rnombre4 position: nombre3 position + (0@(titulo height)) + (0@5).\rvolver position: nombre4 position + (0@(titulo height)) + (0@5).',
+			#stamp : 'EscalanteThiago 11/26/2023 18:19',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Credito,
+				#isMetaSide : false
+			},
+			#name : #colocarElementos,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'colocarElementos\r\rtitulo position: self position + (50@50).\rnombre1 position: titulo position + (0@(titulo height)) .\rnombre2 position: nombre1 position + (0@(titulo height)) .\rnombre3 position: nombre2 position + (0@(titulo height)).\rnombre4 position: nombre3 position + (0@(titulo height)) .\rvolver position: nombre4 position + (0@(titulo height)).',
+			#stamp : 'EscalanteThiago 11/26/2023 18:21',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:23:51.502-03:00' ],
+		#prior : OmReference [ '21' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nueva imagen\\Nueva imagen.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:24:04.849-03:00' ],
+		#prior : OmReference [ '22' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nueva imagen\\Nueva imagen.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:24:06.58-03:00' ],
+		#prior : OmReference [ '23' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nueva imagen\\Nueva imagen.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:24:16.13-03:00' ],
+		#prior : OmReference [ '24' ],
+		#self : OmReference [ '25' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nueva imagen\\Nueva imagen.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:24:18.038-03:00' ],
+		#prior : OmReference [ '25' ],
+		#self : OmReference [ '26' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nueva imagen\\Nueva imagen.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:25:24.899-03:00' ],
+		#prior : OmReference [ '26' ],
+		#self : OmReference [ '27' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #'abrir:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'abrir: unaRuta\r\r| object fileName stream |\r\tfileName := unaRuta.\r\t\r\tstream := fileName asFileReference binaryReadStream.\r\tobject := FLMaterializer materializeFrom: stream.\r\tstream close.',
+			#stamp : 'EscalanteThiago 11/26/2023 18:25',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:25:36.866-03:00' ],
+		#prior : OmReference [ '27' ],
+		#self : OmReference [ '28' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #'abrir:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'abrir: unaRuta\r\r| object fileName stream |\r\tfileName := unaRuta.\r\t\r\tstream := fileName asFileReference binaryReadStream.\r\tobject := FLMaterializer materializeFrom: stream.\r\tstream close.',
+			#stamp : 'EscalanteThiago 11/26/2023 18:25',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #'abrir:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'abrir: unaRuta\r\r| object fileName stream |\r\tfileName := unaRuta.\r\t\r\tstream := fileName asFileReference binaryReadStream.\r\tobject := FLMaterializer materializeFrom: stream.\r\tstream close.\r\r^object',
+			#stamp : 'EscalanteThiago 11/26/2023 18:25',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:28:28.067-03:00' ],
+		#prior : OmReference [ '28' ],
+		#self : OmReference [ '29' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #nivelCustom,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'nivelCustom\r|ruta nivel|\r\rruta:= UIManager default chooseFullFileNameMatching: #(\'*.fuel\').\r\rruta ifNotNil:[\r\t\tnivel:= Nivel new.\r\t\tnivel crearNivel: (self abrir:ruta).\r\t]\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:28',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:29:19.57-03:00' ],
+		#prior : OmReference [ '29' ],
+		#self : OmReference [ '30' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t(botones at:x) mouseAction: [self seleccionar: x].\r\t].\r\r\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 4.\rventana extent: (200@250) + (ancho@alto).\r\r\r\rvolver:= BotonComun new.\rvolver label: \'Volver\'.\rvolver color: (Color fromHexString: \'#5ba35f\').\rvolver mouseAction: [ self regresar  ].\rcustom:= BotonComun new.\rcustom label: \'Custom\'.\rcustom color: (Color fromHexString: \'#a14347\').\rconfigurar:= BotonComun new.\rconfigurar label: \'Tamaño\'.\rconfigurar color: (Color fromHexString: \'#a67247\').\rconfigurar mouseAction: [ self cambiarTamaño ].\rventana addMorph: configurar.\rventana addMorph: volver.\rventana addMorph: custom.\rself posicionarBotones.\r\rventana setLabel: \'Selecciona un Nivel\'.\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/26/2023 17:24',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t(botones at:x) mouseAction: [self seleccionar: x].\r\t].\r\r\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 4.\rventana extent: (200@250) + (ancho@alto).\r\r\r\rvolver:= BotonComun new.\rvolver label: \'Volver\'.\rvolver color: (Color fromHexString: \'#5ba35f\').\rvolver mouseAction: [ self regresar  ].\rcustom:= BotonComun new.\rcustom label: \'Custom\'.\rcustom color: (Color fromHexString: \'#a14347\').\rcustom mouseAction: [ self nivelCustom  ] .\rconfigurar:= BotonComun new.\rconfigurar label: \'Tamaño\'.\rconfigurar color: (Color fromHexString: \'#a67247\').\rconfigurar mouseAction: [ self cambiarTamaño ].\rventana addMorph: configurar.\rventana addMorph: volver.\rventana addMorph: custom.\rself posicionarBotones.\r\rventana setLabel: \'Selecciona un Nivel\'.\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/26/2023 18:29',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:30:04.637-03:00' ],
+		#prior : OmReference [ '30' ],
+		#self : OmReference [ '31' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #nivelCustom,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'nivelCustom\r|ruta nivel|\r\rruta:= UIManager default chooseFullFileNameMatching: #(\'*.fuel\').\r\rruta ifNotNil:[\r\t\tnivel:= Nivel new.\r\t\tnivel crearNivel: (self abrir:ruta).\r\t]\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:28',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #nivelCustom,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'nivelCustom\r|ruta nivel|\r\rruta:= UIManager default chooseFullFileNameMatching: #(\'*.fuel\').\r\rruta ifNotNil:[\r\t\tself close.\r\t\tnivel:= Nivel new.\r\t\tnivel crearNivel: (self abrir:ruta).\r\t]\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:30',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:34:19.254-03:00' ],
+		#prior : OmReference [ '31' ],
+		#self : OmReference [ '32' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nueva imagen\\Nueva imagen.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:34:23.575-03:00' ],
+		#prior : OmReference [ '32' ],
+		#self : OmReference [ '33' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nueva imagen\\Nueva imagen.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:34:29.235-03:00' ],
+		#prior : OmReference [ '33' ],
+		#self : OmReference [ '34' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nueva imagen\\Nueva imagen.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:34:34.906-03:00' ],
+		#prior : OmReference [ '34' ],
+		#self : OmReference [ '35' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nueva imagen\\Nueva imagen.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:36:29.118-03:00' ],
+		#prior : OmReference [ '35' ],
+		#self : OmReference [ '36' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'SystemWindow subclass: #Alerta\r\tinstanceVariableNames: \'mensaje boton\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'SystemWindow',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Alerta,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Alerta,
+						#isMetaSide : false
+					},
+					#name : #mensaje,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Alerta,
+						#isMetaSide : false
+					},
+					#name : #boton,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Alerta class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Alerta class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Alerta,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:40:17.237-03:00' ],
+		#prior : OmReference [ '36' ],
+		#self : OmReference [ '37' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Alerta,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initialize\rsuper initialize.\r\rmensaje:= Cartel new.\rmensaje label:\'\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 30).\r\rboton:= BotonComun new.\rboton label: \'Cerrar\'.\rboton mouseAction: [ self close ].\rself addMorph: boton.\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:40',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:40:17.244-03:00' ],
+		#prior : OmReference [ '37' ],
+		#self : OmReference [ '38' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Alerta,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initialize\rsuper initialize.\r\rmensaje:= Cartel new.\rmensaje label:\'\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 30).\r\rboton:= BotonComun new.\rboton label: \'Cerrar\'.\rboton mouseAction: [ self close ].\rself addMorph: boton.\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:40',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Alerta,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize\rsuper initialize.\r\rmensaje:= Cartel new.\rmensaje label:\'\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 30).\r\rboton:= BotonComun new.\rboton label: \'Cerrar\'.\rboton mouseAction: [ self close ].\rself addMorph: boton.\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:40',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:45:08.729-03:00' ],
+		#prior : OmReference [ '38' ],
+		#self : OmReference [ '39' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Alerta,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize\rsuper initialize.\r\rmensaje:= Cartel new.\rmensaje label:\'\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 30).\r\rboton:= BotonComun new.\rboton label: \'Cerrar\'.\rboton mouseAction: [ self close ].\rself addMorph: boton.\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:40',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Alerta,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize\rsuper initialize.\r\rmensaje:= Cartel new.\rmensaje label:\'\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 30).\rself addMorph: mensaje.\r\rboton:= BotonComun new.\rboton label: \'Cerrar\'.\rboton mouseAction: [ self close ].\rself addMorph: boton.\r\rself extent: (100@150)+ ((boton width)@((boton height)*2)).\rmensaje position: self position + (50@50).\rboton position: mensaje position + (0@(mensaje position))+ (0@50).\r\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:45',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:45:17.284-03:00' ],
+		#prior : OmReference [ '39' ],
+		#self : OmReference [ '40' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Alerta,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize\rsuper initialize.\r\rmensaje:= Cartel new.\rmensaje label:\'\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 30).\rself addMorph: mensaje.\r\rboton:= BotonComun new.\rboton label: \'Cerrar\'.\rboton mouseAction: [ self close ].\rself addMorph: boton.\r\rself extent: (100@150)+ ((boton width)@((boton height)*2)).\rmensaje position: self position + (50@50).\rboton position: mensaje position + (0@(mensaje position))+ (0@50).\r\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:45',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Alerta,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize\rsuper initialize.\r\rmensaje:= Cartel new.\rmensaje label:\'\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 30).\rself addMorph: mensaje.\r\rboton:= BotonComun new.\rboton label: \'Cerrar\'.\rboton mouseAction: [ self close ].\rself addMorph: boton.\r\rself extent: (100@150)+ ((boton width)@((boton height)*2)).\rmensaje position: self position + (50@50).\rboton position: mensaje position + (0@(mensaje position))+ (0@50).\r\rself openInWindow.\r\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:45',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:46:42.513-03:00' ],
+		#prior : OmReference [ '40' ],
+		#self : OmReference [ '41' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Alerta,
+				#isMetaSide : false
+			},
+			#name : #'mensaje:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'mensaje: unTexto\rmensaje label: unTexto.',
+			#stamp : 'EscalanteThiago 11/26/2023 18:46',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:46:42.519-03:00' ],
+		#prior : OmReference [ '41' ],
+		#self : OmReference [ '42' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Alerta,
+				#isMetaSide : false
+			},
+			#name : #'mensaje:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'mensaje: unTexto\rmensaje label: unTexto.',
+			#stamp : 'EscalanteThiago 11/26/2023 18:46',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Alerta,
+				#isMetaSide : false
+			},
+			#name : #'mensaje:',
+			#protocol : #accessing,
+			#sourceCode : 'mensaje: unTexto\rmensaje label: unTexto.',
+			#stamp : 'EscalanteThiago 11/26/2023 18:46',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:49:20.656-03:00' ],
+		#prior : OmReference [ '42' ],
+		#self : OmReference [ '43' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nonograma,
+				#isMetaSide : false
+			},
+			#name : #'newCellAt:at:size:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'newCellAt: i at: j size: unTamaño\r"Create a cell for position (i,j) and add it to my on-screen\rrepresentation at the appropriate screen position. Answer the\rnew cell"\r| c origin |\r\tc := NOCell new.\r\tc setTamaño: unTamaño.\r\torigin := self innerBounds origin.\r\tself addMorph: c.\r\tc position: ((i - 1) * c width) @ ((j - 1) * c height) + origin.\r\tc mouseAction: [ \r\t\tc isOn ifTrue: [ self disminuir] \r\t\tifFalse: [ self aumentar].\r\t\tc toggleState.\r\t\t(pintadas = cont) ifTrue:[\r\t\t\t\t(matriz=(self copiarMatriz))ifTrue:[\r\t\t\t\t\t\tUIManager default alert: \'Usted ha ganado\'\r\t\t\t\t]\r\t\t\t]\r\t\t].\r\t^c',
+			#stamp : 'EscalanteThiago 11/25/2023 22:54',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nonograma,
+				#isMetaSide : false
+			},
+			#name : #'newCellAt:at:size:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'newCellAt: i at: j size: unTamaño\r\r| c origin men |\r\tc := NOCell new.\r\tc setTamaño: unTamaño.\r\torigin := self innerBounds origin.\r\tself addMorph: c.\r\tc position: ((i - 1) * c width) @ ((j - 1) * c height) + origin.\r\tc mouseAction: [ \r\t\tc isOn ifTrue: [ self disminuir] \r\t\tifFalse: [ self aumentar].\r\t\tc toggleState.\r\t\t(pintadas = cont) ifTrue:[\r\t\t\t\t(matriz=(self copiarMatriz))ifTrue:[\r\t\t\t\t\t\tmen:= Alerta new.\r\t\t\t\t\t\tmen mensaje: \'!!Ganaste!!\'.\r\t\t\t\t]\r\t\t\t]\r\t\t].\r\t^c',
+			#stamp : 'EscalanteThiago 11/26/2023 18:49',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:52:12.421-03:00' ],
+		#prior : OmReference [ '43' ],
+		#self : OmReference [ '44' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Alerta,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize\rsuper initialize.\r\rmensaje:= Cartel new.\rmensaje label:\'\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 30).\rself addMorph: mensaje.\r\rboton:= BotonComun new.\rboton label: \'Cerrar\'.\rboton mouseAction: [ self close ].\rself addMorph: boton.\r\rself extent: (100@150)+ ((boton width)@((boton height)*2)).\rmensaje position: self position + (50@50).\rboton position: mensaje position + (0@(mensaje position))+ (0@50).\r\rself openInWindow.\r\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:45',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Alerta,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize\rsuper initialize.\r\rmensaje:= Cartel new.\rmensaje label:\'\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 30).\rself addMorph: mensaje.\r\rboton:= BotonComun new.\rboton label: \'Cerrar\'.\rboton mouseAction: [ self close ].\rself addMorph: boton.\r\r"self extent: (100@150)+ ((boton width)@((boton height)*2))."\r"mensaje position: self position + (50@50).\rboton position: mensaje position + (0@(mensaje position))+ (0@50)."\r\rself openInWorld.\r\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:52',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:52:59.847-03:00' ],
+		#prior : OmReference [ '44' ],
+		#self : OmReference [ '45' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Alerta,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize\rsuper initialize.\r\rmensaje:= Cartel new.\rmensaje label:\'\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 30).\rself addMorph: mensaje.\r\rboton:= BotonComun new.\rboton label: \'Cerrar\'.\rboton mouseAction: [ self close ].\rself addMorph: boton.\r\r"self extent: (100@150)+ ((boton width)@((boton height)*2))."\r"mensaje position: self position + (50@50).\rboton position: mensaje position + (0@(mensaje position))+ (0@50)."\r\rself openInWorld.\r\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:52',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Alerta,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize\rsuper initialize.\r\rmensaje:= Cartel new.\rmensaje label:\'\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 30).\rself addMorph: mensaje.\r\rboton:= BotonComun new.\rboton label: \'Cerrar\'.\rboton mouseAction: [ self close ].\rself addMorph: boton.\r\rself extent: (100@150)+ ((boton width)@((boton height)*2)).\rmensaje position: self position + (50@50).\rboton position: mensaje position + (0@(mensaje position))+ (0@50).\rself setLabel: \'Mensaje\'.\rself openInWorld.\r\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:52',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:53:38.895-03:00' ],
+		#prior : OmReference [ '45' ],
+		#self : OmReference [ '46' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Alerta,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize\rsuper initialize.\r\rmensaje:= Cartel new.\rmensaje label:\'\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 30).\rself addMorph: mensaje.\r\rboton:= BotonComun new.\rboton label: \'Cerrar\'.\rboton mouseAction: [ self close ].\rself addMorph: boton.\r\rself extent: (100@150)+ ((boton width)@((boton height)*2)).\rmensaje position: self position + (50@50).\rboton position: mensaje position + (0@(mensaje position))+ (0@50).\rself setLabel: \'Mensaje\'.\rself openInWorld.\r\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:52',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Alerta,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize\rsuper initialize.\r\rmensaje:= Cartel new.\rmensaje label:\'\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 30).\rself addMorph: mensaje.\r\rboton:= BotonComun new.\rboton label: \'Cerrar\'.\rboton mouseAction: [ self close ].\rself addMorph: boton.\r\rself extent: (100@150)+ ((boton width)@((boton height)*2)).\rmensaje position: self position + (50@50).\rboton position: mensaje position + (0@(mensaje position))+ (0@50).\rself openInWorld.\r\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:53',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:53:55.522-03:00' ],
+		#prior : OmReference [ '46' ],
+		#self : OmReference [ '47' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Alerta,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize\rsuper initialize.\r\rmensaje:= Cartel new.\rmensaje label:\'\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 30).\rself addMorph: mensaje.\r\rboton:= BotonComun new.\rboton label: \'Cerrar\'.\rboton mouseAction: [ self close ].\rself addMorph: boton.\r\rself extent: (100@150)+ ((boton width)@((boton height)*2)).\rmensaje position: self position + (50@50).\rboton position: mensaje position + (0@(mensaje position))+ (0@50).\rself openInWorld.\r\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:53',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Alerta,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize\rsuper initialize.\r\rmensaje:= Cartel new.\rmensaje label:\'\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 30).\rself addMorph: mensaje.\r\rboton:= BotonComun new.\rboton label: \'Cerrar\'.\rboton mouseAction: [ self close ].\rself addMorph: boton.\r\r"self extent: (100@150)+ ((boton width)@((boton height)*2)).\rmensaje position: self position + (50@50).\rboton position: mensaje position + (0@(mensaje position))+ (0@50)."\rself openInWorld.\r\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:53',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:54:22.634-03:00' ],
+		#prior : OmReference [ '47' ],
+		#self : OmReference [ '48' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Alerta,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize\rsuper initialize.\r\rmensaje:= Cartel new.\rmensaje label:\'\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 30).\rself addMorph: mensaje.\r\rboton:= BotonComun new.\rboton label: \'Cerrar\'.\rboton mouseAction: [ self close ].\rself addMorph: boton.\r\r"self extent: (100@150)+ ((boton width)@((boton height)*2)).\rmensaje position: self position + (50@50).\rboton position: mensaje position + (0@(mensaje position))+ (0@50)."\rself openInWorld.\r\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:53',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Alerta,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize\rsuper initialize.\r\rmensaje:= Cartel new.\rmensaje label:\'\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 30).\rself addMorph: mensaje.\r\rboton:= BotonComun new.\rboton label: \'Cerrar\'.\rboton mouseAction: [ self close ].\rself addMorph: boton.\r\rself extent: (100@150)+ ((boton width)@((boton height)*2)).\r"mensaje position: self position + (50@50).\rboton position: mensaje position + (0@(mensaje position))+ (0@50)."\r\rself openInWorld.\r\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:54',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:54:34.531-03:00' ],
+		#prior : OmReference [ '48' ],
+		#self : OmReference [ '49' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Alerta,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize\rsuper initialize.\r\rmensaje:= Cartel new.\rmensaje label:\'\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 30).\rself addMorph: mensaje.\r\rboton:= BotonComun new.\rboton label: \'Cerrar\'.\rboton mouseAction: [ self close ].\rself addMorph: boton.\r\rself extent: (100@150)+ ((boton width)@((boton height)*2)).\r"mensaje position: self position + (50@50).\rboton position: mensaje position + (0@(mensaje position))+ (0@50)."\r\rself openInWorld.\r\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:54',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Alerta,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize\rsuper initialize.\r\rmensaje:= Cartel new.\rmensaje label:\'\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 30).\rself addMorph: mensaje.\r\rboton:= BotonComun new.\rboton label: \'Cerrar\'.\rboton mouseAction: [ self close ].\rself addMorph: boton.\r\rself extent: (100@150)+ ((boton width)@((boton height)*2)).\rmensaje position: self position + (50@50).\r"boton position: mensaje position + (0@(mensaje position))+ (0@50)."\r\rself openInWorld.\r\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:54',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:55:14.316-03:00' ],
+		#prior : OmReference [ '49' ],
+		#self : OmReference [ '50' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Alerta,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize\rsuper initialize.\r\rmensaje:= Cartel new.\rmensaje label:\'\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 30).\rself addMorph: mensaje.\r\rboton:= BotonComun new.\rboton label: \'Cerrar\'.\rboton mouseAction: [ self close ].\rself addMorph: boton.\r\rself extent: (100@150)+ ((boton width)@((boton height)*2)).\rmensaje position: self position + (50@50).\r"boton position: mensaje position + (0@(mensaje position))+ (0@50)."\r\rself openInWorld.\r\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:54',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Alerta,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize\rsuper initialize.\r\rmensaje:= Cartel new.\rmensaje label:\'\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 30).\rself addMorph: mensaje.\r\rboton:= BotonComun new.\rboton label: \'Cerrar\'.\rboton mouseAction: [ self close ].\rself addMorph: boton.\r\rself extent: (100@150)+ ((boton width)@((boton height)*2)).\rmensaje position: self position + (50@50).\rboton position: mensaje position + (0@(mensaje height))+ (0@50).\r\rself openInWorld.\r\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:55',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:56:09.509-03:00' ],
+		#prior : OmReference [ '50' ],
+		#self : OmReference [ '51' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Alerta,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize\rsuper initialize.\r\rmensaje:= Cartel new.\rmensaje label:\'\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 30).\rself addMorph: mensaje.\r\rboton:= BotonComun new.\rboton label: \'Cerrar\'.\rboton mouseAction: [ self close ].\rself addMorph: boton.\r\rself extent: (100@150)+ ((boton width)@((boton height)*2)).\rmensaje position: self position + (50@50).\rboton position: mensaje position + (0@(mensaje height))+ (0@50).\r\rself openInWorld.\r\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:55',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Alerta,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize\rsuper initialize.\r\rmensaje:= Cartel new.\rmensaje label:\'\' font: (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 30).\rself addMorph: mensaje.\r\rboton:= BotonComun new.\rboton label: \'Cerrar\'.\rboton mouseAction: [ self close ].\rself addMorph: boton.\r\rself extent: (100@150)+ ((boton width)@((boton height)*2)).\rmensaje position: self position + (50@50).\rboton position: mensaje position + (0@(mensaje height))+ (0@50).\r\rself setLabel: \'Mensaje\'.\rself openInWorld.\r\r\r',
+			#stamp : 'EscalanteThiago 11/26/2023 18:56',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:57:43.566-03:00' ],
+		#prior : OmReference [ '51' ],
+		#self : OmReference [ '52' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nueva imagen\\Nueva imagen.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T18:59:47.376-03:00' ],
+		#prior : OmReference [ '52' ],
+		#self : OmReference [ '53' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nonograma,
+				#isMetaSide : false
+			},
+			#name : #exportar,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'exportar\r\r\t| object fileName stream |\r\tobject := self copiarMatriz.\r\tfileName := UIManager default\r\t\t            request: \'Ingrese un nombre para el archivo\'\r\t\t            initialAnswer: \'\'\r\t\t            title: \'Nombre del archivo\'.\r\t[ fileName = \'\' ] whileTrue: [\r\t\tfileName := UIManager default\r\t\t\t            request: \'Por favor ingrese un nombre valido\'\r\t\t\t            initialAnswer: \'\'\r\t\t\t            title: \'Nombre del archivo\' ].\r\rfileName ifNotNil: [ \r\tfileName:= fileName, \'.fuel\'.\r\tstream := fileName asFileReference binaryWriteStream.\r\tFLSerializer serialize: object on: stream.\r\tstream close. \r\tUIManager default alert: \'Se ha exportado correctamente\' title: \'Exportacion exitosa\'.\r\t].\r\r\r\t',
+			#stamp : 'EscalanteThiago 11/26/2023 11:53',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nonograma,
+				#isMetaSide : false
+			},
+			#name : #exportar,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'exportar\r\r\t| object fileName stream men |\r\tobject := self copiarMatriz.\r\tfileName := UIManager default\r\t\t            request: \'Ingrese un nombre para el archivo\'\r\t\t            initialAnswer: \'\'\r\t\t            title: \'Nombre del archivo\'.\r\t[ fileName = \'\' ] whileTrue: [\r\t\tfileName := UIManager default\r\t\t\t            request: \'Por favor ingrese un nombre valido\'\r\t\t\t            initialAnswer: \'\'\r\t\t\t            title: \'Nombre del archivo\' ].\r\rfileName ifNotNil: [ \r\tfileName:= fileName, \'.fuel\'.\r\tstream := fileName asFileReference binaryWriteStream.\r\tFLSerializer serialize: object on: stream.\r\tstream close. \r\tmen:= Alerta new.\r\tmen mensaje: \'Se exportó exitosamente\'.\r\t].\r\r\r\t',
+			#stamp : 'EscalanteThiago 11/26/2023 18:59',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T19:01:12.676-03:00' ],
+		#prior : OmReference [ '53' ],
+		#self : OmReference [ '54' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nueva imagen\\Nueva imagen.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T19:02:32.22-03:00' ],
+		#prior : OmReference [ '54' ],
+		#self : OmReference [ '55' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nueva imagen\\Nueva imagen.image'
+	}
+}

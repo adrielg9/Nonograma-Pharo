@@ -1,0 +1,3108 @@
+OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T20:46:43.28-03:00' ],
+		#prior : OmReference [ 'Pharo11-SNAPSHOT-64bit-f3b81e5.203D43E25400', '38' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'SimpleButtonMorph subclass: #BotonComun\r\tinstanceVariableNames: \'mouseAction\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'SimpleButtonMorph',
+				#traitCompositionSource : '{}'
+			},
+			#name : #BotonComun,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #BotonComun,
+						#isMetaSide : false
+					},
+					#name : #mouseAction,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'BotonComun class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'BotonComun class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #BotonComun,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T20:52:01.297-03:00' ],
+		#prior : OmReference [ '1' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initialize \rself color: (Color fromHexString: \'#3d6574\' ).\rself color: (Color fromHexString: \'#656362\' ).',
+			#stamp : 'EscalanteThiago 11/25/2023 20:52',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T20:52:01.305-03:00' ],
+		#prior : OmReference [ '2' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initialize \rself color: (Color fromHexString: \'#3d6574\' ).\rself color: (Color fromHexString: \'#656362\' ).',
+			#stamp : 'EscalanteThiago 11/25/2023 20:52',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rself color: (Color fromHexString: \'#3d6574\' ).\rself color: (Color fromHexString: \'#656362\' ).',
+			#stamp : 'EscalanteThiago 11/25/2023 20:52',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T20:52:11.153-03:00' ],
+		#prior : OmReference [ '3' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rself color: (Color fromHexString: \'#3d6574\' ).\rself color: (Color fromHexString: \'#656362\' ).',
+			#stamp : 'EscalanteThiago 11/25/2023 20:52',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize.\rself color: (Color fromHexString: \'#3d6574\' ).\rself color: (Color fromHexString: \'#656362\' ).',
+			#stamp : 'EscalanteThiago 11/25/2023 20:52',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T20:54:17.038-03:00' ],
+		#prior : OmReference [ '4' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize.\rself color: (Color fromHexString: \'#3d6574\' ).\rself color: (Color fromHexString: \'#656362\' ).',
+			#stamp : 'EscalanteThiago 11/25/2023 20:52',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize.\rself color: (Color fromHexString: \'#3d6574\' ).\rself color: (Color fromHexString: \'#656362\' ).\rself label: \'\'.\rself extent: 30@60',
+			#stamp : 'EscalanteThiago 11/25/2023 20:54',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T20:54:28.617-03:00' ],
+		#prior : OmReference [ '5' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize.\rself color: (Color fromHexString: \'#3d6574\' ).\rself color: (Color fromHexString: \'#656362\' ).\rself label: \'\'.\rself extent: 30@60',
+			#stamp : 'EscalanteThiago 11/25/2023 20:54',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize.\rself color: (Color fromHexString: \'#3d6574\' ).\rself color: (Color fromHexString: \'#656362\' ).\rself label: \'Exportar\'.\rself extent: 30@60',
+			#stamp : 'EscalanteThiago 11/25/2023 20:54',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T20:55:48.432-03:00' ],
+		#prior : OmReference [ '6' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize.\rself color: (Color fromHexString: \'#3d6574\' ).\rself color: (Color fromHexString: \'#656362\' ).\rself label: \'Exportar\'.\rself extent: 30@60',
+			#stamp : 'EscalanteThiago 11/25/2023 20:54',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize.\rself color: (Color fromHexString: \'#3d6574\' ).\rself color: (Color fromHexString: \'#656362\' ).\rself label: \'Exportar\'.\rself extent: 100@60',
+			#stamp : 'EscalanteThiago 11/25/2023 20:55',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T20:56:10.085-03:00' ],
+		#prior : OmReference [ '7' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize.\rself color: (Color fromHexString: \'#3d6574\' ).\rself color: (Color fromHexString: \'#656362\' ).\rself label: \'Exportar\'.\rself extent: 100@60',
+			#stamp : 'EscalanteThiago 11/25/2023 20:55',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize.\rself color: (Color fromHexString: \'#3d6574\' ).\rself borderColor: (Color fromHexString: \'#656362\' ).\rself label: \'Exportar\'.\rself extent: 100@60',
+			#stamp : 'EscalanteThiago 11/25/2023 20:56',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T20:56:31.991-03:00' ],
+		#prior : OmReference [ '8' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize.\rself color: (Color fromHexString: \'#3d6574\' ).\rself borderColor: (Color fromHexString: \'#656362\' ).\rself label: \'Exportar\'.\rself extent: 100@60',
+			#stamp : 'EscalanteThiago 11/25/2023 20:56',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize.\rself color: (Color fromHexString: \'#3d6574\' ).\rself borderColor: (Color fromHexString: \'#656362\' ).\rself borderWidth: 3.\rself label: \'Exportar\'.\rself extent: 100@60',
+			#stamp : 'EscalanteThiago 11/25/2023 20:56',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T20:56:53.186-03:00' ],
+		#prior : OmReference [ '9' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize.\rself color: (Color fromHexString: \'#3d6574\' ).\rself borderColor: (Color fromHexString: \'#656362\' ).\rself borderWidth: 3.\rself label: \'Exportar\'.\rself extent: 100@60',
+			#stamp : 'EscalanteThiago 11/25/2023 20:56',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize.\rself color: (Color fromHexString: \'#3d6574\' ).\rself borderColor: (Color fromHexString: \'#404040\' ).\rself borderWidth: 3.\rself label: \'Exportar\'.\rself extent: 100@60',
+			#stamp : 'EscalanteThiago 11/25/2023 20:56',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T20:58:40.311-03:00' ],
+		#prior : OmReference [ '10' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #'label:font:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'label: unTexto font: fuente\r\tlabel ifNotNil: [label delete].\r\tlabel := StringMorph contents: unTexto font: (fuente ifNil: [StandardFonts buttonFont]).\r\tlabel position: self center - (label extent // 2).\r\tself addMorph: label.\r\tlabel lock',
+			#stamp : 'EscalanteThiago 11/25/2023 20:58',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T20:58:40.319-03:00' ],
+		#prior : OmReference [ '11' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #'label:font:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'label: unTexto font: fuente\r\tlabel ifNotNil: [label delete].\r\tlabel := StringMorph contents: unTexto font: (fuente ifNil: [StandardFonts buttonFont]).\r\tlabel position: self center - (label extent // 2).\r\tself addMorph: label.\r\tlabel lock',
+			#stamp : 'EscalanteThiago 11/25/2023 20:58',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #'label:font:',
+			#protocol : #accessing,
+			#sourceCode : 'label: unTexto font: fuente\r\tlabel ifNotNil: [label delete].\r\tlabel := StringMorph contents: unTexto font: (fuente ifNil: [StandardFonts buttonFont]).\r\tlabel position: self center - (label extent // 2).\r\tself addMorph: label.\r\tlabel lock',
+			#stamp : 'EscalanteThiago 11/25/2023 20:58',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T20:59:09.704-03:00' ],
+		#prior : OmReference [ '12' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : EpClassModification {
+		#oldClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'SimpleButtonMorph subclass: #BotonComun\r\tinstanceVariableNames: \'mouseAction\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'SimpleButtonMorph',
+				#traitCompositionSource : '{}'
+			},
+			#name : #BotonComun,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #BotonComun,
+						#isMetaSide : false
+					},
+					#name : #mouseAction,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'BotonComun class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'BotonComun class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #BotonComun,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#newClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'SimpleButtonMorph subclass: #BotonComun\r\tinstanceVariableNames: \'mouseAction fuenteActual\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'SimpleButtonMorph',
+				#traitCompositionSource : '{}'
+			},
+			#name : #BotonComun,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #BotonComun,
+						#isMetaSide : false
+					},
+					#name : #mouseAction,
+					#parent : @23
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #BotonComun,
+						#isMetaSide : false
+					},
+					#name : #fuenteActual,
+					#parent : @23
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'BotonComun class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'BotonComun class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @23
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #BotonComun,
+					#isMetaSide : false
+				},
+				#parent : @23,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T20:59:09.765-03:00' ],
+		#prior : OmReference [ '13' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #'label:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'label: unTexto\rself label: unTexto font: (fuenteActual).',
+			#stamp : 'EscalanteThiago 11/25/2023 20:59',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T20:59:09.77-03:00' ],
+		#prior : OmReference [ '14' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #'label:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'label: unTexto\rself label: unTexto font: (fuenteActual).',
+			#stamp : 'EscalanteThiago 11/25/2023 20:59',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #'label:',
+			#protocol : #accessing,
+			#sourceCode : 'label: unTexto\rself label: unTexto font: (fuenteActual).',
+			#stamp : 'EscalanteThiago 11/25/2023 20:59',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T20:59:58.018-03:00' ],
+		#prior : OmReference [ '15' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize.\rself color: (Color fromHexString: \'#3d6574\' ).\rself borderColor: (Color fromHexString: \'#404040\' ).\rself borderWidth: 3.\rself label: \'Exportar\'.\rself extent: 100@60',
+			#stamp : 'EscalanteThiago 11/25/2023 20:56',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize.\rself color: (Color fromHexString: \'#3d6574\' ).\rself borderColor: (Color fromHexString: \'#404040\' ).\rself borderWidth: 3.\rfuenteActual := (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 20).\rself label: \'Exportar\' font: fuenteActual.\rself extent: 100@60',
+			#stamp : 'EscalanteThiago 11/25/2023 20:59',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T21:00:53.939-03:00' ],
+		#prior : OmReference [ '16' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize.\rself color: (Color fromHexString: \'#3d6574\' ).\rself borderColor: (Color fromHexString: \'#404040\' ).\rself borderWidth: 3.\rfuenteActual := (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 20).\rself label: \'Exportar\' font: fuenteActual.\rself extent: 100@60',
+			#stamp : 'EscalanteThiago 11/25/2023 20:59',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rsuper initialize.\rself color: (Color fromHexString: \'#3d6574\' ).\rself borderColor: (Color fromHexString: \'#404040\' ).\rself borderWidth: 3.\rfuenteActual := (StrikeFont familyName: \'Bitmap DejaVu Sans\' size: 20).\rself label: \'\' font: fuenteActual.\rself extent: 100@60',
+			#stamp : 'EscalanteThiago 11/25/2023 21:00',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T21:01:53.121-03:00' ],
+		#prior : OmReference [ '17' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : EpClassModification {
+		#oldClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'Object subclass: #Nivel\r\tinstanceVariableNames: \'tablero ref_superior ref_izquierda ventana matriz\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'Object',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Nivel,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #tablero,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ref_superior,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ref_izquierda,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ventana,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #matriz,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Nivel class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Nivel class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Nivel,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#newClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'Object subclass: #Nivel\r\tinstanceVariableNames: \'tablero ref_superior ref_izquierda ventana matriz clear export\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'Object',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Nivel,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #tablero,
+					#parent : @31
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ref_superior,
+					#parent : @31
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ref_izquierda,
+					#parent : @31
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ventana,
+					#parent : @31
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #matriz,
+					#parent : @31
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #clear,
+					#parent : @31
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #export,
+					#parent : @31
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Nivel class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Nivel class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @31
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Nivel,
+					#isMetaSide : false
+				},
+				#parent : @31,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T21:02:28.243-03:00' ],
+		#prior : OmReference [ '18' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'editor:ancho:alto:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'editor: unTamaño ancho: unAncho alto: unAlto \r\r"Creamos el tablero del tamaño"\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r"Creamos la referencia superior"\rref_superior:= Refer_sup new.\rref_superior crearTablero: unTamaño ancho: unAncho altura: (unAlto / 2) ceiling.\r"Creamos la referencia izquierda"\rref_izquierda := Refer_iz new.\rref_izquierda crearTablero: unTamaño ancho: (unAncho /2) ceiling altura: unAlto ceiling.\r\r"creamos la ventana para poner todo lo demas dentro y posicionamos lo que creamos"\rventana:= SystemWindow new.\rventana extent: (tablero extent)+((ref_izquierda width)@(ref_superior height))+(100@100).\rventana addMorph: tablero.\rventana addMorph: ref_izquierda.\rventana addMorph: ref_superior.\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50) + ((ref_izquierda width)@(ref_superior height)).\rref_izquierda position: ventana position + (50@50) + (0@(ref_superior height)).\rref_superior position: ventana position + (50@50) + ((ref_izquierda width)@0).\r\r"Abrimos la ventana en el mundo"\rventana setLabel: \'Nonograma\'.\rventana openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 21:02',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T21:04:18.369-03:00' ],
+		#prior : OmReference [ '19' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'editor:ancho:alto:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'editor: unTamaño ancho: unAncho alto: unAlto \r\r"Creamos el tablero del tamaño"\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r"Creamos la referencia superior"\rref_superior:= Refer_sup new.\rref_superior crearTablero: unTamaño ancho: unAncho altura: (unAlto / 2) ceiling.\r"Creamos la referencia izquierda"\rref_izquierda := Refer_iz new.\rref_izquierda crearTablero: unTamaño ancho: (unAncho /2) ceiling altura: unAlto ceiling.\r\r"creamos la ventana para poner todo lo demas dentro y posicionamos lo que creamos"\rventana:= SystemWindow new.\rventana extent: (tablero extent)+((ref_izquierda width)@(ref_superior height))+(100@100).\rventana addMorph: tablero.\rventana addMorph: ref_izquierda.\rventana addMorph: ref_superior.\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50) + ((ref_izquierda width)@(ref_superior height)).\rref_izquierda position: ventana position + (50@50) + (0@(ref_superior height)).\rref_superior position: ventana position + (50@50) + ((ref_izquierda width)@0).\r\r"Abrimos la ventana en el mundo"\rventana setLabel: \'Nonograma\'.\rventana openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 21:02',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'editor:ancho:alto:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'editor: unTamaño ancho: unAncho alto: unAlto \r\r"Creamos el tablero del tamaño"\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r\r\r\r"creamos la ventana para poner todo lo demas dentro y posicionamos lo que creamos"\rventana:= SystemWindow new.\rventana extent: (tablero extent)+(100@100).\rventana addMorph: tablero.\r\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50).\r\r"Abrimos la ventana en el mundo"\rventana setLabel: \'Crea tu propio Nonograma\'.\rventana openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 21:04',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T21:14:55.725-03:00' ],
+		#prior : OmReference [ '20' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'editor:ancho:alto:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'editor: unTamaño ancho: unAncho alto: unAlto \r\r"Creamos el tablero del tamaño"\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r\r\r\r"creamos la ventana para poner todo lo demas dentro y posicionamos lo que creamos"\rventana:= SystemWindow new.\rventana extent: (tablero extent)+(100@100).\rventana addMorph: tablero.\r\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50).\r\r"Abrimos la ventana en el mundo"\rventana setLabel: \'Crea tu propio Nonograma\'.\rventana openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 21:04',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'editor:ancho:alto:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'editor: unTamaño ancho: unAncho alto: unAlto \r\r"Creamos el tablero del tamaño"\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r\r\r\r"creamos la ventana para poner todo lo demas dentro y posicionamos lo que creamos"\rventana:= SystemWindow new.\rventana extent: (tablero extent)+(100@100).\rventana addMorph: tablero.\r\r"creamos botones para reinicio y exportacion"\rclear:= BotonComun new.\rclear label: \'Limpiar\'.\r\rexport := BotonComun new.\rexport label: \'Exportar\'.\r\rventana addMorph: clear.\rventana addMorph: export.\r\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50).\rclear position: ventana position + (100@50) + (tablero width)@0.\rexport position: ventana position + (100@100) + (tablero width)@(clear height).\r\r"Abrimos la ventana en el mundo"\rventana setLabel: \'Crea tu propio Nonograma\'.\rventana openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 21:14',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T21:15:27.461-03:00' ],
+		#prior : OmReference [ '21' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'editor:ancho:alto:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'editor: unTamaño ancho: unAncho alto: unAlto \r\r"Creamos el tablero del tamaño"\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r\r\r\r"creamos la ventana para poner todo lo demas dentro y posicionamos lo que creamos"\rventana:= SystemWindow new.\rventana extent: (tablero extent)+(100@100).\rventana addMorph: tablero.\r\r"creamos botones para reinicio y exportacion"\rclear:= BotonComun new.\rclear label: \'Limpiar\'.\r\rexport := BotonComun new.\rexport label: \'Exportar\'.\r\rventana addMorph: clear.\rventana addMorph: export.\r\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50).\rclear position: ventana position + (100@50) + (tablero width)@0.\rexport position: ventana position + (100@100) + (tablero width)@(clear height).\r\r"Abrimos la ventana en el mundo"\rventana setLabel: \'Crea tu propio Nonograma\'.\rventana openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 21:14',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'editor:ancho:alto:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'editor: unTamaño ancho: unAncho alto: unAlto \r\r"Creamos el tablero del tamaño"\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r\r\r\r"creamos la ventana para poner todo lo demas dentro y posicionamos lo que creamos"\rventana:= SystemWindow new.\rventana extent: (tablero extent)+(100@100).\rventana addMorph: tablero.\r\r"creamos botones para reinicio y exportacion"\rclear:= BotonComun new.\rclear label: \'Limpiar\'.\r\rexport := BotonComun new.\rexport label: \'Exportar\'.\r\rventana addMorph: clear.\rventana addMorph: export.\r\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50).\rclear position: ventana position + (100@50) + ((tablero width)@0).\rexport position: ventana position + (100@100) + ((tablero width)@(clear height)).\r\r"Abrimos la ventana en el mundo"\rventana setLabel: \'Crea tu propio Nonograma\'.\rventana openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 21:15',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T21:19:55.59-03:00' ],
+		#prior : OmReference [ '22' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'editor:ancho:alto:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'editor: unTamaño ancho: unAncho alto: unAlto \r\r"Creamos el tablero del tamaño"\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r\r\r\r"creamos la ventana para poner todo lo demas dentro y posicionamos lo que creamos"\rventana:= SystemWindow new.\rventana extent: (tablero extent)+(100@100).\rventana addMorph: tablero.\r\r"creamos botones para reinicio y exportacion"\rclear:= BotonComun new.\rclear label: \'Limpiar\'.\r\rexport := BotonComun new.\rexport label: \'Exportar\'.\r\rventana addMorph: clear.\rventana addMorph: export.\r\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50).\rclear position: ventana position + (100@50) + ((tablero width)@0).\rexport position: ventana position + (100@100) + ((tablero width)@(clear height)).\r\r"Abrimos la ventana en el mundo"\rventana setLabel: \'Crea tu propio Nonograma\'.\rventana openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 21:15',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'editor:ancho:alto:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'editor: unTamaño ancho: unAncho alto: unAlto \r\r"Creamos el tablero del tamaño"\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r\r\r"creamos botones para reinicio y exportacion"\rclear:= BotonComun new.\rclear label: \'Limpiar\'.\r\rexport := BotonComun new.\rexport label: \'Exportar\'.\r\r\rventana:= SystemWindow new.\rventana extent: (tablero extent)+(150@150)+ ((clear width)@0).\rventana addMorph: clear.\rventana addMorph: export.\rventana addMorph: tablero.\r\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50).\rclear position: ventana position + (100@50) + ((tablero width)@0).\rexport position: ventana position + (100@100) + ((tablero width)@(clear height)).\r\r"Abrimos la ventana en el mundo"\rventana setLabel: \'Crea tu propio Nonograma\'.\rventana openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 21:19',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T21:20:14.825-03:00' ],
+		#prior : OmReference [ '23' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'editor:ancho:alto:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'editor: unTamaño ancho: unAncho alto: unAlto \r\r"Creamos el tablero del tamaño"\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r\r\r"creamos botones para reinicio y exportacion"\rclear:= BotonComun new.\rclear label: \'Limpiar\'.\r\rexport := BotonComun new.\rexport label: \'Exportar\'.\r\r\rventana:= SystemWindow new.\rventana extent: (tablero extent)+(150@150)+ ((clear width)@0).\rventana addMorph: clear.\rventana addMorph: export.\rventana addMorph: tablero.\r\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50).\rclear position: ventana position + (100@50) + ((tablero width)@0).\rexport position: ventana position + (100@100) + ((tablero width)@(clear height)).\r\r"Abrimos la ventana en el mundo"\rventana setLabel: \'Crea tu propio Nonograma\'.\rventana openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 21:19',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'editor:ancho:alto:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'editor: unTamaño ancho: unAncho alto: unAlto \r\r"Creamos el tablero del tamaño"\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r\r\r"creamos botones para reinicio y exportacion"\rclear:= BotonComun new.\rclear label: \'Limpiar\'.\r\rexport := BotonComun new.\rexport label: \'Exportar\'.\r\r\rventana:= SystemWindow new.\rventana extent: (tablero extent)+(150@100)+ ((clear width)@0).\rventana addMorph: clear.\rventana addMorph: export.\rventana addMorph: tablero.\r\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50).\rclear position: ventana position + (100@50) + ((tablero width)@0).\rexport position: ventana position + (100@100) + ((tablero width)@(clear height)).\r\r"Abrimos la ventana en el mundo"\rventana setLabel: \'Crea tu propio Nonograma\'.\rventana openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 21:20',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T21:33:42.161-03:00' ],
+		#prior : OmReference [ '24' ],
+		#self : OmReference [ '25' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nonograma,
+				#isMetaSide : false
+			},
+			#name : #copiarMatriz,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'copiarMatriz\r|matriz|\r\rmatriz:= Array2D rows:(cells numberOfColumns) columns:(cells numberOfRows).\r\r1 to: (matriz numberOfRows) do:[:i| \r\t1 to: (matriz numberOfColumns) do: [ :j|\r\t\t\t\r\t\t\r\t\t ].\r\t].',
+			#stamp : 'EscalanteThiago 11/25/2023 21:33',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T21:37:01.556-03:00' ],
+		#prior : OmReference [ '25' ],
+		#self : OmReference [ '26' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nonograma,
+				#isMetaSide : false
+			},
+			#name : #copiarMatriz,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'copiarMatriz\r|matriz|\r\rmatriz:= Array2D rows:(cells numberOfColumns) columns:(cells numberOfRows).\r\r1 to: (matriz numberOfRows) do:[:i| \r\t1 to: (matriz numberOfColumns) do: [ :j|\r\t\t\t\r\t\t\r\t\t ].\r\t].',
+			#stamp : 'EscalanteThiago 11/25/2023 21:33',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nonograma,
+				#isMetaSide : false
+			},
+			#name : #copiarMatriz,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'copiarMatriz\r|matriz|\r\rmatriz:= Array2D rows:(cells numberOfColumns) columns:(cells numberOfRows).\r\r1 to: (matriz numberOfRows) do:[:i| \r\t1 to: (matriz numberOfColumns) do: [ :j|\r\t\t\t((cells at: j at:i)isOn) ifTrue:[matriz at:i at:j put: 1].\r\t\t ].\r\t].\r\r^matriz',
+			#stamp : 'EscalanteThiago 11/25/2023 21:37',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T21:37:57.544-03:00' ],
+		#prior : OmReference [ '26' ],
+		#self : OmReference [ '27' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #tablero,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'tablero\r^tablero',
+			#stamp : 'EscalanteThiago 11/25/2023 21:37',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T21:37:57.548-03:00' ],
+		#prior : OmReference [ '27' ],
+		#self : OmReference [ '28' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #tablero,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'tablero\r^tablero',
+			#stamp : 'EscalanteThiago 11/25/2023 21:37',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #tablero,
+			#protocol : #accessing,
+			#sourceCode : 'tablero\r^tablero',
+			#stamp : 'EscalanteThiago 11/25/2023 21:37',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T21:46:21.116-03:00' ],
+		#prior : OmReference [ '28' ],
+		#self : OmReference [ '29' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nonograma,
+				#isMetaSide : false
+			},
+			#name : #limpiar,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'limpiar\r\r1 to: (cells numberOfColumns) do:[:i| \r\t1 to: (cells numberOfRows) do: [ :j|\r\t\t\t((cells at: j at:i)isOn) ifTrue:[].\r\t\t ].\r\t].\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 21:46',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T21:46:44.971-03:00' ],
+		#prior : OmReference [ '29' ],
+		#self : OmReference [ '30' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nonograma,
+				#isMetaSide : false
+			},
+			#name : #limpiar,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'limpiar\r\r1 to: (cells numberOfColumns) do:[:i| \r\t1 to: (cells numberOfRows) do: [ :j|\r\t\t\t((cells at: j at:i)isOn) ifTrue:[].\r\t\t ].\r\t].\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 21:46',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nonograma,
+				#isMetaSide : false
+			},
+			#name : #limpiar,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'limpiar\r\r1 to: (cells numberOfColumns) do:[:i| \r\t1 to: (cells numberOfRows) do: [ :j|\r\t\t\t((cells at: j at:i)isOn) ifTrue:[(cells at: j at:i)turnOff ].\r\t\t ].\r\t].\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 21:46',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T21:52:08.417-03:00' ],
+		#prior : OmReference [ '30' ],
+		#self : OmReference [ '31' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #'mouseAction:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'mouseAction: aBlock\r\tmouseAction := aBlock',
+			#stamp : 'EscalanteThiago 11/25/2023 21:52',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T21:52:08.424-03:00' ],
+		#prior : OmReference [ '31' ],
+		#self : OmReference [ '32' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #'mouseAction:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'mouseAction: aBlock\r\tmouseAction := aBlock',
+			#stamp : 'EscalanteThiago 11/25/2023 21:52',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #'mouseAction:',
+			#protocol : #accessing,
+			#sourceCode : 'mouseAction: aBlock\r\tmouseAction := aBlock',
+			#stamp : 'EscalanteThiago 11/25/2023 21:52',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T21:53:07.671-03:00' ],
+		#prior : OmReference [ '32' ],
+		#self : OmReference [ '33' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #'mouseUp:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'mouseUp: anEvent\rmouseAction value',
+			#stamp : 'EscalanteThiago 11/25/2023 21:53',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T21:53:07.679-03:00' ],
+		#prior : OmReference [ '33' ],
+		#self : OmReference [ '34' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #'mouseUp:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'mouseUp: anEvent\rmouseAction value',
+			#stamp : 'EscalanteThiago 11/25/2023 21:53',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #'mouseUp:',
+			#protocol : #'event handling',
+			#sourceCode : 'mouseUp: anEvent\rmouseAction value',
+			#stamp : 'EscalanteThiago 11/25/2023 21:53',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T22:02:51.741-03:00' ],
+		#prior : OmReference [ '34' ],
+		#self : OmReference [ '35' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'editor:ancho:alto:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'editor: unTamaño ancho: unAncho alto: unAlto \r\r"Creamos el tablero del tamaño"\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r\r\r"creamos botones para reinicio y exportacion"\rclear:= BotonComun new.\rclear label: \'Limpiar\'.\r\rexport := BotonComun new.\rexport label: \'Exportar\'.\r\r\rventana:= SystemWindow new.\rventana extent: (tablero extent)+(150@100)+ ((clear width)@0).\rventana addMorph: clear.\rventana addMorph: export.\rventana addMorph: tablero.\r\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50).\rclear position: ventana position + (100@50) + ((tablero width)@0).\rexport position: ventana position + (100@100) + ((tablero width)@(clear height)).\r\r"Abrimos la ventana en el mundo"\rventana setLabel: \'Crea tu propio Nonograma\'.\rventana openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 21:20',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'editor:ancho:alto:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'editor: unTamaño ancho: unAncho alto: unAlto \r\r"Creamos el tablero del tamaño"\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r\r\r"creamos botones para reinicio y exportacion"\rclear:= BotonComun new.\rclear label: \'Limpiar\'.\rclear mouseAction: [ tablero limpiar ].\r\rexport := BotonComun new.\rexport label: \'Exportar\'.\r\r\rventana:= SystemWindow new.\rventana extent: (tablero extent)+(150@100)+ ((clear width)@0).\rventana addMorph: clear.\rventana addMorph: export.\rventana addMorph: tablero.\r\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50).\rclear position: ventana position + (100@50) + ((tablero width)@0).\rexport position: ventana position + (100@100) + ((tablero width)@(clear height)).\r\r"Abrimos la ventana en el mundo"\rventana setLabel: \'Crea tu propio Nonograma\'.\rventana openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 22:02',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T22:03:09.634-03:00' ],
+		#prior : OmReference [ '35' ],
+		#self : OmReference [ '36' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'editor:ancho:alto:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'editor: unTamaño ancho: unAncho alto: unAlto \r\r"Creamos el tablero del tamaño"\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r\r\r"creamos botones para reinicio y exportacion"\rclear:= BotonComun new.\rclear label: \'Limpiar\'.\rclear mouseAction: [ tablero limpiar ].\r\rexport := BotonComun new.\rexport label: \'Exportar\'.\r\r\rventana:= SystemWindow new.\rventana extent: (tablero extent)+(150@100)+ ((clear width)@0).\rventana addMorph: clear.\rventana addMorph: export.\rventana addMorph: tablero.\r\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50).\rclear position: ventana position + (100@50) + ((tablero width)@0).\rexport position: ventana position + (100@100) + ((tablero width)@(clear height)).\r\r"Abrimos la ventana en el mundo"\rventana setLabel: \'Crea tu propio Nonograma\'.\rventana openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 22:02',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'editor:ancho:alto:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'editor: unTamaño ancho: unAncho alto: unAlto \r\r"Creamos el tablero del tamaño"\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r\r\r"creamos botones para reinicio y exportacion"\rclear:= BotonComun new.\rclear label: \'Limpiar\'.\rclear mouseAction: [ tablero limpiar ].\r\rexport := BotonComun new.\rexport label: \'Exportar\'.\rexport mouseAction: [ tablero copiarMatriz  ].\r\r\rventana:= SystemWindow new.\rventana extent: (tablero extent)+(150@100)+ ((clear width)@0).\rventana addMorph: clear.\rventana addMorph: export.\rventana addMorph: tablero.\r\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50).\rclear position: ventana position + (100@50) + ((tablero width)@0).\rexport position: ventana position + (100@100) + ((tablero width)@(clear height)).\r\r"Abrimos la ventana en el mundo"\rventana setLabel: \'Crea tu propio Nonograma\'.\rventana openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 22:03',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T22:03:13.019-03:00' ],
+		#prior : OmReference [ '36' ],
+		#self : OmReference [ '37' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'editor:ancho:alto:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'editor: unTamaño ancho: unAncho alto: unAlto \r\r"Creamos el tablero del tamaño"\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r\r\r"creamos botones para reinicio y exportacion"\rclear:= BotonComun new.\rclear label: \'Limpiar\'.\rclear mouseAction: [ tablero limpiar ].\r\rexport := BotonComun new.\rexport label: \'Exportar\'.\rexport mouseAction: [ tablero copiarMatriz  ].\r\r\rventana:= SystemWindow new.\rventana extent: (tablero extent)+(150@100)+ ((clear width)@0).\rventana addMorph: clear.\rventana addMorph: export.\rventana addMorph: tablero.\r\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50).\rclear position: ventana position + (100@50) + ((tablero width)@0).\rexport position: ventana position + (100@100) + ((tablero width)@(clear height)).\r\r"Abrimos la ventana en el mundo"\rventana setLabel: \'Crea tu propio Nonograma\'.\rventana openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 22:03',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'editor:ancho:alto:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'editor: unTamaño ancho: unAncho alto: unAlto \r\r"Creamos el tablero del tamaño"\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r\r\r"creamos botones para reinicio y exportacion"\rclear:= BotonComun new.\rclear label: \'Limpiar\'.\rclear mouseAction: [ tablero limpiar ].\r\rexport := BotonComun new.\rexport label: \'Exportar\'.\rexport mouseAction: [ tablero copiarMatriz ].\r\r\rventana:= SystemWindow new.\rventana extent: (tablero extent)+(150@100)+ ((clear width)@0).\rventana addMorph: clear.\rventana addMorph: export.\rventana addMorph: tablero.\r\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50).\rclear position: ventana position + (100@50) + ((tablero width)@0).\rexport position: ventana position + (100@100) + ((tablero width)@(clear height)).\r\r"Abrimos la ventana en el mundo"\rventana setLabel: \'Crea tu propio Nonograma\'.\rventana openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 22:03',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T22:05:20.72-03:00' ],
+		#prior : OmReference [ '37' ],
+		#self : OmReference [ '38' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #'mouseUp:',
+			#protocol : #'event handling',
+			#sourceCode : 'mouseUp: anEvent\rmouseAction value',
+			#stamp : 'EscalanteThiago 11/25/2023 21:53',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonComun,
+				#isMetaSide : false
+			},
+			#name : #'mouseUp:',
+			#protocol : #'event handling',
+			#sourceCode : 'mouseUp: anEvent\rsuper mouseUp: anEvent.\rmouseAction value',
+			#stamp : 'EscalanteThiago 11/25/2023 22:05',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T22:07:26.826-03:00' ],
+		#prior : OmReference [ '38' ],
+		#self : OmReference [ '39' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'editor:ancho:alto:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'editor: unTamaño ancho: unAncho alto: unAlto \r\r"Creamos el tablero del tamaño"\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r\r\r"creamos botones para reinicio y exportacion"\rclear:= BotonComun new.\rclear label: \'Limpiar\'.\rclear mouseAction: [ tablero limpiar ].\r\rexport := BotonComun new.\rexport label: \'Exportar\'.\rexport mouseAction: [ tablero copiarMatriz ].\r\r\rventana:= SystemWindow new.\rventana extent: (tablero extent)+(150@100)+ ((clear width)@0).\rventana addMorph: clear.\rventana addMorph: export.\rventana addMorph: tablero.\r\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50).\rclear position: ventana position + (100@50) + ((tablero width)@0).\rexport position: ventana position + (100@100) + ((tablero width)@(clear height)).\r\r"Abrimos la ventana en el mundo"\rventana setLabel: \'Crea tu propio Nonograma\'.\rventana openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 22:03',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'editor:ancho:alto:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'editor: unTamaño ancho: unAncho alto: unAlto \r\r"Creamos el tablero del tamaño"\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r\r\r"creamos botones para reinicio y exportacion"\rclear:= BotonComun new.\rclear label: \'Limpiar\'.\rclear mouseAction: [ tablero limpiar ].\r\rexport := BotonComun new.\rexport label: \'Exportar\'.\rexport mouseAction: [ Transcript show: (tablero copiarMatriz). ].\r\r\rventana:= SystemWindow new.\rventana extent: (tablero extent)+(150@100)+ ((clear width)@0).\rventana addMorph: clear.\rventana addMorph: export.\rventana addMorph: tablero.\r\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50).\rclear position: ventana position + (100@50) + ((tablero width)@0).\rexport position: ventana position + (100@100) + ((tablero width)@(clear height)).\r\r"Abrimos la ventana en el mundo"\rventana setLabel: \'Crea tu propio Nonograma\'.\rventana openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 22:07',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T22:22:11.1-03:00' ],
+		#prior : OmReference [ '39' ],
+		#self : OmReference [ '40' ]
+	},
+	#content : EpClassModification {
+		#oldClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'Object subclass: #Nivel\r\tinstanceVariableNames: \'tablero ref_superior ref_izquierda ventana matriz clear export\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'Object',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Nivel,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #tablero,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ref_superior,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ref_izquierda,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ventana,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #matriz,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #clear,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #export,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Nivel class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Nivel class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Nivel,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#newClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'Object subclass: #Nivel\r\tinstanceVariableNames: \'tablero ref_superior ref_izquierda ventana matriz pintadas clear export\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'Object',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Nivel,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #tablero,
+					#parent : @35
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ref_superior,
+					#parent : @35
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ref_izquierda,
+					#parent : @35
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #ventana,
+					#parent : @35
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #matriz,
+					#parent : @35
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #pintadas,
+					#parent : @35
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #clear,
+					#parent : @35
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nivel,
+						#isMetaSide : false
+					},
+					#name : #export,
+					#parent : @35
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Nivel class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Nivel class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @35
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Nivel,
+					#isMetaSide : false
+				},
+				#parent : @35,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T22:30:12.476-03:00' ],
+		#prior : OmReference [ '40' ],
+		#self : OmReference [ '41' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'calcularPintadas:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularPintadas: unaMatriz\r\rpintadas:= 0.\r\r1 to: (unaMatriz  numberOfRows) do:[:i| \r\t1 to: (unaMatriz numberOfColumns) do: [ :j|\r\t\t\t((unaMatriz at: i at:j) = 1) ifTrue:[pintadas := pintadas + 1].\r\t\t ].\r\t].',
+			#stamp : 'EscalanteThiago 11/25/2023 22:30',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T22:31:50.788-03:00' ],
+		#prior : OmReference [ '41' ],
+		#self : OmReference [ '42' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unaMatriz\rself crearNivel: 25 ancho: (unaMatriz numberOfColumns) alto: (unaMatriz numberOfRows).\rref_superior calcularReferencia: unaMatriz.\rref_izquierda calcularReferencia: unaMatriz.',
+			#stamp : 'EscalanteThiago 11/25/2023 11:31',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unaMatriz\r\rmatriz:= unaMatriz.\rself calcularPintadas: matriz.\rself crearNivel: 25 ancho: (matriz numberOfColumns) alto: (matriz numberOfRows).\rref_superior calcularReferencia: matriz.\rref_izquierda calcularReferencia: matriz.',
+			#stamp : 'EscalanteThiago 11/25/2023 22:31',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T22:35:20.989-03:00' ],
+		#prior : OmReference [ '42' ],
+		#self : OmReference [ '43' ]
+	},
+	#content : EpClassModification {
+		#oldClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'BorderedMorph subclass: #Nonograma\r\tinstanceVariableNames: \'cells cont\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'BorderedMorph',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Nonograma,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nonograma,
+						#isMetaSide : false
+					},
+					#name : #cells,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nonograma,
+						#isMetaSide : false
+					},
+					#name : #cont,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Nonograma class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Nonograma class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Nonograma,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#newClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'BorderedMorph subclass: #Nonograma\r\tinstanceVariableNames: \'cells cont matriz\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'BorderedMorph',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Nonograma,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nonograma,
+						#isMetaSide : false
+					},
+					#name : #cells,
+					#parent : @25
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nonograma,
+						#isMetaSide : false
+					},
+					#name : #cont,
+					#parent : @25
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nonograma,
+						#isMetaSide : false
+					},
+					#name : #matriz,
+					#parent : @25
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Nonograma class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Nonograma class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @25
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Nonograma,
+					#isMetaSide : false
+				},
+				#parent : @25,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T22:35:48.901-03:00' ],
+		#prior : OmReference [ '43' ],
+		#self : OmReference [ '44' ]
+	},
+	#content : EpClassModification {
+		#oldClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'BorderedMorph subclass: #Nonograma\r\tinstanceVariableNames: \'cells cont matriz\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'BorderedMorph',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Nonograma,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nonograma,
+						#isMetaSide : false
+					},
+					#name : #cells,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nonograma,
+						#isMetaSide : false
+					},
+					#name : #cont,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nonograma,
+						#isMetaSide : false
+					},
+					#name : #matriz,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Nonograma class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Nonograma class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Nonograma,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#newClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'BorderedMorph subclass: #Nonograma\r\tinstanceVariableNames: \'cells cont matriz pintadas\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'BorderedMorph',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Nonograma,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nonograma,
+						#isMetaSide : false
+					},
+					#name : #cells,
+					#parent : @27
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nonograma,
+						#isMetaSide : false
+					},
+					#name : #cont,
+					#parent : @27
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nonograma,
+						#isMetaSide : false
+					},
+					#name : #matriz,
+					#parent : @27
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nonograma,
+						#isMetaSide : false
+					},
+					#name : #pintadas,
+					#parent : @27
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Nonograma class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Nonograma class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @27
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Nonograma,
+					#isMetaSide : false
+				},
+				#parent : @27,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T22:37:36.91-03:00' ],
+		#prior : OmReference [ '44' ],
+		#self : OmReference [ '45' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unaMatriz\r\rmatriz:= unaMatriz.\rself calcularPintadas: matriz.\rself crearNivel: 25 ancho: (matriz numberOfColumns) alto: (matriz numberOfRows).\rref_superior calcularReferencia: matriz.\rref_izquierda calcularReferencia: matriz.',
+			#stamp : 'EscalanteThiago 11/25/2023 22:31',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unaMatriz\r\rself crearNivel: 25 ancho: (unaMatriz numberOfColumns) alto: (unaMatriz numberOfRows).\rref_superior calcularReferencia: unaMatriz.\rref_izquierda calcularReferencia: unaMatriz.',
+			#stamp : 'EscalanteThiago 11/25/2023 22:37',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T22:38:24.65-03:00' ],
+		#prior : OmReference [ '45' ],
+		#self : OmReference [ '46' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nonograma,
+				#isMetaSide : false
+			},
+			#name : #'matriz:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'matriz: unaMatriz\rmatriz:= unaMatriz.',
+			#stamp : 'EscalanteThiago 11/25/2023 22:38',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T22:38:24.656-03:00' ],
+		#prior : OmReference [ '46' ],
+		#self : OmReference [ '47' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nonograma,
+				#isMetaSide : false
+			},
+			#name : #'matriz:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'matriz: unaMatriz\rmatriz:= unaMatriz.',
+			#stamp : 'EscalanteThiago 11/25/2023 22:38',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nonograma,
+				#isMetaSide : false
+			},
+			#name : #'matriz:',
+			#protocol : #accessing,
+			#sourceCode : 'matriz: unaMatriz\rmatriz:= unaMatriz.',
+			#stamp : 'EscalanteThiago 11/25/2023 22:38',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T22:39:28.344-03:00' ],
+		#prior : OmReference [ '47' ],
+		#self : OmReference [ '48' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:ancho:alto:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unTamaño ancho: unAncho alto: unAlto \r\r"Creamos el tablero del tamaño"\rtablero:= Nonograma new.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r"Creamos la referencia superior"\rref_superior:= Refer_sup new.\rref_superior crearTablero: unTamaño ancho: unAncho altura: (unAlto / 2) ceiling.\r"Creamos la referencia izquierda"\rref_izquierda := Refer_iz new.\rref_izquierda crearTablero: unTamaño ancho: (unAncho /2) ceiling altura: unAlto ceiling.\r\r"creamos la ventana para poner todo lo demas dentro y posicionamos lo que creamos"\rventana:= SystemWindow new.\rventana extent: (tablero extent)+((ref_izquierda width)@(ref_superior height))+(100@100).\rventana addMorph: tablero.\rventana addMorph: ref_izquierda.\rventana addMorph: ref_superior.\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50) + ((ref_izquierda width)@(ref_superior height)).\rref_izquierda position: ventana position + (50@50) + (0@(ref_superior height)).\rref_superior position: ventana position + (50@50) + ((ref_izquierda width)@0).\r\r"Abrimos la ventana en el mundo"\rventana setLabel: \'Nonograma\'.\rventana openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/24/2023 22:29',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:ancho:alto:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unTamaño ancho: unAncho alto: unAlto \r\r"Creamos el tablero del tamaño"\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r"Creamos la referencia superior"\rref_superior:= Refer_sup new.\rref_superior crearTablero: unTamaño ancho: unAncho altura: (unAlto / 2) ceiling.\r"Creamos la referencia izquierda"\rref_izquierda := Refer_iz new.\rref_izquierda crearTablero: unTamaño ancho: (unAncho /2) ceiling altura: unAlto ceiling.\r\r"creamos la ventana para poner todo lo demas dentro y posicionamos lo que creamos"\rventana:= SystemWindow new.\rventana extent: (tablero extent)+((ref_izquierda width)@(ref_superior height))+(100@100).\rventana addMorph: tablero.\rventana addMorph: ref_izquierda.\rventana addMorph: ref_superior.\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50) + ((ref_izquierda width)@(ref_superior height)).\rref_izquierda position: ventana position + (50@50) + (0@(ref_superior height)).\rref_superior position: ventana position + (50@50) + ((ref_izquierda width)@0).\r\r"Abrimos la ventana en el mundo"\rventana setLabel: \'Nonograma\'.\rventana openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 22:39',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T22:40:29.822-03:00' ],
+		#prior : OmReference [ '48' ],
+		#self : OmReference [ '49' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unaMatriz\r\rself crearNivel: 25 ancho: (unaMatriz numberOfColumns) alto: (unaMatriz numberOfRows).\rref_superior calcularReferencia: unaMatriz.\rref_izquierda calcularReferencia: unaMatriz.',
+			#stamp : 'EscalanteThiago 11/25/2023 22:37',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unaMatriz\r\rtablero:= Nonograma new.\rtablero matriz: unaMatriz.\rself crearNivel: 25 ancho: (unaMatriz numberOfColumns) alto: (unaMatriz numberOfRows).\rref_superior calcularReferencia: unaMatriz.\rref_izquierda calcularReferencia: unaMatriz.',
+			#stamp : 'EscalanteThiago 11/25/2023 22:40',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T22:41:36.461-03:00' ],
+		#prior : OmReference [ '49' ],
+		#self : OmReference [ '50' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nonograma,
+				#isMetaSide : false
+			},
+			#name : #calcularPintadas,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularPintadas\r\rpintadas:= 0.\r\r1 to: (matriz  numberOfRows) do:[:i| \r\t1 to: (matriz numberOfColumns) do: [ :j|\r\t\t\t((matriz at: i at:j) = 1) ifTrue:[pintadas := pintadas + 1].\r\t\t ].\r\t].',
+			#stamp : 'EscalanteThiago 11/25/2023 22:41',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T22:41:48.89-03:00' ],
+		#prior : OmReference [ '50' ],
+		#self : OmReference [ '51' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'calcularPintadas:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularPintadas: unaMatriz\r\rpintadas:= 0.\r\r1 to: (unaMatriz  numberOfRows) do:[:i| \r\t1 to: (unaMatriz numberOfColumns) do: [ :j|\r\t\t\t((unaMatriz at: i at:j) = 1) ifTrue:[pintadas := pintadas + 1].\r\t\t ].\r\t].',
+			#stamp : 'EscalanteThiago 11/25/2023 22:30',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T22:42:06.476-03:00' ],
+		#prior : OmReference [ '51' ],
+		#self : OmReference [ '52' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:ancho:alto:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unTamaño ancho: unAncho alto: unAlto \r\r"Creamos el tablero del tamaño"\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r"Creamos la referencia superior"\rref_superior:= Refer_sup new.\rref_superior crearTablero: unTamaño ancho: unAncho altura: (unAlto / 2) ceiling.\r"Creamos la referencia izquierda"\rref_izquierda := Refer_iz new.\rref_izquierda crearTablero: unTamaño ancho: (unAncho /2) ceiling altura: unAlto ceiling.\r\r"creamos la ventana para poner todo lo demas dentro y posicionamos lo que creamos"\rventana:= SystemWindow new.\rventana extent: (tablero extent)+((ref_izquierda width)@(ref_superior height))+(100@100).\rventana addMorph: tablero.\rventana addMorph: ref_izquierda.\rventana addMorph: ref_superior.\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50) + ((ref_izquierda width)@(ref_superior height)).\rref_izquierda position: ventana position + (50@50) + (0@(ref_superior height)).\rref_superior position: ventana position + (50@50) + ((ref_izquierda width)@0).\r\r"Abrimos la ventana en el mundo"\rventana setLabel: \'Nonograma\'.\rventana openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 22:39',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nivel,
+				#isMetaSide : false
+			},
+			#name : #'crearNivel:ancho:alto:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearNivel: unTamaño ancho: unAncho alto: unAlto \r\r"Creamos el tablero del tamaño"\rtablero calcularPintadas.\rtablero crearTablero: unTamaño  ancho: unAncho  altura: unAlto .\r"Creamos la referencia superior"\rref_superior:= Refer_sup new.\rref_superior crearTablero: unTamaño ancho: unAncho altura: (unAlto / 2) ceiling.\r"Creamos la referencia izquierda"\rref_izquierda := Refer_iz new.\rref_izquierda crearTablero: unTamaño ancho: (unAncho /2) ceiling altura: unAlto ceiling.\r\r"creamos la ventana para poner todo lo demas dentro y posicionamos lo que creamos"\rventana:= SystemWindow new.\rventana extent: (tablero extent)+((ref_izquierda width)@(ref_superior height))+(100@100).\rventana addMorph: tablero.\rventana addMorph: ref_izquierda.\rventana addMorph: ref_superior.\r"Posicionamos los tableros"\rtablero position: ventana position + (50@50) + ((ref_izquierda width)@(ref_superior height)).\rref_izquierda position: ventana position + (50@50) + (0@(ref_superior height)).\rref_superior position: ventana position + (50@50) + ((ref_izquierda width)@0).\r\r"Abrimos la ventana en el mundo"\rventana setLabel: \'Nonograma\'.\rventana openInWorld.\r\r',
+			#stamp : 'EscalanteThiago 11/25/2023 22:42',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T22:43:09.495-03:00' ],
+		#prior : OmReference [ '52' ],
+		#self : OmReference [ '53' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nonograma,
+				#isMetaSide : false
+			},
+			#name : #calcularPintadas,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularPintadas\r\rpintadas:= 0.\r\r1 to: (matriz  numberOfRows) do:[:i| \r\t1 to: (matriz numberOfColumns) do: [ :j|\r\t\t\t((matriz at: i at:j) = 1) ifTrue:[pintadas := pintadas + 1].\r\t\t ].\r\t].',
+			#stamp : 'EscalanteThiago 11/25/2023 22:41',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nonograma,
+				#isMetaSide : false
+			},
+			#name : #calcularPintadas,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularPintadas\r\rpintadas:= 0.\r\r1 to: (matriz  numberOfRows) do:[:i| \r\t1 to: (matriz numberOfColumns) do: [ :j|\r\t\t\t((matriz at: i at:j) = 1) ifTrue:[pintadas := pintadas + 1].\r\t\t ].\r\t].\rTranscript show:\'Pintadas:\',pintadas asString.',
+			#stamp : 'EscalanteThiago 11/25/2023 22:43',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T22:43:32.326-03:00' ],
+		#prior : OmReference [ '53' ],
+		#self : OmReference [ '54' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nonograma,
+				#isMetaSide : false
+			},
+			#name : #calcularPintadas,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularPintadas\r\rpintadas:= 0.\r\r1 to: (matriz  numberOfRows) do:[:i| \r\t1 to: (matriz numberOfColumns) do: [ :j|\r\t\t\t((matriz at: i at:j) = 1) ifTrue:[pintadas := pintadas + 1].\r\t\t ].\r\t].\rTranscript show:\'Pintadas:\',pintadas asString.',
+			#stamp : 'EscalanteThiago 11/25/2023 22:43',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nonograma,
+				#isMetaSide : false
+			},
+			#name : #calcularPintadas,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calcularPintadas\r\rpintadas:= 0.\r\r1 to: (matriz  numberOfRows) do:[:i| \r\t1 to: (matriz numberOfColumns) do: [ :j|\r\t\t\t((matriz at: i at:j) = 1) ifTrue:[pintadas := pintadas + 1].\r\t\t ].\r\t].\rTranscript show:\'Pintadas:\'; show: pintadas asString.',
+			#stamp : 'EscalanteThiago 11/25/2023 22:43',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T22:54:52.789-03:00' ],
+		#prior : OmReference [ '54' ],
+		#self : OmReference [ '55' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nonograma,
+				#isMetaSide : false
+			},
+			#name : #'newCellAt:at:size:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'newCellAt: i at: j size: unTamaño\r"Create a cell for position (i,j) and add it to my on-screen\rrepresentation at the appropriate screen position. Answer the\rnew cell"\r| c origin |\r\tc := NOCell new.\r\tc setTamaño: unTamaño.\r\torigin := self innerBounds origin.\r\tself addMorph: c.\r\tc position: ((i - 1) * c width) @ ((j - 1) * c height) + origin.\r\tc mouseAction: [ \r\t\tc isOn ifTrue: [ self disminuir] \r\t\tifFalse: [ self aumentar].\r\t\tc toggleState.\r\t\t].\r\t^c',
+			#stamp : 'EscalanteThiago 11/25/2023 11:52',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nonograma,
+				#isMetaSide : false
+			},
+			#name : #'newCellAt:at:size:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'newCellAt: i at: j size: unTamaño\r"Create a cell for position (i,j) and add it to my on-screen\rrepresentation at the appropriate screen position. Answer the\rnew cell"\r| c origin |\r\tc := NOCell new.\r\tc setTamaño: unTamaño.\r\torigin := self innerBounds origin.\r\tself addMorph: c.\r\tc position: ((i - 1) * c width) @ ((j - 1) * c height) + origin.\r\tc mouseAction: [ \r\t\tc isOn ifTrue: [ self disminuir] \r\t\tifFalse: [ self aumentar].\r\t\tc toggleState.\r\t\t(pintadas = cont) ifTrue:[\r\t\t\t\t(matriz=(self copiarMatriz))ifTrue:[\r\t\t\t\t\t\tUIManager default alert: \'Usted ha ganado\'\r\t\t\t\t]\r\t\t\t]\r\t\t].\r\t^c',
+			#stamp : 'EscalanteThiago 11/25/2023 22:54',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T23:09:37.118-03:00' ],
+		#prior : OmReference [ '55' ],
+		#self : OmReference [ '56' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'Object subclass: #SelecNiv\r\tinstanceVariableNames: \'ventana botones\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'Object',
+				#traitCompositionSource : '{}'
+			},
+			#name : #SelecNiv,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #SelecNiv,
+						#isMetaSide : false
+					},
+					#name : #ventana,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #SelecNiv,
+						#isMetaSide : false
+					},
+					#name : #botones,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'SelecNiv class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'SelecNiv class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #SelecNiv,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T23:18:19.454-03:00' ],
+		#prior : OmReference [ '56' ],
+		#self : OmReference [ '57' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initialize \rbotones:= Array new: 9.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString)  \r\t].',
+			#stamp : 'EscalanteThiago 11/25/2023 23:18',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T23:18:19.462-03:00' ],
+		#prior : OmReference [ '57' ],
+		#self : OmReference [ '58' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initialize \rbotones:= Array new: 9.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString)  \r\t].',
+			#stamp : 'EscalanteThiago 11/25/2023 23:18',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rbotones:= Array new: 9.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString)  \r\t].',
+			#stamp : 'EscalanteThiago 11/25/2023 23:18',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T23:18:33.672-03:00' ],
+		#prior : OmReference [ '58' ],
+		#self : OmReference [ '59' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'ManifestNonograma class',
+				#isMetaSide : true
+			},
+			#name : #ruleToDoCollectRuleV1FalsePositive,
+			#protocol : #code-critics,
+			#sourceCode : 'ruleToDoCollectRuleV1FalsePositive\r\r\t<ignoreForCoverage>\r\t^ #()',
+			#stamp : 'EscalanteThiago 11/25/2023 23:18',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T23:18:33.679-03:00' ],
+		#prior : OmReference [ '59' ],
+		#self : OmReference [ '60' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'ManifestNonograma class',
+				#isMetaSide : true
+			},
+			#name : #ruleToDoCollectRuleV1FalsePositive,
+			#protocol : #code-critics,
+			#sourceCode : 'ruleToDoCollectRuleV1FalsePositive\r\r\t<ignoreForCoverage>\r\t^ #()',
+			#stamp : 'EscalanteThiago 11/25/2023 23:18',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'ManifestNonograma class',
+				#isMetaSide : true
+			},
+			#name : #ruleToDoCollectRuleV1FalsePositive,
+			#protocol : #code-critics,
+			#sourceCode : 'ruleToDoCollectRuleV1FalsePositive\r\r\t<ignoreForCoverage>\r\t^ #(#(#(#RGPackageDefinition #(#Nonograma)) #\'2023-11-25T23:18:33.675-03:00\') )',
+			#stamp : 'EscalanteThiago 11/25/2023 23:18',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T23:18:35.838-03:00' ],
+		#prior : OmReference [ '60' ],
+		#self : OmReference [ '61' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'ManifestNonograma class',
+				#isMetaSide : true
+			},
+			#name : #ruleStringConcatenationRuleV1FalsePositive,
+			#protocol : #code-critics,
+			#sourceCode : 'ruleStringConcatenationRuleV1FalsePositive\r\r\t<ignoreForCoverage>\r\t^ #()',
+			#stamp : 'EscalanteThiago 11/25/2023 23:18',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T23:18:35.843-03:00' ],
+		#prior : OmReference [ '61' ],
+		#self : OmReference [ '62' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'ManifestNonograma class',
+				#isMetaSide : true
+			},
+			#name : #ruleStringConcatenationRuleV1FalsePositive,
+			#protocol : #code-critics,
+			#sourceCode : 'ruleStringConcatenationRuleV1FalsePositive\r\r\t<ignoreForCoverage>\r\t^ #()',
+			#stamp : 'EscalanteThiago 11/25/2023 23:18',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'ManifestNonograma class',
+				#isMetaSide : true
+			},
+			#name : #ruleStringConcatenationRuleV1FalsePositive,
+			#protocol : #code-critics,
+			#sourceCode : 'ruleStringConcatenationRuleV1FalsePositive\r\r\t<ignoreForCoverage>\r\t^ #(#(#(#RGPackageDefinition #(#Nonograma)) #\'2023-11-25T23:18:35.84-03:00\') )',
+			#stamp : 'EscalanteThiago 11/25/2023 23:18',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T23:32:41.731-03:00' ],
+		#prior : OmReference [ '62' ],
+		#self : OmReference [ '63' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \rbotones:= Array new: 9.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString)  \r\t].',
+			#stamp : 'EscalanteThiago 11/25/2023 23:18',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 3.\rventana extent: 200@200 + ancho@alto.\r(botones at:1) position: ventana position + 50@50.\r(botones at:2) position: (botones at:1) position + ancho@0 + 50@0.\r(botones at:3) position: (botones at:2) position + ancho@0 + 50@0.\r(botones at:4) position: (botones at:1) position + 0@alto + 0@50.\r(botones at:5) position: (botones at:2) position + 0@alto + 0@50.\r(botones at:6) position: (botones at:3) position + 0@alto + 0@50.\r(botones at:7) position: (botones at:4) position + 0@alto + 0@50.\r(botones at:8) position: (botones at:5) position + 0@alto + 0@50.\r(botones at:9) position: (botones at:6) position + 0@alto + 0@50.\r',
+			#stamp : 'EscalanteThiago 11/25/2023 23:32',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T23:35:08.877-03:00' ],
+		#prior : OmReference [ '63' ],
+		#self : OmReference [ '64' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 3.\rventana extent: 200@200 + ancho@alto.\r(botones at:1) position: ventana position + 50@50.\r(botones at:2) position: (botones at:1) position + ancho@0 + 50@0.\r(botones at:3) position: (botones at:2) position + ancho@0 + 50@0.\r(botones at:4) position: (botones at:1) position + 0@alto + 0@50.\r(botones at:5) position: (botones at:2) position + 0@alto + 0@50.\r(botones at:6) position: (botones at:3) position + 0@alto + 0@50.\r(botones at:7) position: (botones at:4) position + 0@alto + 0@50.\r(botones at:8) position: (botones at:5) position + 0@alto + 0@50.\r(botones at:9) position: (botones at:6) position + 0@alto + 0@50.\r',
+			#stamp : 'EscalanteThiago 11/25/2023 23:32',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 3.\rventana extent: (200@200) + (ancho@alto).\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (ancho@0) + (50@0).\r(botones at:3) position: ((botones at:2) position) + (ancho@0) + (50@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@50).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@50).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@50).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@50).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@50).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@50).\r\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/25/2023 23:35',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T23:36:46.016-03:00' ],
+		#prior : OmReference [ '64' ],
+		#self : OmReference [ '65' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 3.\rventana extent: (200@200) + (ancho@alto).\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (ancho@0) + (50@0).\r(botones at:3) position: ((botones at:2) position) + (ancho@0) + (50@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@50).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@50).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@50).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@50).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@50).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@50).\r\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/25/2023 23:35',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 3.\rventana extent: (200@200) + (ancho@alto).\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (ancho@0) + (20@0).\r(botones at:3) position: ((botones at:2) position) + (ancho@0) + (20@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@20).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@20).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@20).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@20).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@20).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@20).\r\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/25/2023 23:36',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T23:37:46.821-03:00' ],
+		#prior : OmReference [ '65' ],
+		#self : OmReference [ '66' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 3.\rventana extent: (200@200) + (ancho@alto).\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (ancho@0) + (20@0).\r(botones at:3) position: ((botones at:2) position) + (ancho@0) + (20@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@20).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@20).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@20).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@20).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@20).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@20).\r\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/25/2023 23:36',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 3.\rventana extent: (200@200) + (ancho@alto).\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (0@0) + (20@0).\r(botones at:3) position: ((botones at:2) position) + (0@0) + (20@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@20).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@20).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@20).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@20).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@20).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@20).\r\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/25/2023 23:37',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T23:38:56.41-03:00' ],
+		#prior : OmReference [ '66' ],
+		#self : OmReference [ '67' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 3.\rventana extent: (200@200) + (ancho@alto).\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (0@0) + (20@0).\r(botones at:3) position: ((botones at:2) position) + (0@0) + (20@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@20).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@20).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@20).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@20).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@20).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@20).\r\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/25/2023 23:37',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 3.\rventana extent: (200@200) + (ancho@alto).\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (alto@0) + (20@0).\r(botones at:3) position: ((botones at:2) position) + (alto@0) + (20@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@20).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@20).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@20).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@20).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@20).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@20).\r\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/25/2023 23:38',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T23:40:09.13-03:00' ],
+		#prior : OmReference [ '67' ],
+		#self : OmReference [ '68' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 3.\rventana extent: (200@200) + (ancho@alto).\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (alto@0) + (20@0).\r(botones at:3) position: ((botones at:2) position) + (alto@0) + (20@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@20).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@20).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@20).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@20).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@20).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@20).\r\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/25/2023 23:38',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 3.\rventana extent: (200@200) + (ancho@alto).\rancho:= (botones at:1) width.\ralto:= (botones at:1) height .\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (alto@0) + (20@0).\r(botones at:3) position: ((botones at:2) position) + (alto@0) + (20@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@20).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@20).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@20).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@20).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@20).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@20).\r\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/25/2023 23:40',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T23:40:34.317-03:00' ],
+		#prior : OmReference [ '68' ],
+		#self : OmReference [ '69' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 3.\rventana extent: (200@200) + (ancho@alto).\rancho:= (botones at:1) width.\ralto:= (botones at:1) height .\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (alto@0) + (20@0).\r(botones at:3) position: ((botones at:2) position) + (alto@0) + (20@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@20).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@20).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@20).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@20).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@20).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@20).\r\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/25/2023 23:40',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 3.\rventana extent: (200@200) + (ancho@alto).\rancho:= (botones at:1) width.\ralto:= (botones at:1) height .\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (ancho@0) + (20@0).\r(botones at:3) position: ((botones at:2) position) + (ancho@0) + (20@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@20).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@20).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@20).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@20).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@20).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@20).\r\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/25/2023 23:40',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T23:41:12.892-03:00' ],
+		#prior : OmReference [ '69' ],
+		#self : OmReference [ '70' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 3.\rventana extent: (200@200) + (ancho@alto).\rancho:= (botones at:1) width.\ralto:= (botones at:1) height .\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (ancho@0) + (20@0).\r(botones at:3) position: ((botones at:2) position) + (ancho@0) + (20@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@20).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@20).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@20).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@20).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@20).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@20).\r\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/25/2023 23:40',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 3.\rventana extent: (100@100) + (ancho@alto).\rancho:= (botones at:1) width.\ralto:= (botones at:1) height .\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (ancho@0) + (20@0).\r(botones at:3) position: ((botones at:2) position) + (ancho@0) + (20@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@20).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@20).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@20).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@20).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@20).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@20).\r\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/25/2023 23:41',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T23:41:25.02-03:00' ],
+		#prior : OmReference [ '70' ],
+		#self : OmReference [ '71' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 3.\rventana extent: (100@100) + (ancho@alto).\rancho:= (botones at:1) width.\ralto:= (botones at:1) height .\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (ancho@0) + (20@0).\r(botones at:3) position: ((botones at:2) position) + (ancho@0) + (20@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@20).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@20).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@20).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@20).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@20).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@20).\r\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/25/2023 23:41',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 3.\rventana extent: (150@150) + (ancho@alto).\rancho:= (botones at:1) width.\ralto:= (botones at:1) height .\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (ancho@0) + (20@0).\r(botones at:3) position: ((botones at:2) position) + (ancho@0) + (20@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@20).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@20).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@20).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@20).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@20).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@20).\r\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/25/2023 23:41',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T23:41:41.995-03:00' ],
+		#prior : OmReference [ '71' ],
+		#self : OmReference [ '72' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nueva imagen\\Nueva imagen.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T23:41:54.729-03:00' ],
+		#prior : OmReference [ '72' ],
+		#self : OmReference [ '73' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 3.\rventana extent: (150@150) + (ancho@alto).\rancho:= (botones at:1) width.\ralto:= (botones at:1) height .\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (ancho@0) + (20@0).\r(botones at:3) position: ((botones at:2) position) + (ancho@0) + (20@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@20).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@20).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@20).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@20).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@20).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@20).\r\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/25/2023 23:41',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 3.\rventana extent: (125@125) + (ancho@alto).\rancho:= (botones at:1) width.\ralto:= (botones at:1) height .\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (ancho@0) + (20@0).\r(botones at:3) position: ((botones at:2) position) + (ancho@0) + (20@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@20).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@20).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@20).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@20).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@20).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@20).\r\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/25/2023 23:41',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T23:42:37.704-03:00' ],
+		#prior : OmReference [ '73' ],
+		#self : OmReference [ '74' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 3.\rventana extent: (125@125) + (ancho@alto).\rancho:= (botones at:1) width.\ralto:= (botones at:1) height .\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (ancho@0) + (20@0).\r(botones at:3) position: ((botones at:2) position) + (ancho@0) + (20@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@20).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@20).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@20).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@20).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@20).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@20).\r\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/25/2023 23:41',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 3.\rventana extent: (200@200) + (ancho@alto).\rancho:= (botones at:1) width.\ralto:= (botones at:1) height .\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (ancho@0) + (50@0).\r(botones at:3) position: ((botones at:2) position) + (ancho@0) + (50@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@50).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@50).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@50).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@50).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@50).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@50).\r\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/25/2023 23:42',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T23:45:10.931-03:00' ],
+		#prior : OmReference [ '74' ],
+		#self : OmReference [ '75' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 3.\rventana extent: (200@200) + (ancho@alto).\rancho:= (botones at:1) width.\ralto:= (botones at:1) height .\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (ancho@0) + (50@0).\r(botones at:3) position: ((botones at:2) position) + (ancho@0) + (50@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@50).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@50).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@50).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@50).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@50).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@50).\r\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/25/2023 23:42',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 3.\rventana extent: (200@200) + (ancho@alto).\rancho:= (botones at:1) width.\ralto:= (botones at:1) height .\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (ancho@0) + (50@0).\r(botones at:3) position: ((botones at:2) position) + (ancho@0) + (50@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@50).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@50).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@50).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@50).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@50).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@50).\r\rventana setLabel: \'Selecciona un Nivel\'.\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/25/2023 23:45',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T23:46:38.538-03:00' ],
+		#prior : OmReference [ '75' ],
+		#self : OmReference [ '76' ]
+	},
+	#content : EpClassModification {
+		#oldClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'Object subclass: #SelecNiv\r\tinstanceVariableNames: \'ventana botones\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'Object',
+				#traitCompositionSource : '{}'
+			},
+			#name : #SelecNiv,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #SelecNiv,
+						#isMetaSide : false
+					},
+					#name : #ventana,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #SelecNiv,
+						#isMetaSide : false
+					},
+					#name : #botones,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'SelecNiv class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'SelecNiv class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #SelecNiv,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#newClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'Object subclass: #SelecNiv\r\tinstanceVariableNames: \'ventana botones volver custom\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'Object',
+				#traitCompositionSource : '{}'
+			},
+			#name : #SelecNiv,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #SelecNiv,
+						#isMetaSide : false
+					},
+					#name : #ventana,
+					#parent : @25
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #SelecNiv,
+						#isMetaSide : false
+					},
+					#name : #botones,
+					#parent : @25
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #SelecNiv,
+						#isMetaSide : false
+					},
+					#name : #volver,
+					#parent : @25
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #SelecNiv,
+						#isMetaSide : false
+					},
+					#name : #custom,
+					#parent : @25
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'SelecNiv class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'SelecNiv class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @25
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #SelecNiv,
+					#isMetaSide : false
+				},
+				#parent : @25,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T23:50:49.628-03:00' ],
+		#prior : OmReference [ '76' ],
+		#self : OmReference [ '77' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 3.\rventana extent: (200@200) + (ancho@alto).\rancho:= (botones at:1) width.\ralto:= (botones at:1) height .\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (ancho@0) + (50@0).\r(botones at:3) position: ((botones at:2) position) + (ancho@0) + (50@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@50).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@50).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@50).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@50).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@50).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@50).\r\rventana setLabel: \'Selecciona un Nivel\'.\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/25/2023 23:45',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\r\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 4.\rventana extent: (200@250) + (ancho@alto).\rancho:= (botones at:1) width.\ralto:= (botones at:1) height .\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (ancho@0) + (50@0).\r(botones at:3) position: ((botones at:2) position) + (ancho@0) + (50@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@50).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@50).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@50).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@50).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@50).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@50).\r\r\rvolver:= BotonComun new.\rvolver label: \'Volver\'.\rcustom:= BotonComun new.\rcustom label: \'Custom\'.\rventana addMorph: volver.\rventana addMorph: custom.\rcustom position: ((botones at:8) position) + (0@alto) + (0@50).\rvolver position: ((botones at:9) position) + (0@alto) + (0@50).\r\rventana setLabel: \'Selecciona un Nivel\'.\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/25/2023 23:50',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T23:52:10.164-03:00' ],
+		#prior : OmReference [ '77' ],
+		#self : OmReference [ '78' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\r\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 4.\rventana extent: (200@250) + (ancho@alto).\rancho:= (botones at:1) width.\ralto:= (botones at:1) height .\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (ancho@0) + (50@0).\r(botones at:3) position: ((botones at:2) position) + (ancho@0) + (50@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@50).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@50).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@50).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@50).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@50).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@50).\r\r\rvolver:= BotonComun new.\rvolver label: \'Volver\'.\rcustom:= BotonComun new.\rcustom label: \'Custom\'.\rventana addMorph: volver.\rventana addMorph: custom.\rcustom position: ((botones at:8) position) + (0@alto) + (0@50).\rvolver position: ((botones at:9) position) + (0@alto) + (0@50).\r\rventana setLabel: \'Selecciona un Nivel\'.\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/25/2023 23:50',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\r\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 4.\rventana extent: (200@250) + (ancho@alto).\rancho:= (botones at:1) width.\ralto:= (botones at:1) height .\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (ancho@0) + (50@0).\r(botones at:3) position: ((botones at:2) position) + (ancho@0) + (50@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@50).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@50).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@50).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@50).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@50).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@50).\r\r\rvolver:= BotonComun new.\rvolver label: \'Volver\'.\rcustom:= BotonComun new.\rcustom label: \'Custom\'.\rcustom color: (Color fromHexString: \'#a14347\').\rventana addMorph: volver.\rventana addMorph: custom.\rcustom position: ((botones at:8) position) + (0@alto) + (0@50).\rvolver position: ((botones at:9) position) + (0@alto) + (0@50).\r\rventana setLabel: \'Selecciona un Nivel\'.\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/25/2023 23:52',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T23:52:57.678-03:00' ],
+		#prior : OmReference [ '78' ],
+		#self : OmReference [ '79' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\r\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 4.\rventana extent: (200@250) + (ancho@alto).\rancho:= (botones at:1) width.\ralto:= (botones at:1) height .\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (ancho@0) + (50@0).\r(botones at:3) position: ((botones at:2) position) + (ancho@0) + (50@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@50).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@50).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@50).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@50).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@50).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@50).\r\r\rvolver:= BotonComun new.\rvolver label: \'Volver\'.\rcustom:= BotonComun new.\rcustom label: \'Custom\'.\rcustom color: (Color fromHexString: \'#a14347\').\rventana addMorph: volver.\rventana addMorph: custom.\rcustom position: ((botones at:8) position) + (0@alto) + (0@50).\rvolver position: ((botones at:9) position) + (0@alto) + (0@50).\r\rventana setLabel: \'Selecciona un Nivel\'.\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/25/2023 23:52',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\r\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 4.\rventana extent: (200@250) + (ancho@alto).\rancho:= (botones at:1) width.\ralto:= (botones at:1) height .\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (ancho@0) + (50@0).\r(botones at:3) position: ((botones at:2) position) + (ancho@0) + (50@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@50).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@50).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@50).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@50).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@50).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@50).\r\r\rvolver:= BotonComun new.\rvolver label: \'Volver\'.\rvolver color: (Color fromHexString: \'#5ba35f\').\rcustom:= BotonComun new.\rcustom label: \'Custom\'.\rcustom color: (Color fromHexString: \'#a14347\').\rventana addMorph: volver.\rventana addMorph: custom.\rcustom position: ((botones at:8) position) + (0@alto) + (0@50).\rvolver position: ((botones at:9) position) + (0@alto) + (0@50).\r\rventana setLabel: \'Selecciona un Nivel\'.\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/25/2023 23:52',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T23:58:22.086-03:00' ],
+		#prior : OmReference [ '79' ],
+		#self : OmReference [ '80' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #'seleccionar:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'seleccionar: unNumero\r| object fileName stream |\r(unNumero = 1) ifTrue: [ fileName := \'puzzle1.fuel\'. ].\r\t"la variable stream se utiliza para leer el objeto serializado desde el archivo. \r\tLa clase FLMaterializer se utiliza para deserializar el objeto, y el objeto deserializado se almacena en la variable object."\r\t\r\tstream := fileName asFileReference binaryReadStream.\r\tobject := FLMaterializer materializeFrom: stream.\r\tstream close.\r',
+			#stamp : 'EscalanteThiago 11/25/2023 23:58',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T23:58:43.392-03:00' ],
+		#prior : OmReference [ '80' ],
+		#self : OmReference [ '81' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #'seleccionar:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'seleccionar: unNumero\r| object fileName stream |\r(unNumero = 1) ifTrue: [ fileName := \'puzzle1.fuel\'. ].\r\t"la variable stream se utiliza para leer el objeto serializado desde el archivo. \r\tLa clase FLMaterializer se utiliza para deserializar el objeto, y el objeto deserializado se almacena en la variable object."\r\t\r\tstream := fileName asFileReference binaryReadStream.\r\tobject := FLMaterializer materializeFrom: stream.\r\tstream close.\r',
+			#stamp : 'EscalanteThiago 11/25/2023 23:58',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #'seleccionar:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'seleccionar: unNumero\r| object fileName stream |\r(unNumero = 1) ifTrue: [ fileName := \'puzzle1.fuel\'. ].\r\t\rstream := fileName asFileReference binaryReadStream.\robject := FLMaterializer materializeFrom: stream.\rstream close.\r',
+			#stamp : 'EscalanteThiago 11/25/2023 23:58',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-25T23:59:46.781-03:00' ],
+		#prior : OmReference [ '81' ],
+		#self : OmReference [ '82' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #'seleccionar:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'seleccionar: unNumero\r| object fileName stream |\r(unNumero = 1) ifTrue: [ fileName := \'puzzle1.fuel\'. ].\r\t\rstream := fileName asFileReference binaryReadStream.\robject := FLMaterializer materializeFrom: stream.\rstream close.\r',
+			#stamp : 'EscalanteThiago 11/25/2023 23:58',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #'seleccionar:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'seleccionar: unNumero\r| object fileName stream nivel |\r(unNumero = 1) ifTrue: [ fileName := \'puzzle1.fuel\'. ].\r\t\rstream := fileName asFileReference binaryReadStream.\robject := FLMaterializer materializeFrom: stream.\rstream close.\r\rnivel:= Nivel new.\rnivel crearNivel: object.\r',
+			#stamp : 'EscalanteThiago 11/25/2023 23:59',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T00:00:09.249-03:00' ],
+		#prior : OmReference [ '82' ],
+		#self : OmReference [ '83' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\r\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 4.\rventana extent: (200@250) + (ancho@alto).\rancho:= (botones at:1) width.\ralto:= (botones at:1) height .\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (ancho@0) + (50@0).\r(botones at:3) position: ((botones at:2) position) + (ancho@0) + (50@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@50).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@50).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@50).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@50).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@50).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@50).\r\r\rvolver:= BotonComun new.\rvolver label: \'Volver\'.\rvolver color: (Color fromHexString: \'#5ba35f\').\rcustom:= BotonComun new.\rcustom label: \'Custom\'.\rcustom color: (Color fromHexString: \'#a14347\').\rventana addMorph: volver.\rventana addMorph: custom.\rcustom position: ((botones at:8) position) + (0@alto) + (0@50).\rvolver position: ((botones at:9) position) + (0@alto) + (0@50).\r\rventana setLabel: \'Selecciona un Nivel\'.\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/25/2023 23:52',
+			#package : #Nonograma
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #SelecNiv,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|ancho alto|\rbotones:= Array new: 9.\rventana:= SystemWindow new.\r1 to: 9 do: [ :x | \r\tbotones at:x put:(BotonComun new). \r\t(botones at:x)label: \'Nivel \', (x asString).\r\tventana addMorph: (botones at:x). \r\t].\r\r\r\rancho:= ((botones at:1) width) * 3.\ralto:= (botones at:1) height * 4.\rventana extent: (200@250) + (ancho@alto).\rancho:= (botones at:1) width.\ralto:= (botones at:1) height .\r(botones at:1) position: (ventana position) + (50@50).\r(botones at:2) position: ((botones at:1) position) + (ancho@0) + (50@0).\r(botones at:3) position: ((botones at:2) position) + (ancho@0) + (50@0).\r(botones at:4) position: ((botones at:1) position) + (0@alto) + (0@50).\r(botones at:5) position: ((botones at:2) position) + (0@alto) + (0@50).\r(botones at:6) position: ((botones at:3) position) + (0@alto) + (0@50).\r(botones at:7) position: ((botones at:4) position) + (0@alto) + (0@50).\r(botones at:8) position: ((botones at:5) position) + (0@alto) + (0@50).\r(botones at:9) position: ((botones at:6) position) + (0@alto) + (0@50).\r(botones at:1) mouseAction: [self seleccionar: 1].\r\rvolver:= BotonComun new.\rvolver label: \'Volver\'.\rvolver color: (Color fromHexString: \'#5ba35f\').\rcustom:= BotonComun new.\rcustom label: \'Custom\'.\rcustom color: (Color fromHexString: \'#a14347\').\rventana addMorph: volver.\rventana addMorph: custom.\rcustom position: ((botones at:8) position) + (0@alto) + (0@50).\rvolver position: ((botones at:9) position) + (0@alto) + (0@50).\r\rventana setLabel: \'Selecciona un Nivel\'.\rventana openInWorld.',
+			#stamp : 'EscalanteThiago 11/26/2023 00:00',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T00:09:47.287-03:00' ],
+		#prior : OmReference [ '83' ],
+		#self : OmReference [ '84' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nueva imagen\\Nueva imagen.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'EscalanteThiago',
+		#time : DateAndTime [ '2023-11-26T00:11:28.312-03:00' ],
+		#prior : OmReference [ '84' ],
+		#self : OmReference [ '85' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nueva imagen\\Nueva imagen.image'
+	}
+}

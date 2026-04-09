@@ -1,0 +1,1 @@
+prueba:= SelecNiv new.nuevo:= Nivel new.nuevo crearNivel: (Puzzle numero: 1).nuevo tablero completarnivel:= Nivel new.nivel editor:25 ancho: 16 alto:16.Nonograma completar

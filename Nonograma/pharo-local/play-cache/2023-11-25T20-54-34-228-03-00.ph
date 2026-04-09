@@ -1,0 +1,1 @@
+variable:= SelecNiv new.variable nivel tablero completar.

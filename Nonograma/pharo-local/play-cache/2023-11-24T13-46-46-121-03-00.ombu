@@ -1,0 +1,115 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T13:46:52.426-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : 'nono:= Nonograma new.\rnono crearTablero: 30  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Nonograma\'.\rRefCellprueba  new openInWorld.\rcoso:= TextMorph new.\rcoso openInWorld.\rcoso contents: \'Prueba\'.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T17:19:47.468-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : 'nono:= Nonograma new.\rnono crearTablero: 30  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Nonograma\'.\rRefCellprueba  new openInWorld.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T17:26:21.406-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : 'nono:= Nonograma new.\rnono crearTablero: 30  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Nonograma\'.\rboton:= RefCell new .\rboton openInWorld.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T17:26:45.485-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : 'nono:= Nonograma new.\rnono crearTablero: 30  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Nonograma\'.\rboton:= RefCell new .\rboton openInWorld.\rboton label: \'0\'.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T17:58:22.651-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : 'nono:= Nonograma new.\rnono crearTablero: 30  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Nonograma\'.\rboton:= RefCell new .\rboton openInWorld.\rboton setTamaño: 80.\rboton label: \'0\'.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T17:58:30.813-03:00' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : 'nono:= Nonograma new.\rnono crearTablero: 30  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Nonograma\'.\rboton:= RefCell new .\rboton openInWorld.\rboton setTamaño: 20.\rboton label: \'0\'.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T18:00:38.924-03:00' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : 'nono:= Nonograma new.\rnono crearTablero: 30  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Nonograma\'.\rboton:= RefCell new .\rboton openInWorld.\rboton label: \'0\'.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T18:11:10.734-03:00' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : 'nono:= Nonograma new.\rnono crearTablero: 30  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Nonograma\'.\r\r\rnono:= Refer_sup new.\rnono crearTablero: 30  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Prueba de referencia\'.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T18:25:06.771-03:00' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : 'nono:= Nonograma new.\rnono crearTablero: 30  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Nonograma\'.\r\r\rprueba:= RefCell new.\rprueba openInWorld.\rprueba oscura.\r\r\rnono:= Refer_sup new.\rnono crearTablero: 30  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Prueba de referencia\'.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T18:33:07.499-03:00' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : 'nono:= Nonograma new.\rnono crearTablero: 30  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Nonograma\'.\r\r\rprueba:= RefCell new.\rprueba openInWorld.\rprueba clara.\r\r\rnono:= Refer_sup new.\rnono crearTablero: 30  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Prueba de referencia\'.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T18:45:35.746-03:00' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : 'nono:= Nonograma new.\rnono crearTablero: 30  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Nonograma\'.\r\r\rprueba:= RefCell new.\rprueba openInWorld.\rprueba clara.\r\r21 odd.\r\r\rnono:= Refer_sup new.\rnono crearTablero: 30  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Prueba de referencia\'.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T18:45:56.711-03:00' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : 'nono:= Nonograma new.\rnono crearTablero: 30  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Nonograma\'.\r\r\rprueba:= RefCell new.\rprueba openInWorld.\rprueba clara.\r\r\rnono:= Refer_sup new.\rnono crearTablero: 30  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Prueba de referencia\'.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T18:53:13.511-03:00' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : 'nono:= Nonograma new.\rnono crearTablero: 30  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Nonograma\'.\r\r\rprueba:= RefCell new.\rprueba openInWorld.\rprueba clara.\r\r\rnono:= Refer_sup new.\rnono crearTablero: 50  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Prueba de referencia\'.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T19:02:45.801-03:00' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : 'nono:= Nonograma new.\rnono crearTablero: 30  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Nonograma\'.\r\r\rprueba:= RefCell new.\rprueba openInWorld.\rprueba clara.\r\r\rnono:= Refer_iz new.\rnono crearTablero: 50  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Prueba de referencia\'.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T19:08:26.073-03:00' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : 'nono:= Nonograma new.\rnono crearTablero: 30  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Nonograma\'.\r\r\rprueba:= RefCell new.\rprueba openInWorld.\rprueba clara.\r\r\rnono:= Refer_sup new.\rnono crearTablero: 50  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Prueba de referencia\'.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T19:11:39.754-03:00' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : 'nono:= Nonograma new.\rnono crearTablero: 30  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Nonograma\'.\r\r\r(5/2)ceiling.\r\rprueba:= RefCell new.\rprueba openInWorld.\rprueba clara.\r\r\rnono:= Refer_sup new.\rnono crearTablero: 50  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Prueba de referencia\'.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T19:11:52.504-03:00' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : 'nono:= Nonograma new.\rnono crearTablero: 30  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Nonograma\'.\r\r\r(3/2)ceiling.\r\rprueba:= RefCell new.\rprueba openInWorld.\rprueba clara.\r\r\rnono:= Refer_sup new.\rnono crearTablero: 50  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Prueba de referencia\'.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T19:15:39.568-03:00' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : 'nono:= Nonograma new.\rnono crearTablero: 30  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Nonograma\'.\r\r\r\rprueba:= RefCell new.\rprueba openInWorld.\rprueba clara.\r\r\rnono:= Refer_sup new.\rnono crearTablero: 50  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Prueba de referencia\'.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T19:37:31.935-03:00' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : 'nono:= Nonograma new.\rnono crearTablero: 30  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana extent: (100@50).\rventana addMorph: nono.\rventana extent: (nono extent + (100@50)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Nonograma\'.\r\r\r\rprueba:= RefCell new.\rprueba openInWorld.\rprueba clara.\r\r\rnono:= Refer_sup new.\rnono crearTablero: 50  ancho: 16  altura: 16 .\rnono openInWorld.\rventana:= SystemWindow new.\rventana openInWorld.\rventana addMorph: nono.\rventana extent: (nono extent + (100@100)).\rnono position: ventana position + (50@50).\rventana setLabel: \'Prueba de referencia\'.'
+}

@@ -1,0 +1,229 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T13:00:26.341-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : 'Truco resolver'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T14:09:21.712-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : 'SelecNiv'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T14:09:26.824-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : 'SelecNiv new.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T14:13:03.947-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: false.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T14:13:14.036-03:00' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T14:21:35.761-03:00' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T14:31:04.059-03:00' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rnivel:= Nivel new.\rnivel crearNivel: 25 ancho:20 alto:20.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T14:32:45.04-03:00' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rnivel:= Nivel new.\rnivel crearNivel: (Array2D new:20).'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T14:34:56.72-03:00' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rnivel:= Nivel new.\rnivel crearNivel: (Array2D new:10).'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T14:35:03.072-03:00' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rnivel:= Nivel new.\rnivel crearNivel: (Array2D new:12).'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T14:35:09.235-03:00' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rnivel:= Nivel new.\rnivel crearNivel: (Array2D new:16).'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T14:43:07.73-03:00' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rTruco \rnivel:= Nivel new.\rnivel crearNivel: (Array2D new:16).\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T14:43:50.985-03:00' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rTruco size: 25.\rnivel:= Nivel new.\rnivel crearNivel: (Array2D new:16).\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T14:44:29.895-03:00' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rTruco size: 20.\rnivel:= Nivel new.\rnivel crearNivel: (Array2D new:16).\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T14:46:06.564-03:00' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rTruco size: 20.\rnivel:= Nivel new.\rnivel crearNivel: (Array2D new:32).\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T14:46:29.37-03:00' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rTruco size: 15.\rnivel:= Nivel new.\rnivel crearNivel: (Array2D new:32).\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T14:46:44.596-03:00' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rTruco size: 10.\rnivel:= Nivel new.\rnivel crearNivel: (Array2D new:32).\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T14:59:51.404-03:00' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rTruco size: 10.\rnivel:= Nivel new.\rnivel crearNivel: (Array2D new:32).\rnil asInteger.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T14:59:58.66-03:00' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rTruco size: 10.\rnivel:= Nivel new.\rnivel crearNivel: (Array2D new:32).'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T15:18:19.628-03:00' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rTruco size: 10.\rnivel:= Nivel new.\rnivel crearNivel: (Puzzle seleccionar: 1).'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T16:13:25.979-03:00' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rTruco size: 10.\rnivel:= Nivel new.\rnivel crearNivel: (Puzzle seleccionar: 1).\rPTitulo new.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T17:04:09.668-03:00' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rTruco size: 10.\rnivel:= Nivel new.\rnivel crearNivel: (Puzzle seleccionar: 1).\rPTitulo new.\rUIManager default chooseDirectory.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T17:04:59.318-03:00' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rTruco size: 10.\rnivel:= Nivel new.\rnivel crearNivel: (Puzzle seleccionar: 1).\rPTitulo new.\rUIManager default choose.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T17:05:07.434-03:00' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rTruco size: 10.\rnivel:= Nivel new.\rnivel crearNivel: (Puzzle seleccionar: 1).\rPTitulo new.\rUIManager default chooseFileDirectory.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T17:05:31.313-03:00' ],
+		#self : OmReference [ '25' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rTruco size: 10.\rnivel:= Nivel new.\rnivel crearNivel: (Puzzle seleccionar: 1).\rPTitulo new.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T17:06:22.541-03:00' ],
+		#self : OmReference [ '26' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rTruco size: 10.\rnivel:= Nivel new.\rnivel crearNivel: (Puzzle seleccionar: 1).\rPTitulo new.\rUIManager default fileSelectorPrompt: \'Seleccione un archivo\'.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T17:07:15.068-03:00' ],
+		#self : OmReference [ '27' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rTruco size: 10.\rnivel:= Nivel new.\rnivel crearNivel: (Puzzle seleccionar: 1).\rPTitulo new.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T17:12:01.279-03:00' ],
+		#self : OmReference [ '28' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rTruco size: 10.\rnivel:= Nivel new.\rnivel crearNivel: (Puzzle seleccionar: 1).\rPTitulo new.\rUIManager default chooseFullFileNameMatching: \'.fuel\'.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T17:13:13.87-03:00' ],
+		#self : OmReference [ '29' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rTruco size: 10.\rnivel:= Nivel new.\rnivel crearNivel: (Puzzle seleccionar: 1).\rPTitulo new.\rUIManager default chooseFullFileNameMatching: true.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T17:16:04.608-03:00' ],
+		#self : OmReference [ '30' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rTruco size: 10.\rnivel:= Nivel new.\rnivel crearNivel: (Puzzle seleccionar: 1).\rPTitulo new.\rUIManager default chooseFullFileNameMatching: #(\'.txt\' \'*.md\').'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T17:16:21.739-03:00' ],
+		#self : OmReference [ '31' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rTruco size: 10.\rnivel:= Nivel new.\rnivel crearNivel: (Puzzle seleccionar: 1).\rPTitulo new.\rUIManager default chooseFullFileNameMatching: #(\'.fuel\' \'*.md\').'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T17:16:31.04-03:00' ],
+		#self : OmReference [ '32' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rTruco size: 10.\rnivel:= Nivel new.\rnivel crearNivel: (Puzzle seleccionar: 1).\rPTitulo new.\rUIManager default chooseFullFileNameMatching: #(\'.fuel\' \'*.fuel\').'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T17:17:04.501-03:00' ],
+		#self : OmReference [ '33' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rTruco size: 10.\rnivel:= Nivel new.\rnivel crearNivel: (Puzzle seleccionar: 1).\rPTitulo new.\rruta:= UIManager default chooseFullFileNameMatching: #(\'.fuel\' \'*.fuel\').\r^ruta'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T17:17:39.666-03:00' ],
+		#self : OmReference [ '34' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rTruco size: 10.\rnivel:= Nivel new.\rnivel crearNivel: (Puzzle seleccionar: 1).\rPTitulo new.\rruta:= UIManager default chooseFullFileNameMatching: #(\'*.fuel\').\r^ruta'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T18:51:07.858-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rTruco size: 10.\rnivel:= Nivel new.\rnivel crearNivel: (Puzzle seleccionar: 1).\rPTitulo new.\rruta:= UIManager default chooseFullFileNameMatching: #(\'*.fuel\').\r^ruta\r\rAlerta new.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T18:56:26.995-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : 'SelecNiv new.\rTruco resolver: true.\rTruco size: 10.\rnivel:= Nivel new.\rnivel crearNivel: (Puzzle seleccionar: 1).\rPTitulo new.\rruta:= UIManager default chooseFullFileNameMatching: #(\'*.fuel\').\r^ruta\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T19:05:04.887-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : 'Juego iniciar.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T19:33:10.058-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : 'Juego iniciar.\rTruco resolver: true.\r\r'
+}

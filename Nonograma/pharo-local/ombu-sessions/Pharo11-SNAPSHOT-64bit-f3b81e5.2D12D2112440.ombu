@@ -1,0 +1,612 @@
+OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-24T13:46:20.092-03:00' ],
+		#prior : OmReference [ 'Pharo11-SNAPSHOT-64bit-f3b81e5.36C0EC121608', '8756' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpCategoryRegistration {
+		#classCategoryName : #Nonograma,
+		#affectedPackageName : #Nonograma
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-24T13:46:20.093-03:00' ],
+		#prior : OmReference [ '1' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : EpCategoryAddition {
+		#classCategoryName : #Nonograma,
+		#affectedPackageName : #Nonograma
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-24T13:46:20.096-03:00' ],
+		#prior : OmReference [ '2' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'SimpleSwitchMorph subclass: #NOCell\r\tinstanceVariableNames: \'mouseAction\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'SimpleSwitchMorph',
+				#traitCompositionSource : '{}'
+			},
+			#name : #NOCell,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #NOCell,
+						#isMetaSide : false
+					},
+					#name : #mouseAction,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'NOCell class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'NOCell class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #NOCell,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-24T13:46:20.19-03:00' ],
+		#prior : OmReference [ '3' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #NOCell,
+				#isMetaSide : false
+			},
+			#name : #'mouseAction:',
+			#protocol : #accessing,
+			#sourceCode : 'mouseAction: aBlock\r\tmouseAction := aBlock',
+			#stamp : 'initialize 11/18/2023 13:13',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-24T13:46:20.196-03:00' ],
+		#prior : OmReference [ '4' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #NOCell,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r\tsuper initialize.\r\tself label: \'\'.\r\tself borderWidth: 2.\r\tbounds:= 200 @ 200 corner: 250 @ 250.\r\toffColor := Color white.\r\tonColor := Color black.\r\tself turnOff.\r\tself useSquareCorners.',
+			#stamp : 'ThiagoEscalante 11/18/2023 19:37',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-24T13:46:20.198-03:00' ],
+		#prior : OmReference [ '5' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #NOCell,
+				#isMetaSide : false
+			},
+			#name : #'setTamaño:',
+			#protocol : #initialization,
+			#sourceCode : 'setTamaño: valor\r\rbounds:= 200 @ 200 corner: (200+valor) @ (200+valor).\rself extent: valor @ valor.',
+			#stamp : 'ThiagoEscalante 11/18/2023 19:45',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-24T13:46:20.2-03:00' ],
+		#prior : OmReference [ '6' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #NOCell,
+				#isMetaSide : false
+			},
+			#name : #'mouseUp:',
+			#protocol : #'event handling',
+			#sourceCode : 'mouseUp: anEvent\r"\tmouseAction value"',
+			#stamp : 'ThiagoEscalante 11/23/2023 20:59',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-24T13:46:20.202-03:00' ],
+		#prior : OmReference [ '7' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #NOCell,
+				#isMetaSide : false
+			},
+			#name : #'mouseDown:',
+			#protocol : #'event handling',
+			#sourceCode : 'mouseDown: anEvent\r\tmouseAction value',
+			#stamp : 'ThiagoEscalante 11/23/2023 20:58',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-24T13:46:20.204-03:00' ],
+		#prior : OmReference [ '8' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #NOCell,
+				#isMetaSide : false
+			},
+			#name : #'mouseMove:',
+			#protocol : #'event handling',
+			#sourceCode : 'mouseMove: anEvent \r"Dejeme de molestar pinche mouseMove"',
+			#stamp : 'ThiagoEscalante 11/23/2023 21:39',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-24T13:46:20.207-03:00' ],
+		#prior : OmReference [ '9' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'BorderedMorph subclass: #Nonograma\r\tinstanceVariableNames: \'cells cont\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'BorderedMorph',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Nonograma,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nonograma,
+						#isMetaSide : false
+					},
+					#name : #cells,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Nonograma,
+						#isMetaSide : false
+					},
+					#name : #cont,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Nonograma class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Nonograma class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Nonograma,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-24T13:46:20.215-03:00' ],
+		#prior : OmReference [ '10' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nonograma,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r\tsuper initialize.\r\tcont:= 0.',
+			#stamp : 'ThiagoEscalante 11/23/2023 20:34',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-24T13:46:20.22-03:00' ],
+		#prior : OmReference [ '11' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nonograma,
+				#isMetaSide : false
+			},
+			#name : #'crearTablero:ancho:altura:',
+			#protocol : #initialization,
+			#sourceCode : 'crearTablero: unTamaño ancho: unaAltura altura: unAncho\r| sampleCell width height |\r\tsampleCell := NOCell new.\r\tsampleCell setTamaño: unTamaño.\r\twidth := sampleCell width.\r\theight := sampleCell height.\r\tself bounds: (unTamaño @ unTamaño extent: (width * unaAltura) @ (height * unAncho) + (2 * self\r\tborderWidth)).\r\tcells := Array2D rows: unaAltura  columns: unAncho tabulate: [ :i :j | self newCellAt: i at:\r\tj size: unTamaño]',
+			#stamp : 'ThiagoEscalante 11/18/2023 22:33',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-24T13:46:20.222-03:00' ],
+		#prior : OmReference [ '12' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nonograma,
+				#isMetaSide : false
+			},
+			#name : #disminuir,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'disminuir\rcont:= cont - 1.',
+			#stamp : 'ThiagoEscalante 11/23/2023 20:40',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-24T13:46:20.226-03:00' ],
+		#prior : OmReference [ '13' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nonograma,
+				#isMetaSide : false
+			},
+			#name : #'newCellAt:at:size:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'newCellAt: i at: j size: unTamaño\r"Create a cell for position (i,j) and add it to my on-screen\rrepresentation at the appropriate screen position. Answer the\rnew cell"\r| c origin |\r\tc := NOCell new.\r\tc setTamaño: unTamaño.\r\torigin := self innerBounds origin.\r\tself addMorph: c.\r\tc position: ((i - 1) * c width) @ ((j - 1) * c height) + origin.\r\tc mouseAction: [ \r\t\tc isOn ifTrue: [ self disminuir] \r\t\tifFalse: [ self aumentar].\r\t\tc toggleState.\r\t\tTranscript show: cont; cr.].\r\t^c',
+			#stamp : 'ThiagoEscalante 11/23/2023 21:54',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-24T13:46:20.227-03:00' ],
+		#prior : OmReference [ '14' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Nonograma,
+				#isMetaSide : false
+			},
+			#name : #aumentar,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'aumentar\rcont:= cont + 1.',
+			#stamp : 'ThiagoEscalante 11/23/2023 20:40',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-24T13:46:20.229-03:00' ],
+		#prior : OmReference [ '15' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'BorderedMorph subclass: #RefCell\r\tinstanceVariableNames: \'numero\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'BorderedMorph',
+				#traitCompositionSource : '{}'
+			},
+			#name : #RefCell,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #RefCell,
+						#isMetaSide : false
+					},
+					#name : #numero,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'RefCell class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'RefCell class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #RefCell,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-24T13:46:20.239-03:00' ],
+		#prior : OmReference [ '16' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #'numero:font:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'numero: aString font: aFont\r\r\tnumero ifNotNil: [numero delete].\r\tnumero := TextMorph new.\r\tnumero contents: aString.\r\tnumero extent: self extent.\r\tnumero position: self center.\r\tnumero centered.\r\t"numero setContainer: self."\r\t"self extent: (numero width + 6) @ (numero height + 6).\r\tnumero position: self center - (numero extent // 2)."\r\tself addMorph: numero.\r\tnumero lock',
+			#stamp : 'ThiagoEscalante 11/24/2023 00:05',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-24T13:46:20.241-03:00' ],
+		#prior : OmReference [ '17' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #'numero:',
+			#protocol : #accessing,
+			#sourceCode : 'numero: aString\r\tself numero: aString font: StandardFonts buttonFont',
+			#stamp : 'ThiagoEscalante 11/23/2023 23:38',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-24T13:46:20.243-03:00' ],
+		#prior : OmReference [ '18' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCell,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r\tsuper initialize.\r\tself numero:\'0\'.\r\tself borderWidth: 2.\r\tself extent: 50@50.\r\t"bounds:= 200 @ 200 corner: 250 @ 250."\r\tself useSquareCorners.',
+			#stamp : 'ThiagoEscalante 11/23/2023 23:52',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-24T13:46:20.245-03:00' ],
+		#prior : OmReference [ '19' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'SimpleButtonMorph subclass: #RefCellprueba\r\tinstanceVariableNames: \'\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'SimpleButtonMorph',
+				#traitCompositionSource : '{}'
+			},
+			#name : #RefCellprueba,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'RefCellprueba class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'RefCellprueba class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #RefCellprueba,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-24T13:46:20.253-03:00' ],
+		#prior : OmReference [ '20' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCellprueba,
+				#isMetaSide : false
+			},
+			#name : #label,
+			#protocol : #accessing,
+			#sourceCode : 'label\r^label',
+			#stamp : 'ThiagoEscalante 11/24/2023 13:17',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-24T13:46:20.256-03:00' ],
+		#prior : OmReference [ '21' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RefCellprueba,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize \r|fuente|\r\tsuper initialize.\r\tfuente := StandardFonts menuFont.\r\tself label: \'16\' font: fuente.\r\tself label fontName: \'Bitmap DejaVu Sans\'  size: 40. \r\tself borderWidth: 2.\r\tself extent: 50@50.\r\t"bounds:= 200 @ 200 corner: 250 @ 250."\r\tself enabled: false.\r\tself useSquareCorners.',
+			#stamp : 'ThiagoEscalante 11/24/2023 13:36',
+			#package : #Nonograma
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-24T13:46:20.259-03:00' ],
+		#prior : OmReference [ '22' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'BorderedMorph subclass: #Refer_sup\r\tinstanceVariableNames: \'cells\'\r\tclassVariableNames: \'\'\r\tpackage: \'Nonograma\'',
+				#superclassName : 'BorderedMorph',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Refer_sup,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Refer_sup,
+						#isMetaSide : false
+					},
+					#name : #cells,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Refer_sup class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Refer_sup class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Refer_sup,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #Nonograma,
+			#package : #Nonograma,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2023-11-24T13:47:28.927-03:00' ],
+		#prior : OmReference [ '23' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\JulioPro2020\\Documents\\Pharo\\images\\Nueva imagen\\Nueva imagen.image'
+	}
+}

@@ -1,0 +1,7 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-24T22:05:41.601-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '| object fileStream |\r\r"Create an object to be stored"\robject := #(1 2 \'Hello\' $a).\r\r"Open a file for writing"\rfileStream := FileStream fileNamed: \'objectFile.txt\' mode: WriteStream mode.\r\r"Store the object in the file"\robject storeOn: fileStream.\r\r"Close the file"\rfileStream close.'
+}
